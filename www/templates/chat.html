@@ -1,5 +1,5 @@
 <ion-view view-title="Chat Room {{roomSelected}}">
-    <ion-content>
+    <ion-content ng-controller="ChatCtrl">
         <ion-list>
             <ion-item class="item item-input-inset">
                 <label class="item-input-wrapper">
@@ -8,6 +8,9 @@
                 <button ng-click="sendMessage(IM.textMessage, displayName)" class="button button-small button-calm">
                     Send
                 </button>
+				
+				  <input ng-model="uploadDownloads" type="file" fd-input file-name="fileName"/> 
+				  
             </ion-item>
             <ion-item ng-hide="chatsGetRoom" class="textCenter">
                 <i class="icon ion-loading-c"></i> Loading Chats
@@ -15,15 +18,25 @@
             <ion-item ng-if="chatsGetRoom.length == 0" class="textCenter">
                 <h4>No messages in this room. Send message to start.</h4>
             </ion-item>
-            <ion-item class="" ng-repeat="chat in chatsGetRoom | orderBy:'createdAt':true" type="item-text-wrap">
+			
+			<div id="linkbox" style="margin-left:15px"></div>
+            
+			<ion-item class="" ng-repeat="chat in chatsGetRoom | orderBy:'createdAt':true" type="item-text-wrap">
                 <h4>{{chat.from}} :</h4>
                 <span am-time-ago="chat.createdAt" class="item-note">
                 </span>
-                <p>{{chat.message}}</p>
+                <!--
+				<p ng-if="chat.message.includes('http')"><img width="200px" src="{{chat.message}}"></p>
+				<p ng-bind-html="chat.message" ng-if="!chat.message.includes('https')">{{chat.message}}</p>
+				-->
+				<p ng-if="chat.message.startsWith('http')"><a href="{{chat.message}}">{{chat.message}}</a></p>
+				<p ng-bind-html="chat.message" ng-if="!chat.message.startsWith('http')">{{chat.message}}</p>
+				
                 <ion-option-button class="button-assertive" ng-click="remove(chat)">
                     Delete
                 </ion-option-button>
             </ion-item>
+			
         </ion-list>
         <ion-list ng-hide="roomSelected">
             <ion-item class="textCenter">

@@ -1,0 +1,25 @@
+<ion-view style="" class=" " id="page20" title="Contacts">
+    <ion-content class="has-header" >
+		
+		<label class="item item-button-right">
+			Contacts List
+			<button class="button button-balanced ink" ng-click="addContact()">
+				<i class="icon ion-person-add"></i>
+			</button>
+		</label>
+		
+	    <ion-list  ng-repeat="item in contactList | orderBy : 'name'">
+			<a class="item item-avatar item-button-right">
+				<img ng-src="{{'img/fk/default_dp.jpg'}}">
+				<h2>{{item.name}}</h2>
+				<p>Mobile : {{item.phone}}</p>
+				<button class="button button-balanced ink" ng-click="addContact()">
+				<i class="icon ion-person-add"></i>
+			</button>
+			</a>
+        </ion-list>
+		
+    </ion-content>
+</ion-view>
+
+
