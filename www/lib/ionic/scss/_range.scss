@@ -112,8 +112,8 @@
   &.range-assertive {
     input { @include range-style($range-assertive-track-bg); }
   }
-  &.range-energized {
-    input { @include range-style($range-energized-track-bg); }
+  &.range-positive {
+    input { @include range-style($range-positive-track-bg); }
   }
   &.range-royal {
     input { @include range-style($range-royal-track-bg); }

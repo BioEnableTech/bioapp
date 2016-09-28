@@ -7,7 +7,7 @@ $stable:                          #f8f8f8 !default;
 $positive:                        #387ef5 !default;
 $calm:                            #11c1f3 !default;
 $balanced:                        #33cd5f !default;
-$energized:                       #ffc900 !default;
+$positive:                       #ffc900 !default;
 $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
@@ -93,6 +93,9 @@ $button-bar-button-height:        32px !default;
 $button-bar-button-padding:       8px !default;
 $button-bar-button-icon-size:     20px !default;
 
+$button-default-border:       transparent;
+$button-default-active-border:null;
+
 $button-light-bg:                 $light !default;
 $button-light-text:               #444 !default;
 $button-light-border:             #ddd !default;
@@ -129,11 +132,11 @@ $button-balanced-border:          darken($balanced, 10%) !default;
 $button-balanced-active-bg:       darken($balanced, 10%) !default;
 $button-balanced-active-border:   darken($balanced, 10%) !default;
 
-$button-energized-bg:             $energized !default;
-$button-energized-text:           #fff !default;
-$button-energized-border:         darken($energized, 5%) !default;
-$button-energized-active-bg:      darken($energized, 5%) !default;
-$button-energized-active-border:  darken($energized, 5%) !default;
+$button-positive-bg:             $positive !default;
+$button-positive-text:           #fff !default;
+$button-positive-border:         darken($positive, 5%) !default;
+$button-positive-active-bg:      darken($positive, 5%) !default;
+$button-positive-active-border:  darken($positive, 5%) !default;
 
 $button-royal-bg:                 $royal !default;
 $button-royal-text:               #fff !default;
@@ -203,11 +206,11 @@ $bar-balanced-border:             $button-balanced-border !default;
 $bar-balanced-active-bg:          $button-balanced-active-bg !default;
 $bar-balanced-active-border:      $button-balanced-active-border !default;
 
-$bar-energized-bg:                rgba($button-energized-bg, $bar-transparency) !default;
-$bar-energized-text:              $button-energized-text !default;
-$bar-energized-border:            $button-energized-border !default;
-$bar-energized-active-bg:         $button-energized-active-bg !default;
-$bar-energized-active-border:     $button-energized-active-border !default;
+$bar-positive-bg:                rgba($button-positive-bg, $bar-transparency) !default;
+$bar-positive-text:              $button-positive-text !default;
+$bar-positive-border:            $button-positive-border !default;
+$bar-positive-active-bg:         $button-positive-active-bg !default;
+$bar-positive-active-border:     $button-positive-active-border !default;
 
 $bar-royal-bg:                    rgba($button-royal-bg, $bar-transparency) !default;
 $bar-royal-text:                  $button-royal-text !default;
@@ -262,9 +265,9 @@ $tabs-balanced-bg:                $button-balanced-bg !default;
 $tabs-balanced-border:            $button-balanced-border !default;
 $tabs-balanced-text:              $button-balanced-text !default;
 
-$tabs-energized-bg:               $button-energized-bg !default;
-$tabs-energized-border:           $button-energized-border !default;
-$tabs-energized-text:             $button-energized-text !default;
+$tabs-positive-bg:               $button-positive-bg !default;
+$tabs-positive-border:           $button-positive-border !default;
+$tabs-positive-text:             $button-positive-text !default;
 
 $tabs-royal-bg:                   $button-royal-bg !default;
 $tabs-royal-border:               $button-royal-border !default;
@@ -349,11 +352,11 @@ $item-balanced-text:              $button-balanced-text !default;
 $item-balanced-active-bg:         $button-balanced-active-bg !default;
 $item-balanced-active-border:     $button-balanced-active-border !default;
 
-$item-energized-bg:               $button-energized-bg !default;
-$item-energized-border:           $button-energized-border !default;
-$item-energized-text:             $button-energized-text !default;
-$item-energized-active-bg:        $button-energized-active-bg !default;
-$item-energized-active-border:    $button-energized-active-border !default;
+$item-positive-bg:               $button-positive-bg !default;
+$item-positive-border:           $button-positive-border !default;
+$item-positive-text:             $button-positive-text !default;
+$item-positive-active-bg:        $button-positive-active-bg !default;
+$item-positive-active-border:    $button-positive-active-border !default;
 
 $item-royal-bg:                   $button-royal-bg !default;
 $item-royal-border:               $button-royal-border !default;
@@ -472,8 +475,8 @@ $toggle-on-assertive-bg:          $assertive !default;
 $toggle-on-assertive-border:      $toggle-on-assertive-bg !default;
 $toggle-on-balanced-bg:           $balanced !default;
 $toggle-on-balanced-border:       $toggle-on-balanced-bg !default;
-$toggle-on-energized-bg:          $energized !default;
-$toggle-on-energized-border:      $toggle-on-energized-bg !default;
+$toggle-on-positive-bg:          $positive !default;
+$toggle-on-positive-border:      $toggle-on-positive-bg !default;
 $toggle-on-royal-bg:              $royal !default;
 $toggle-on-royal-border:          $toggle-on-royal-bg !default;
 $toggle-on-dark-bg:               $dark !default;
@@ -510,8 +513,8 @@ $checkbox-off-border-assertive:   $assertive !default;
 $checkbox-on-bg-assertive:        $assertive !default;
 $checkbox-off-border-balanced:    $balanced !default;
 $checkbox-on-bg-balanced:         $balanced !default;
-$checkbox-off-border-energized:   $energized !default;
-$checkbox-on-bg-energized:        $energized !default;
+$checkbox-off-border-positive:   $positive !default;
+$checkbox-on-bg-positive:        $positive !default;
 $checkbox-off-border-royal:       $royal !default;
 $checkbox-on-bg-royal:            $royal !default;
 $checkbox-off-border-dark:        $dark !default;
@@ -540,7 +543,7 @@ $range-positive-track-bg:         $button-positive-bg !default;
 $range-calm-track-bg:             $button-calm-bg !default;
 $range-balanced-track-bg:         $button-balanced-bg !default;
 $range-assertive-track-bg:        $button-assertive-bg !default;
-$range-energized-track-bg:        $button-energized-bg !default;
+$range-positive-track-bg:        $button-positive-bg !default;
 $range-royal-track-bg:            $button-royal-bg !default;
 $range-dark-track-bg:             $button-dark-bg !default;
 $range-default-track-bg:          #ccc !default;
@@ -668,8 +671,8 @@ $badge-balanced-text:             $button-balanced-text !default;
 $badge-assertive-bg:              $button-assertive-bg !default;
 $badge-assertive-text:            $button-assertive-text !default;
 
-$badge-energized-bg:              $button-energized-bg !default;
-$badge-energized-text:            $button-energized-text !default;
+$badge-positive-bg:              $button-positive-bg !default;
+$badge-positive-text:            $button-positive-text !default;
 
 $badge-royal-bg:                  $button-royal-bg !default;
 $badge-royal-text:                $button-royal-text !default;
@@ -705,8 +708,8 @@ $spinner-balanced-fill:           $balanced !default;
 $spinner-assertive-stroke:        $assertive !default;
 $spinner-assertive-fill:          $assertive !default;
 
-$spinner-energized-stroke:        $energized !default;
-$spinner-energized-fill:          $energized !default;
+$spinner-positive-stroke:        $positive !default;
+$spinner-positive-fill:          $positive !default;
 
 $spinner-royal-stroke:            $royal !default;
 $spinner-royal-fill:              $royal !default;

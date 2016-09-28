@@ -72,10 +72,10 @@
   @include tab-style($tabs-balanced-bg, $tabs-balanced-border, $tabs-balanced-text);
   @include tab-badge-style($tabs-balanced-text, $tabs-balanced-bg);
 }
-.tabs-energized > .tabs,
-.tabs.tabs-energized {
-  @include tab-style($tabs-energized-bg, $tabs-energized-border, $tabs-energized-text);
-  @include tab-badge-style($tabs-energized-text, $tabs-energized-bg);
+.tabs-positive > .tabs,
+.tabs.tabs-positive {
+  @include tab-style($tabs-positive-bg, $tabs-positive-border, $tabs-positive-text);
+  @include tab-badge-style($tabs-positive-text, $tabs-positive-bg);
 }
 .tabs-royal > .tabs,
 .tabs.tabs-royal {
@@ -217,7 +217,7 @@
   @include tabs-striped('tabs-calm', $light, $calm);
   @include tabs-striped('tabs-assertive', $light, $assertive);
   @include tabs-striped('tabs-balanced', $light, $balanced);
-  @include tabs-striped('tabs-energized', $light, $energized);
+  @include tabs-striped('tabs-positive', $light, $positive);
   @include tabs-striped('tabs-royal', $light, $royal);
   @include tabs-striped('tabs-dark', $light, $dark);
 
@@ -228,7 +228,7 @@
   @include tabs-striped-background('tabs-background-calm', $calm);
   @include tabs-striped-background('tabs-background-assertive', $assertive);
   @include tabs-striped-background('tabs-background-balanced', $balanced);
-  @include tabs-striped-background('tabs-background-energized',$energized);
+  @include tabs-striped-background('tabs-background-positive',$positive);
   @include tabs-striped-background('tabs-background-royal', $royal);
   @include tabs-striped-background('tabs-background-dark', $dark);
 
@@ -238,7 +238,7 @@
   @include tabs-striped-color('tabs-color-calm', $calm);
   @include tabs-striped-color('tabs-color-assertive', $assertive);
   @include tabs-striped-color('tabs-color-balanced', $balanced);
-  @include tabs-striped-color('tabs-color-energized',$energized);
+  @include tabs-striped-color('tabs-color-positive',$positive);
   @include tabs-striped-color('tabs-color-royal', $royal);
   @include tabs-striped-color('tabs-color-dark', $dark);
 
@@ -250,7 +250,7 @@
 @include tabs-background('tabs-background-calm', $calm, $bar-calm-border);
 @include tabs-background('tabs-background-assertive', $assertive, $bar-assertive-border);
 @include tabs-background('tabs-background-balanced', $balanced, $bar-balanced-border);
-@include tabs-background('tabs-background-energized',$energized, $bar-energized-border);
+@include tabs-background('tabs-background-positive',$positive, $bar-positive-border);
 @include tabs-background('tabs-background-royal', $royal, $bar-royal-border);
 @include tabs-background('tabs-background-dark', $dark, $bar-dark-border);
 
@@ -260,7 +260,7 @@
 @include tabs-color('tabs-color-calm', $calm);
 @include tabs-color('tabs-color-assertive', $assertive);
 @include tabs-color('tabs-color-balanced', $balanced);
-@include tabs-color('tabs-color-energized',$energized);
+@include tabs-color('tabs-color-positive',$positive);
 @include tabs-color('tabs-color-royal', $royal);
 @include tabs-color('tabs-color-dark', $dark);
 
@@ -274,7 +274,21 @@
         color: $color;
       }
     }
+
   }
+
+  &.tabs-striped.#{$style} {
+    .tab-item {
+      &.tab-item-active,
+      &.active,
+      &.activated {
+        border-color: $color;
+        color: $color;
+      }
+    }
+
+  }
+
 }
 
 ion-tabs {
@@ -284,7 +298,7 @@ ion-tabs {
   @include tabs-standard-color('tabs-color-active-calm', $calm, $dark);
   @include tabs-standard-color('tabs-color-active-assertive', $assertive, $dark);
   @include tabs-standard-color('tabs-color-active-balanced', $balanced, $dark);
-  @include tabs-standard-color('tabs-color-active-energized',$energized, $dark);
+  @include tabs-standard-color('tabs-color-active-positive',$positive, $dark);
   @include tabs-standard-color('tabs-color-active-royal', $royal, $dark);
   @include tabs-standard-color('tabs-color-active-dark', $dark, $light);
 }
@@ -492,8 +506,8 @@ ion-tabs {
   &.tab-item-balanced {
     color: $balanced;
   }
-  &.tab-item-energized {
-    color: $energized;
+  &.tab-item-positive {
+    color: $positive;
   }
   &.tab-item-royal {
     color: $royal;

@@ -44,8 +44,8 @@
   &.badge-balanced {
     @include badge-style($badge-balanced-bg, $badge-balanced-text);
   }
-  &.badge-energized {
-    @include badge-style($badge-energized-bg, $badge-energized-text);
+  &.badge-positive {
+    @include badge-style($badge-positive-bg, $badge-positive-text);
   }
   &.badge-royal {
     @include badge-style($badge-royal-bg, $badge-royal-text);

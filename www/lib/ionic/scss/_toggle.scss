@@ -45,8 +45,8 @@
   &.toggle-balanced  {
     @include toggle-style($toggle-on-balanced-border, $toggle-on-balanced-bg);
   }
-  &.toggle-energized  {
-    @include toggle-style($toggle-on-energized-border, $toggle-on-energized-bg);
+  &.toggle-positive  {
+    @include toggle-style($toggle-on-positive-border, $toggle-on-positive-bg);
   }
   &.toggle-royal  {
     @include toggle-style($toggle-on-royal-border, $toggle-on-royal-bg);
@@ -80,7 +80,7 @@
 }
 
 /* Fix to avoid background color bleeding */
-/* (occured on (at least) Android 4.2, Asus MeMO Pad HD7 ME173X) */
+/* (occurred on (at least) Android 4.2, Asus MeMO Pad HD7 ME173X) */
 .platform-android4_2 .toggle .track {
   -webkit-background-clip: padding-box;
 }
@@ -186,8 +186,8 @@
   .toggle-balanced  {
     @include toggle-small-style($toggle-on-balanced-bg);
   }
-  .toggle-energized  {
-    @include toggle-small-style($toggle-on-energized-bg);
+  .toggle-positive  {
+    @include toggle-small-style($toggle-on-positive-bg);
   }
   .toggle-royal  {
     @include toggle-small-style($toggle-on-royal-bg);

@@ -105,13 +105,13 @@
       color:$item-balanced-text;
     }
   }
-  &.item-energized  {
+  &.item-positive  {
     select{
-      background:$item-energized-bg;
-      color:$item-energized-text;
+      background:$item-positive-bg;
+      color:$item-positive-text;
     }
     &:after, .input-label{
-      color:$item-energized-text;
+      color:$item-positive-text;
     }
   }
   &.item-royal {

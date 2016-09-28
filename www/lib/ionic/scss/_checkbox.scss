@@ -31,8 +31,8 @@
 .checkbox-balanced  {
   @include checkbox-style($checkbox-off-border-balanced, $checkbox-on-bg-balanced, $checkbox-off-border-balanced);
 }
-.checkbox-energized{
-  @include checkbox-style($checkbox-off-border-energized, $checkbox-on-bg-energized, $checkbox-off-border-energized);
+.checkbox-positive{
+  @include checkbox-style($checkbox-off-border-positive, $checkbox-on-bg-positive, $checkbox-off-border-positive);
 }
 .checkbox-royal  {
   @include checkbox-style($checkbox-off-border-royal, $checkbox-on-bg-royal, $checkbox-off-border-royal);
