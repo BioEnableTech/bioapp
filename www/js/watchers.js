@@ -176,6 +176,10 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
 
                 Service.addMessageToConversation(conversationId, message);
                 $rootScope.$broadcast('messageAdded');
+				//alert("Test");
+				
+				Service.sendNotification(message.message, "New Message","");
+				
               });
             });
 

@@ -1,7 +1,7 @@
 //service.js
 //This is the class where most of the data shown on the views are stored.
 //Changes done on the Firebase Database through the Watchers (watcher.js) should be reflected on this service.
-angular.module('App').service('Service', function($localStorage) {
+angular.module('App').service('Service', function($localStorage,$http) {
   var data = {
     usersList: [],
     excludedIds: [],
@@ -16,6 +16,48 @@ angular.module('App').service('Service', function($localStorage) {
     requestSentList: [],
     friendRequests: 0
   };
+  
+  
+  //Push Notification code 
+  this.sendNotification = function(body,title,token) {
+    
+	var parameter = JSON.stringify({
+  "notification":{
+    "title":""+title+"",  //Any value
+    "body":""+body+"",  //Any value
+    "sound":"default", //If you want notification sound
+    "click_action":"FCM_PLUGIN_ACTIVITY",  //Must be present for Android
+    "icon":"fcm_push_icon"  //White icon Android resource
+  },
+  
+    "to":"/topics/all", //Topic or single device
+    "restricted_package_name":"" //Set for application filtering
+});
+	//alert(parameter);
+
+	 $http({
+    url: 'https://fcm.googleapis.com/fcm/send',
+    dataType: 'json',
+    method: 'POST',
+    data: parameter,
+    headers: {
+        "Content-Type": "application/json",
+		"Authorization": "key=AIzaSyAFheIveJy3cMK-0WUSEb_Z9D8GKi6Tk40"
+		
+    }
+	
+  }).then(function mySucces(response) {
+      //alert(response.data);
+	  console.log(response.data);
+	  
+    }, function myError(response) {
+      //alert(response.statusText);
+	  console.log(response.statusText);
+  });
+	
+	return data.friendList;
+  };
+  
   this.clearData = function() {
     data.usersList = [];
     data.excludedIds = [];

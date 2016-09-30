@@ -1,76 +1,62 @@
-// add.js
-// This is the controller that handles the view to add or edit products.
-// It first checks if user is authenticated, if not, the user is redirected to login screen.
-// The selected productId to edit is stored on localStorage but is cleared after editing or when going back to the list of products.
-// If there is a productId found on localStorage, it mean the user wants to update the product, else the user wants to add a new product.
+// home.js
+// This is the controller that handles the main view when the user is successfully logged in.
+// The account currently logged in can be accessed through localStorage.account.
+// The authenticated user can be accessed through firebase.auth().currentUser.
 'Use Strict';
-angular.module('App').controller('addController', function($scope, $state, $localStorage, Popup, $ionicHistory, $cordovaCamera, $ionicTabsDelegate, Utils,  $timeout, Service,   Watchers, $ionicPopup) {
-  
-  
-   $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
-    if (!$scope.canChangeView) {
-      event.preventDefault();
-    }
-  });
-
-  $scope.$on('$ionicView.enter', function() {
-    
-  
-	//Check if user is authenticated, if not, redirect to Login Screen.
-    if (!firebase.auth().currentUser) {
-      $state.go('login');
-    } else {
-      if ($localStorage.productId) { //The user wants to update the product given the productId.
-        Utils.show();
-        //Fetch the product from the database, given the productId.
-        firebase.database().ref('products/' + $localStorage.productId).once('value', function(product) {
-          //Set product data from the database to the form.
-          $scope.product = {
-            name: product.val().name,
-            price: product.val().price,
-            currency: product.val().currency,
-            imageUrl: product.val().imageUrl,
-            description: product.val().description,
-            url: product.val().url
-          }
-          $scope.imageUrl = $scope.product.imageUrl;
-          //Set mode.
-          $scope.isAdding = false;
-          $scope.mode = "Save Product"
-            //Apply scope.
-          $scope.$apply();
-          Utils.hide();
-        });
-      } else { //The user is adding a new product.
-        //Clear and set default values for the form.
-        $scope.product = {
+angular.module('App').controller('addController', function($scope, $state, $localStorage, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers,$cordovaCamera) {
+														   
+	
+	$scope.product = {
           name: '',
           price: '',
           currency: '$ USD',
           description: '',
           url: ''
         }
-        $scope.imageUrl = "img/placeholder.png";
+        $scope.imageUrl1 = "img/placeholder.png";
         //Set mode.
         $scope.isAdding = true;
         $scope.mode = "Add Product"
-      }
+		
+	
+  //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
+  $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+    if (!$scope.canChangeView) {
+      event.preventDefault();
     }
-	//$scope.canChangeView = false;
-	$ionicTabsDelegate.select(4);
-  })
-  
-  
+	 
+  });
+
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {
     $ionicHistory.nextViewOptions({
       disableAnimate: true
     });
     $scope.canChangeView = true;
-    $state.go(stateTo);
+    console.log("1"+stateTo);
+	$state.go(stateTo);
   };
 
-  $scope.add = function(product) {
+  $scope.$on('$ionicView.enter', function() {
+   
+    $scope.changedProfilePic = false;
+    //Disable canChangeView to disable automatically restating to messages route whenever Firebase Watcher calls are triggered.
+    $scope.canChangeView = false;
+    //Select the 4th tab on the footer to highlight the profile icon.
+    $ionicTabsDelegate.select(3);
+  });
+  
+   //Function to go back to home.
+  $scope.back = function() {
+	$scope.canChangeView = true;
+    //Set productId to null, to reset it whether we're updating product or not.
+    $localStorage.productId = null;
+    //Go to home.
+    $state.go('home');
+  };
+  
+  
+   $scope.add = function(product) {
     if (angular.isDefined($scope.product)) { //Check if productForm is filled up.
       Utils.show();
       var userId = firebase.auth().currentUser.uid;
@@ -84,7 +70,7 @@ angular.module('App').controller('addController', function($scope, $state, $loca
                 name: $scope.product.name,
                 price: $scope.product.price,
                 currency: $scope.product.currency,
-                imageUrl: $scope.product.imageUrl,
+                imageUrl: $scope.product.imageUrl1,
                 description: $scope.product.description,
                 url: $scope.product.url,
                 dateCreated: Date()
@@ -104,9 +90,11 @@ angular.module('App').controller('addController', function($scope, $state, $loca
                 //Show success message then redirect to home.
                 Utils.message(Popup.successIcon, Popup.productAddSuccess)
                   .then(function() {
+								 $scope.canChangeView = true;
                     $state.go('home');
                   })
                   .catch(function() {
+								  $scope.canChangeView = true;
                     //User closed the prompt, redirect immediately.
                     $state.go('home');
                   });
@@ -117,7 +105,7 @@ angular.module('App').controller('addController', function($scope, $state, $loca
                 name: $scope.product.name,
                 price: $scope.product.price,
                 currency: $scope.product.currency,
-                imageUrl: $scope.product.imageUrl,
+                imageUrl: $scope.product.imageUrl1,
                 description: $scope.product.description,
                 url: $scope.product.url,
                 lastUpdated: Date()
@@ -127,9 +115,23 @@ angular.module('App').controller('addController', function($scope, $state, $loca
                 //Show success message then redirect to home.
                 Utils.message(Popup.successIcon, Popup.productEditSuccess)
                   .then(function() {
+								 $scope.canChangeView = true;
                     $state.go('home');
+						$scope.product = {
+						  name: '',
+						  price: '',
+						  currency: '$ USD',
+						  description: '',
+						  url: ''
+						}
+						$scope.imageUrl1 = "img/placeholder.png";
+						//Set mode.
+						$scope.isAdding = true;
+						$scope.mode = "Add Product"
+						
                   })
                   .catch(function() {
+								  $scope.canChangeView = true;
                     //User closed the prompt, redirect immediately.
                     $state.go('home');
                   });
@@ -140,16 +142,8 @@ angular.module('App').controller('addController', function($scope, $state, $loca
       });
     }
   };
-
-  //Function to go back to home.
-  $scope.back = function() {
-    //Set productId to null, to reset it whether we're updating product or not.
-    $localStorage.productId = null;
-    //Go to home.
-    $state.go('home');
-  };
-
-  //Function to open photo library of user to select photo to upload to Firebase Storage.
+  
+    //Function to open photo library of user to select photo to upload to Firebase Storage.
   $scope.choosePhoto = function() {
     //Set Camera options here.
     //View https://github.com/apache/cordova-plugin-camera/blob/master/README.md#module_camera.CameraOptions for more information.
@@ -164,7 +158,7 @@ angular.module('App').controller('addController', function($scope, $state, $loca
       popoverOptions: CameraPopoverOptions,
       saveToPhotoAlbum: false
     };
-    $scope.canChangeView = false;
+    
 	
 	// Image picker code start 
 	
@@ -186,9 +180,9 @@ angular.module('App').controller('addController', function($scope, $state, $loca
         //File successfully uploaded to Firebase Storage.
         var url = snapshot.metadata.downloadURLs[0];
         //Settings var to reflect the changes.
-        $scope.imageUrl = url;
+        $scope.imageUrl1 = url;
         $scope.$apply();
-        $scope.product.imageUrl = url;
+        $scope.product.imageUrl1 = url;
         Utils.hide();
       }).catch(function(error) {
         //Show Error.
@@ -197,13 +191,9 @@ angular.module('App').controller('addController', function($scope, $state, $loca
     }, function(err) {
       //User Cancelled.
       Utils.hide();
-	  
     });
-	
-	$scope.canChangeView = true;
-	
   }
-
+  
   //Function to generate random filename with length 100 for our imageFile's name to upload to Firebase.
   $scope.generateFilename = function() {
     var text = "";
@@ -229,7 +219,7 @@ angular.module('App').controller('addController', function($scope, $state, $loca
   
   
   // Image picker code is end 
-  
-  
-  
+    
+	
+
 });

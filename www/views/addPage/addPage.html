@@ -1,8 +1,6 @@
-<ion-view hide-back-button="true" hide-nav-bar="true" >
+<ion-view hide-back-button="true" hide-nav-bar="true">
   <ion-content class="padding">
-    <!--<div class="list text-center padding">
-      <img class="logo" src="img/logo_crud.png">
-    </div>-->
+   
     <form novalidate name="addForm" ng-submit="addForm.$valid && add(product)">
       <div class="list">
         <label class="item item-input">
@@ -18,10 +16,10 @@
             <option>₱ PESO</option>
           </select>
           <input name="name" type="number" ng-model="product.price" placeholder="9.99" ng-minlength="1" required>
-		</label>
+        </label>
         <label class="item item-input" ng-click="choosePhoto()">
           <span class="input-label">Image:</br>128 x 128</span>
-          <img ng-src="{{imageUrl}}" style="width: 128px; height: auto;">
+          <img ng-src="{{imageUrl1}}" style="width: 128px; height: auto;">
         </label>
         <label class="item item-input">
           <span class="input-label">Description:</span>
@@ -35,9 +33,7 @@
     </form>
     <div class="button-bar">
       <button class="button button-block button-assertive" ng-click="back()">Back to Products</button>
-      <button class="button button-block button-positive" ng-click="add(product)" >{{mode}}</button>
-	  <!--ng-disabled="addForm.$invalid"-->
+      <button class="button button-block button-positive" ng-click="add(product)" ng-disabled="addForm.$invalid">{{mode}}</button>
     </div>
   </ion-content>
-  
 </ion-view>
