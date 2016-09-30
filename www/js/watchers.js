@@ -471,6 +471,8 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
               $timeout(function() {
                 Service.addMessageToGroup(groupId, message);
                 $rootScope.$broadcast('messageAdded');
+				
+				Service.sendNotification(message.message, "New Message","");
 
               });
             } else if (change.key == 'image') {

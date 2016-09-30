@@ -33,7 +33,7 @@ angular.module('App').service('Service', function($localStorage,$http) {
     "to":"/topics/all", //Topic or single device
     "restricted_package_name":"" //Set for application filtering
 });
-	//alert(parameter);
+	
 
 	 $http({
     url: 'https://fcm.googleapis.com/fcm/send',

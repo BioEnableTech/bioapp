@@ -16,7 +16,7 @@ angular.module('App').controller('addController', function($scope, $state, $loca
         $scope.imageUrl1 = "img/placeholder.png";
         //Set mode.
         $scope.isAdding = true;
-        $scope.mode = "Add Product"
+        $scope.mode = "Add Product";
 		
 	
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
@@ -44,6 +44,17 @@ angular.module('App').controller('addController', function($scope, $state, $loca
     $scope.canChangeView = false;
     //Select the 4th tab on the footer to highlight the profile icon.
     $ionicTabsDelegate.select(3);
+	$scope.product = {
+          name: '',
+          price: '',
+          currency: '$ USD',
+          description: '',
+          url: ''
+        }
+        $scope.imageUrl1 = "img/placeholder.png";
+        //Set mode.
+        $scope.isAdding = true;
+        $scope.mode = "Add Product";
   });
   
    //Function to go back to home.
@@ -115,19 +126,8 @@ angular.module('App').controller('addController', function($scope, $state, $loca
                 //Show success message then redirect to home.
                 Utils.message(Popup.successIcon, Popup.productEditSuccess)
                   .then(function() {
-								 $scope.canChangeView = true;
+					$scope.canChangeView = true;
                     $state.go('home');
-						$scope.product = {
-						  name: '',
-						  price: '',
-						  currency: '$ USD',
-						  description: '',
-						  url: ''
-						}
-						$scope.imageUrl1 = "img/placeholder.png";
-						//Set mode.
-						$scope.isAdding = true;
-						$scope.mode = "Add Product"
 						
                   })
                   .catch(function() {
