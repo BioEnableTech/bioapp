@@ -178,7 +178,13 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
                 $rootScope.$broadcast('messageAdded');
 				//alert("Test");
 				
-				Service.sendNotification(message.message, "New Message","");
+				//Service.sendNotification(message.message, "New Message","");
+				
+				
+				Service.sendLocalNotification(message.message);
+				
+				
+				
 				
               });
             });
@@ -472,7 +478,7 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
                 Service.addMessageToGroup(groupId, message);
                 $rootScope.$broadcast('messageAdded');
 				
-				Service.sendNotification(message.message, "New Message","");
+				//Service.sendNotification(message.message, "New Message","");
 
               });
             } else if (change.key == 'image') {

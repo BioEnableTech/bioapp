@@ -29,11 +29,18 @@
           <span class="input-label">URL:</span>
           <input name="url" type="text" ng-model="product.url" placeholder="URL of Product" ng-minlength="5" ng-maxlength="50">
         </label>
+		
       </div>
     </form>
     <div class="button-bar">
       <button class="button button-block button-assertive" ng-click="back()">Back to Products</button>
       <button class="button button-block button-positive" ng-click="add(product)" ng-disabled="addForm.$invalid">{{mode}}</button>
     </div>
+	<button 
+		class="button"      
+		ng-click="scheduleNotificationFiveSecondsFromNow()">
+			In 5 Sec
+	</button>
+	
   </ion-content>
 </ion-view>

@@ -1,7 +1,7 @@
 //service.js
 //This is the class where most of the data shown on the views are stored.
 //Changes done on the Firebase Database through the Watchers (watcher.js) should be reflected on this service.
-angular.module('App').service('Service', function($localStorage,$http) {
+angular.module('App').service('Service', function($localStorage, $http, $cordovaLocalNotification, $ionicPlatform) {
   var data = {
     usersList: [],
     excludedIds: [],
@@ -15,6 +15,34 @@ angular.module('App').service('Service', function($localStorage,$http) {
     friendRequestList: [],
     requestSentList: [],
     friendRequests: 0
+  };
+  
+  // Local Notification 
+  this.sendLocalNotification = function(msg) {
+    
+	/*
+	firebase.auth().signInWithEmailAndPassword($localStorage.email, $localStorage.password)
+      .then(function(response) {
+        //Retrieve the account from the Firebase Database
+        var userId = firebase.auth().currentUser.uid;
+        
+      })
+      .catch(function(error) {
+		  */
+        
+		var now = new Date().getTime();
+		var _5SecondsFromNow = new Date(now + 1000);
+		$cordovaLocalNotification.schedule({
+			id: 2,
+			date: _5SecondsFromNow,
+			text: ' '+msg,
+			title: 'After 5 Seconds'
+		}).then(function () {
+			//alert("Notification After 5 seconds set");
+		});
+		
+      //});
+	
   };
   
   

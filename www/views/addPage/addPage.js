@@ -3,7 +3,7 @@
 // The account currently logged in can be accessed through localStorage.account.
 // The authenticated user can be accessed through firebase.auth().currentUser.
 'Use Strict';
-angular.module('App').controller('addController', function($scope, $state, $localStorage, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers,$cordovaCamera) {
+angular.module('App').controller('addController', function($scope, $state, $localStorage, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers,$cordovaCamera,$cordovaLocalNotification, $ionicPlatform) {
 														   
 	
 	$scope.product = {
@@ -26,6 +26,22 @@ angular.module('App').controller('addController', function($scope, $state, $loca
     }
 	 
   });
+  
+  $scope.scheduleNotificationFiveSecondsFromNow = function () {
+    var now = new Date().getTime();
+    var _5SecondsFromNow = new Date(now + 1000);
+
+
+    $cordovaLocalNotification.schedule({
+        id: 2,
+        date: _5SecondsFromNow,
+        text: 'Time : '+now,
+        title: 'After 5 Seconds'
+    }).then(function () {
+        //alert("Notification After 5 seconds set");
+    });
+	};
+  
 
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {
