@@ -20,7 +20,13 @@ angular.module('App').controller('messageController', function($scope, $state, $
 
   $scope.$on('$ionicView.enter', function() {
     //Disable scroll to correctly orient the keyboard input for iOS.
-    cordova.plugins.Keyboard.disableScroll(true);
+    
+	var isAndroid = ionic.Platform.isAndroid();
+	var isIOS = ionic.Platform.isIOS();
+   if(isAndroid=='true' || isIOS=='true')
+   {
+	cordova.plugins.Keyboard.disableScroll(true);
+   }
 
     //Set scope variables to the selected conversation partner.
     if ($localStorage.friendId) {
@@ -126,7 +132,11 @@ angular.module('App').controller('messageController', function($scope, $state, $
             messages = [];
           }
           if (type == 'text') {
-            messages.push({
+			    var ref = firebase.database().ref('accounts/' + $localStorage.friendId).child('tokenID');
+				ref.once('value', function(accountID){
+					Service.sendNotification(message, "New Message",accountID.val());
+				});
+			messages.push({
               sender: $localStorage.accountId,
               message: message,
               date: Date(),

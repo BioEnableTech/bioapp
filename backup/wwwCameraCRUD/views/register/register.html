@@ -1,0 +1,23 @@
+<ion-view hide-back-button="true" hide-nav-bar="true">
+  <ion-content class="padding">
+    <div class="list text-center padding">
+      <img class="logo" src="img/logo.png">
+      <h2><span class="bold">Ahoy Mate!</span></h2>
+      <h4 class="line-height-160">We're so glad to have you join us! Awesomeness begins with you.</h4>
+    </div>
+    <form name="registerForm" novalidate ng-submit="registerForm.$valid && register(user)">
+      <div class="list">
+        <label class="item item-input" style="border-radius:5px; margin-bottom: 10px;">
+          <span class="input-label">Email:</span>
+          <input name="email" type="email" ng-model="user.email" placeholder="Email" ng-minlength="5" ng-maxlength="30" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password:</span>
+          <input name="password" type="password" ng-model="user.password" placeholder="Password" ng-minlength="5" ng-maxlength="30" required>
+        </label>
+        <input type="submit" value="Register" class="button button-block button-positive" ng-disabled="registerForm.$invalid" />
+      </div>
+    </form>
+    <button onclick="location.href='#/login';" class="button button-assertive button-block button-no-margin-top">Back to Login</button>
+  </ion-content>
+</ion-view>

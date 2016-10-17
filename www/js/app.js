@@ -1,5 +1,5 @@
 'Use Strict';
-angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova'])
+angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova','ion-datetime-picker'])
   // For Facebook:
   // Make sure you have enabled Facebook as a Sign-In Method at your app's Firebase Console, insert your App ID and App Secret found from your Facebook app at https://developers.facebook.com.
   // Add http://localhost/callback as Valid OAuth redirect URIs at your Facebook Login Settings of your Facebook app.
@@ -13,6 +13,16 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova'])
 // Make sure you have enabled Twitter as a Sign-In Method at your app's Firebase Console, insert your App ID and App Secret found from your Twitter app at https://apps.twitter.com.
 // Make sure you have added http://127.0.0.1:8080/callback as a Callback URL on your app at https://apps.twitter.com
 // Note that Twitter Login DOES NOT WORK when you have livereload (-ls) enabled on your ionic app.
+.run(function($rootScope){
+    $rootScope.dateValue = new Date();
+    $rootScope.timeValue = new Date();
+	$rootScope.timeValue1 = new Date();
+	$rootScope.timeValue1.setHours ( $rootScope.timeValue1.getHours() + 4 );
+    $rootScope.datetimeValue = new Date();
+})
+
+
+
 .constant('Social', {
     facebookAppId: "311446895879250",
     googleWebClientId: "186627108976-pp14psof700irv52rim2atbp8mhq7spb.apps.googleusercontent.com",
@@ -113,7 +123,18 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova'])
         templateUrl: 'views/home/home.html',
         controller: 'homeController'
       })
-      .state('addPage', {
+	  .state('attendance', {
+        url: '/attendance',
+        templateUrl: 'views/attendance/attendance.html',
+        controller: 'attendanceController'
+      })
+	  .state('task', {
+        url: '/task',
+        templateUrl: 'views/task/task.html',
+        controller: 'taskController'
+      })
+	  
+	  .state('addPage', {
         url: '/addPage',
         templateUrl: 'views/addPage/addPage.html',
         controller: 'addController'
@@ -248,11 +269,15 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova'])
       }, 101);
     }
   ])
+  
+  
+  
   .config(function($ionicConfigProvider) {
     $ionicConfigProvider.tabs.position('bottom');
   })
   
   .run(function($ionicPlatform) {
+  
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -272,5 +297,4 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova'])
 
   });
 });
-
   

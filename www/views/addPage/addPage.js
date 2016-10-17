@@ -27,30 +27,15 @@ angular.module('App').controller('addController', function($scope, $state, $loca
 	 
   });
   
-  $scope.scheduleNotificationFiveSecondsFromNow = function () {
-    var now = new Date().getTime();
-    var _5SecondsFromNow = new Date(now + 1000);
-
-
-    $cordovaLocalNotification.schedule({
-        id: 2,
-        date: _5SecondsFromNow,
-        text: 'Time : '+now,
-        title: 'After 5 Seconds'
-    }).then(function () {
-        //alert("Notification After 5 seconds set");
-    });
-	};
   
-
+    
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {
     $ionicHistory.nextViewOptions({
       disableAnimate: true
     });
     $scope.canChangeView = true;
-    console.log("1"+stateTo);
-	$state.go(stateTo);
+    $state.go(stateTo);
   };
 
   $scope.$on('$ionicView.enter', function() {
@@ -235,6 +220,71 @@ angular.module('App').controller('addController', function($scope, $state, $loca
   
   
   // Image picker code is end 
+  
+  // Local Notification code 
+  /*
+	$scope.clickon = function () {
+  
+		$scope.counter = 0;
+		$scope.onTimeout = function(){
+			$scope.counter++;
+			mytimeout = $timeout($scope.onTimeout,1000);
+		}
+		var mytimeout = $timeout($scope.onTimeout,1000);
+		
+		$scope.stop = function(){
+			$timeout.cancel(mytimeout);
+		}
+
+	};
+	
+	$scope.updateNotificationEvery = function () {
+		$scope.counter = 0;
+		$scope.onTimeout = function(){
+			$scope.counter++;
+			mytimeout = $timeout($scope.onTimeout,1000);
+		}
+		var mytimeout = $timeout($scope.onTimeout,1000);
+
+		$cordovaLocalNotification.schedule({
+		id: 3,
+		title: 'Every Minute',
+		text: ""+$scope.counter,
+		every: 'second'
+		}).then(function (result) {
+		console.log('Every Minute Notification Set');
+		});
+		
+		$cordovaLocalNotification.isPresent(3).then(function (present) {
+			if (present) {
+				$cordovaLocalNotification.update({
+					id: 3,
+					title: 'Notification  Update',
+					text: ""+$scope.counter,
+					every: 'second'
+
+				}).then(function (result) {
+					console.log('Updated Notification Every');
+				});
+			} else {
+				alert("Must Schedule Every Minute First");
+			}
+		});
+	};
+	
+	$scope.cancelNotification = function () {
+		$cordovaLocalNotification.isPresent(3).then(function (present) {
+			if (present) {
+				$cordovaLocalNotification.cancel(3).then(function (result) {
+					console.log('Notification EveryMinute Cancelled');
+					alert('Cancelled Every Minute');
+				});
+			} else {
+				alert("Must Schedule Every Minute First");
+			}
+		});
+	};
+	*/
     
 	
 

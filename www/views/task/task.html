@@ -1,0 +1,119 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" cache-view="false" >
+  <ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title">Task</h1>
+  </ion-header-bar>
+  <ion-content class="has-footer">
+    <div class="button-bar margin-top-10 margin-bottom-10" ng-show="mode == 'Active'">
+      <button class="button button-block button-clear button-positive" ng-click="mode = 'Active'">Active </button>
+      <button class="button button-block button-positive" ng-click="mode = 'Assigned'">Assigned</button>
+    </div>
+    <div class="button-bar margin-top-10 margin-bottom-10" ng-show="mode == 'Assigned'">
+      <button class="button button-block button-positive" ng-click="mode = 'Active'">Active</button>
+      <button class="button button-block button-clear button-positive" ng-click="mode = 'Assigned'">Assigned </button>
+    </div>
+    <!--  Assigned Tab -->
+	
+    <div ng-show="mode == 'Assigned'">
+	
+      <div class="row" ng-repeat="task in taskAssigned | filter: { status: 'true' }">
+        <div class="col col-75 clear-padding-margin margin-right-10">
+          <ion-item class="item-avatar clear-border">
+            <img ng-src="{{task.profilePic}}">
+            <h2 class="font-bold font-size-100">{{task.to}} (@{{task.from}})</h2>
+            <p class="font-bold font-size-85"><a class="assertive" >Pending </a>{{task.dateCreated}}</p>
+          </ion-item>
+        </div>
+        <div class="col col-25 clear-padding-margin">
+          <div class="button-bar margin-top10">
+            <!--<button class="button button-clear button-assertive" ng-click="deleteRequest(task)"><i class="icon ion-close"></i></button>-->
+            <button class="button button-clear button-balanced" ng-click="startTask('{{task.taskKey}}')"><i class="icon ion-play"></i></button>
+          </div>
+        </div>
+      </div>
+	  
+      <div class="row" ng-repeat="request in requestsSent">
+        <div class="col col-75 clear-padding-margin">
+          <ion-item class="item-avatar clear-border">
+            <img ng-src="{{request.profilePic}}">
+            <h2 class="font-bold font-size-100">{{request.name}} (@{{request.username}})</h2>
+            <p class="font-bold font-size-85">Friend request sent.</p>
+          </ion-item>
+        </div>
+        <div class="col col-25 clear-padding-margin">
+          <div class="button-bar margin-top10 margin-left20">
+            <button class="button button-clear button-assertive" ng-click="cancelRequest(request)"><i class="icon ion-close"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	
+    <div ng-show="mode == 'Assigned'">
+      <div class="row margin-bottom-15">
+        <div class="col col-75 clear-padding-margin">
+          <label class="item item-input item-searchbar">
+            <i class="icon ion-ios-search"></i>
+            <input type="text" placeholder="Search for people or username" ng-model="searchUser" />
+          </label>
+        </div>
+        <div class="col col-25 clear-padding-margin">
+          <div class="button-bar margin-left20">
+          <button class="button button-clear button-positive" ng-click="searchUser = undefined"><i class="icon ion-android-close"></i></button>
+        </div>
+        </div>
+      </div>
+	  
+	  <!-- ng-repeat="user in users | userFilter: searchUser | orderBy: 'name'" -->
+      <div class="row" ng-repeat="task in taskAssigned | filter: { status: 'false' }" >
+        <div class="col col-65 clear-padding-margin">
+          <ion-item class="item-avatar clear-border">
+            <img ng-src="{{task.profilePic}}">
+            <h2 class="font-bold">{{task.to}}</h2>
+            <p class="font-bold">@{{task.from}}</p>
+			
+          </ion-item>
+        </div>
+        <div class="col col-35 clear-padding-margin">
+          <div class="button-bar margin-top20 margin-left20">
+            <p class="font-bold">{{task.startTime}}</p> <br>
+			<p class="font-bold">To</p><br>
+			<p class="font-bold"> {{task.endTime}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+	<!--  Friends Tab -->
+    <div ng-show="mode == 'Active'">
+      <div class="row margin-bottom-15">
+        <div class="col col-75 clear-padding-margin">
+          <label class="item item-input item-searchbar">
+            <i class="icon ion-ios-search"></i>
+            <input type="text" placeholder="Search for people or username" ng-model="friendSearch" />
+          </label>
+        </div>
+        <div class="col col-25 clear-padding-margin">
+          <div class="button-bar margin-left20">
+            <button class="button button-clear button-positive" ng-click="friendSearch = undefined"><i class="icon ion-android-close"></i></button>
+          </div>
+        </div>
+      </div>
+      
+	  <div class="row" ng-repeat="friend in taskAssigned | filter: { status : 'working'}">
+        <div class="col clear-padding-margin">
+          <ion-item class="item-avatar clear-border" ng-click="chat(friend)">
+            <img ng-src="{{friend.profilePic}}">
+            <h2 class="font-bold">{{friend.to}}<div class="online-on" ng-if="friend.online"></div></h2>
+            <p class="icon ion-clock">{{friend.startTime}}</p>
+          </ion-item>
+        </div>
+		<div class="col col-25 clear-padding-margin">
+          <div class="button-bar margin-top10 margin-left20">
+            <button class="button button-clear button-balanced" ng-click="endTask('{{friend.taskKey}}')" ><i class="icon ion-android-done"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+  <div ng-include src="'views/tabs/tabs.html'"></div>
+</ion-view>

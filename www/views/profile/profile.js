@@ -3,7 +3,7 @@
 // The account currently logged in can be accessed through localStorage.account.
 // The authenticated user can be accessed through firebase.auth().currentUser.
 'Use Strict';
-angular.module('App').controller('profileController', function($scope, $state, $localStorage, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers) {
+angular.module('App').controller('profileController', function($scope, $state, $localStorage, $http, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
   $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     if (!$scope.canChangeView) {
@@ -122,4 +122,38 @@ angular.module('App').controller('profileController', function($scope, $state, $
     var width = img.width;
     img.style.height = width + "px";
   };
+  
+  
+  $scope.empIdUpdate = function(profile) {
+	firebase.database().ref('accounts/' + $localStorage.accountId).update({
+      empId: profile.empId
+    });
+  };
+  
+  $scope.buttonShow = function(profile) {
+	var len=profile.empId;
+	if(len.length==3)
+	{  $scope.myVar=true; }
+	};
+  
+  
+  $scope.submitAttendance = function() {
+	var empId;
+	firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
+		empId=snapshot.val();
+	});
+	Utils.show();
+	$http({method  : 'POST', url : 'https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd', data : empId, headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	 }).success(function(data) {
+		if(data.connected) {
+		  Utils.hide();
+		  Utils.message(Popup.successIcon, "Attedance done");
+		} else {
+		  Utils.hide();
+		  Utils.message(Popup.successIcon, "Attedance failed");
+		}
+	  });
+	};
+  
+  
 });

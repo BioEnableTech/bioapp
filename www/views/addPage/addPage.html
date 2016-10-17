@@ -34,13 +34,24 @@
     </form>
     <div class="button-bar">
       <button class="button button-block button-assertive" ng-click="back()">Back to Products</button>
-      <button class="button button-block button-positive" ng-click="add(product)" ng-disabled="addForm.$invalid">{{mode}}</button>
+     <button class="button button-block button-positive" ng-click="add(product)" ng-disabled="addForm.$invalid">{{mode}}</button>
     </div>
-	<button 
-		class="button"      
-		ng-click="scheduleNotificationFiveSecondsFromNow()">
-			In 5 Sec
-	</button>
+				<!--  /// Local Notification code 
+				
+				
+				<button  
+                    class="button  button-block button-positive"
+                    ng-click="updateNotificationEvery()">
+                    Update Every Min to Second
+                </button>
+				{{counter}}
+                <button 
+                    class="button"   
+					ng-click="clickon()"
+                    >
+                    Cancel Every Minute
+                </button>
+				-->
 	
   </ion-content>
 </ion-view>

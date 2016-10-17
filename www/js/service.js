@@ -1,7 +1,7 @@
 //service.js
 //This is the class where most of the data shown on the views are stored.
 //Changes done on the Firebase Database through the Watchers (watcher.js) should be reflected on this service.
-angular.module('App').service('Service', function($localStorage, $http, $cordovaLocalNotification, $ionicPlatform) {
+angular.module('App').service('Service', function($localStorage, $http, $filter,$cordovaLocalNotification, $ionicPlatform) {
   var data = {
     usersList: [],
     excludedIds: [],
@@ -14,21 +14,13 @@ angular.module('App').service('Service', function($localStorage, $http, $cordova
     unreadGroupMessages: 0,
     friendRequestList: [],
     requestSentList: [],
-    friendRequests: 0
+    friendRequests: 0,
+	taskAssignedList:[]
   };
   
   // Local Notification 
   this.sendLocalNotification = function(msg) {
     
-	/*
-	firebase.auth().signInWithEmailAndPassword($localStorage.email, $localStorage.password)
-      .then(function(response) {
-        //Retrieve the account from the Firebase Database
-        var userId = firebase.auth().currentUser.uid;
-        
-      })
-      .catch(function(error) {
-		  */
         
 		var now = new Date().getTime();
 		var _5SecondsFromNow = new Date(now + 1000);
@@ -38,52 +30,45 @@ angular.module('App').service('Service', function($localStorage, $http, $cordova
 			text: ' '+msg,
 			title: 'After 5 Seconds'
 		}).then(function () {
-			//alert("Notification After 5 seconds set");
+
 		});
-		
-      //});
 	
   };
   
   
   //Push Notification code 
-  this.sendNotification = function(body,title,token) {
+	this.sendNotification = function(body,title,token) {
     
-	var parameter = JSON.stringify({
-  "notification":{
-    "title":""+title+"",  //Any value
-    "body":""+body+"",  //Any value
-    "sound":"default", //If you want notification sound
-    "click_action":"FCM_PLUGIN_ACTIVITY",  //Must be present for Android
-    "icon":"fcm_push_icon"  //White icon Android resource
-  },
-  
-    "to":"/topics/all", //Topic or single device
-    "restricted_package_name":"" //Set for application filtering
-});
+		var parameter = JSON.stringify({
+			  "notification":{
+				"title":""+title+"",  
+				"body":""+body+"",  
+				"sound":"default", 
+				"click_action":"FCM_PLUGIN_ACTIVITY", 
+				"icon":"fcm_push_icon" , 
+				"priority":"high"
+			  },
+			"to":token, 
+			"restricted_package_name":"" 
+		});
+    	
+		$http({
+			url: 'https://fcm.googleapis.com/fcm/send',
+			dataType: 'json',
+			method: 'POST',
+			data: parameter,
+			headers: {
+				"Content-Type": "application/json",
+				"Authorization": "key=AIzaSyAFheIveJy3cMK-0WUSEb_Z9D8GKi6Tk40"	}
 	
-
-	 $http({
-    url: 'https://fcm.googleapis.com/fcm/send',
-    dataType: 'json',
-    method: 'POST',
-    data: parameter,
-    headers: {
-        "Content-Type": "application/json",
-		"Authorization": "key=AIzaSyAFheIveJy3cMK-0WUSEb_Z9D8GKi6Tk40"
-		
-    }
+			}).then(function mySucces(response) {
+				  console.log(response.data);
+				}, function myError(response) {
+				  console.log(response.statusText);
+				});
+			
+		return data.friendList;
 	
-  }).then(function mySucces(response) {
-      //alert(response.data);
-	  console.log(response.data);
-	  
-    }, function myError(response) {
-      //alert(response.statusText);
-	  console.log(response.statusText);
-  });
-	
-	return data.friendList;
   };
   
   this.clearData = function() {
@@ -99,6 +84,7 @@ angular.module('App').service('Service', function($localStorage, $http, $cordova
     data.friendRequestList = [];
     data.requestSentList = [];
     data.friendRequests = 0;
+	data.taskAssignedList=[];
   };
   //Add user to the usersList, only adds if user doesn't exist yet.
   this.addUser = function(profile) {
@@ -432,6 +418,8 @@ angular.module('App').service('Service', function($localStorage, $http, $cordova
       }
     }
   };
+  
+  
   //Add friendRequest.
   this.addFriendRequest = function(friendRequest) {
     data.friendRequestList.push(friendRequest);
@@ -478,4 +466,95 @@ angular.module('App').service('Service', function($localStorage, $http, $cordova
   this.getRequestSentList = function() {
     return data.requestSentList;
   };
+  
+  
+  
+  // For Task 
+  
+  /*
+  //Add friendRequest.
+  this.addFriendRequest = function(friendRequest) {
+    data.friendRequestList.push(friendRequest);
+    data.friendRequests++;
+  };
+  //Get friendRequest List.
+  this.getFriendRequestList = function() {
+    return data.friendRequestList;
+  };
+  //Remove friendRequest.
+  this.removeFriendRequest = function(friendId) {
+    var index = -1;
+    for (var i = 0; i < data.friendRequestList.length; i++) {
+      if (data.friendRequestList[i].id == friendId) {
+        index = i;
+        data.friendRequests--;
+      }
+    }
+    if (index > -1) {
+      data.friendRequestList.splice(index, 1);
+    }
+  };
+  //Get friendRequest count.
+  this.getFriendRequestsCount = function() {
+    return data.friendRequests;
+  };
+  //Add requestSent.
+  this.addRequestSent = function(friendRequest) {
+    data.requestSentList.push(friendRequest);
+  };
+  //Remove requestSent.
+  this.removeRequestSent = function(friendId) {
+    var index = -1;
+    for (var i = 0; i < data.requestSentList.length; i++) {
+      if (data.requestSentList[i].id == friendId) {
+        index = i;
+      }
+    }
+    if (index > -1) {
+      data.requestSentList.splice(index, 1);
+    }
+  };
+  */
+  //Get requestSent List.
+  this.getTaskAssignedList = function() {
+		data.taskAssignedList=[];
+		firebase.database().ref('accounts/' + $localStorage.accountId+'/assignedTask').once('value', function(account) {
+			
+			  account.forEach(function(childSnapshot) {
+				
+				var childData = childSnapshot.val();
+				
+				firebase.database().ref('task/'+childData).once('value', function(task) {
+					
+					var supervisorName;
+					firebase.database().ref('accounts/' + task.val().from).once('value', function(accountName) {
+						
+						supervisorName=accountName.val().username;
+							data.taskAssignedList.push({
+							Location : task.val().Location,
+							taskKey:childData,
+							startTime:$filter('date')(new Date(task.val().startTime), 'h:mm a'),
+							endTime:$filter('date')(new Date(task.val().endTime), 'h:mm a'),
+							dateCreated:$filter('date')(new Date(task.val().dateCreated), 'MMM dd'),
+							from : supervisorName,
+							status : task.val().status,
+							taskType : task.val().taskType,
+							to : task.val().to,
+							profilePic:accountName.val().profilePic
+						});
+					
+					})
+					
+				});
+				
+			  });
+		
+        });
+	
+	return data.taskAssignedList;
+  
+  };
+  
+  
+  
 });

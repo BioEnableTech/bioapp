@@ -1,0 +1,19 @@
+<ion-view style="" class=" " id="page17" view-title="Groups">
+    <ion-content>
+        <ion-list ng-show="datakuboss">
+            <ion-item class="item-icon-left" ng-repeat="room in datakuboss" type="item-text-wrap" ng-click="openChatRoom(room.id)">
+                <i class="icon {{room.icon}}"></i>
+                <h2>{{room.name}}</h2>
+            </ion-item>
+            <ion-item class="item-icon-left" type="item-text-wrap" ui-sref="groupCreate" >
+                <i class="icon ion-ios-chatboxes"></i>
+                <h2>Create Group</h2>
+            </ion-item>
+        </ion-list>
+		<ion-list ng-hide="datakuboss.length">
+            <ion-item class="textCenter">
+                <i class="icon ion-loading-c"></i> Loading Rooms
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

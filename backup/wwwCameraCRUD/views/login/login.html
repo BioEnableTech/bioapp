@@ -1,0 +1,26 @@
+<ion-view hide-back-button="true" hide-nav-bar="true">
+  <ion-content class="padding">
+    <div class="list text-center padding">
+      <img class="logo" src="img/logo_crud.png">
+    </div>
+    <form novalidate name="loginForm" ng-submit="loginForm.$valid && login(user)">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Email:</span>
+          <input name="email" type="email" ng-model="user.email" placeholder="Email" ng-minlength="5" ng-maxlength="30" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password:</span>
+          <input name="password" type="password" ng-model="user.password" placeholder="Password" ng-minlength="5" ng-maxlength="30" required>
+        </label>
+        <input type="submit" class="button button-block button-positive" value="Login" ng-disabled="loginForm.$invalid">
+        <p class="text-center">
+          <a href="#/forgotPassword" class="button button-clear button-dark">Forgot Password</a>
+          <a href="#/register" class="button button-clear button-dark">Register</a>
+        </p>
+      </div>
+    </form>
+    <div class="text-center padding">
+      <h4 style="font-size: 115%; font-weight: bold;">Crafted with <img src="http://weloveiconfonts.com/skin/img/weloveiconfonts.jpg" style="width: 20px; height: 20px;"/> by <a href="" ng-click="profile()">Paul Cham</a>.</h4></div>
+  </ion-content>
+</ion-view>

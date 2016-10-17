@@ -1,0 +1,110 @@
+<ion-view ng-controller="attendanceController" >
+  
+<ion-content style="padding-top:50px;" class="padding">
+
+<div>
+		  <form  ng-submit="addContact()">
+		  <div class="list row" >
+
+  <div class="item item-input item-select row" id="some1"  modal-select="" ng-model="someSetModel1" options="selectableNames1" option-property="name" has-search="true" sub-header-class="bar-positive">
+     <div class="col col-50">
+     <i class="icon ion-person-add positive" ></i><label class="foo" id="emps1" > {{someSetModel1}}</label>
+       
+            <div class="option">
+             <h2>{{option.name}}</h2>
+              <p>{{option.role}}</p>
+            </div>
+	</div>
+
+	</div>
+
+	
+	</div>
+
+
+
+
+
+	 
+
+	 
+	 
+  <div class="list row" >
+  <div class="item item-input item-select row"  modal-select="" ng-model="someSetModel2" options="selectableNames2" option-property="name" has-search="true" sub-header-class="bar-positive">
+     <div class="col col-50">
+     <i class="icon ion-android-locate positive" ></i> <label class="foo" id="loc1" > {{someSetModel2}}</label>
+       
+            <div class="option">
+             <h2>{{option.name}}</h2>
+              <p>{{option.role}}</p>
+            </div>
+	</div>
+
+	</div>
+	</div>
+
+
+
+	 
+	 
+	 
+	 
+
+  <div class="list row" >
+  <div  class="item item-input item-select row" modal-select="" ng-model="someSetModel3" options="selectableNames3" option-property="name" has-search="true" sub-header-class="bar-positive">
+     <div class="col col-50">
+ <i class="icon ion-android-bulb positive" ></i> <label id="task1" class="foo" > {{someSetModel3}}</label> 
+       
+            <div class="option">
+             <h2>{{option.name}}</h2>
+              <p>{{option.role}}</p>
+            </div>
+	</div>
+	  
+	</div>
+	</div>
+        <div class="list row">
+		<div class="item item-icon-left col col-50" ng-click="openDatePickerone()"  >
+               <i class="icon ion-ios-calendar positive" ></i>
+               
+                <strong ng-model="selectedDate1">{{selectedDate1 | date:'shortDate'}}</strong>
+            </div>
+            <div class="item item-icon-left col col-50" ion-datetime-picker time am-pm ng-model="timeValue">
+                <i class="icon ion-ios-clock-outline positive"></i>
+               
+                <strong ng-model="stime">{{timeValue| date: "h:mm a"}}</strong>
+				
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+		  
+		   <div class="list row">
+		<div class="item item-icon-left col col-50" ng-click="openDatePickertwo()"  >
+               <i class="icon ion-ios-calendar positive" ></i>
+               
+                <strong ng-model="selectedDate2">{{selectedDate2 | date:'shortDate'}}</strong>
+            </div>
+            <div class="item item-icon-left col col-50" ion-datetime-picker time am-pm ng-model="timeValue1">
+                 <i class="icon ion-ios-clock positive"></i>
+              
+				<strong ng-model="etime" name="times">{{timeValue1| date: "h:mm a"}}</strong>
+            </div>
+          </div>
+
+<ion-toggle ng-model="airplaneMode" toggle-class="toggle-positive"> <i class="icon ion-android-done-all positive" ></i> Status</ion-toggle>
+
+<div class="row"><div class="col"></div><div class="col"  align="center">
+<button type="submit" class="button ion-android-checkbox button-positive" style="box-shadow: 0 4px 4px 0 #515D67, 0 3px 1px -2px #515D67, 0 1px 5px 0 #515;" value="Submit">
+  Save
+</button></div><div class="col"></div></div>
+</form>
+</div>
+
+
+
+
+  </ion-content>
+</ion-view>

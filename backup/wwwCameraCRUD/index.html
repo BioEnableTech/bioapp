@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
+  <title></title>
+  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="js/ng-cordova.min.js"></script>
+  <script src="cordova.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/utils.js"></script>
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/3.2.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+   var config = {
+    apiKey: "AIzaSyAFheIveJy3cMK-0WUSEb_Z9D8GKi6Tk40",
+    authDomain: "foodcart-2dbdc.firebaseapp.com",
+    databaseURL: "https://foodcart-2dbdc.firebaseio.com",
+    storageBucket: "foodcart-2dbdc.appspot.com",
+  };
+  firebase.initializeApp(config);
+
+  /*
+    var config = {
+      apiKey: "AIzaSyBkCfatK6ZL0nxCnrMCk1x468-D7yW9Nnc",
+      authDomain: "fir-v3-crud-kit.firebaseapp.com",
+      databaseURL: "https://fir-v3-crud-kit.firebaseio.com",
+      storageBucket: "fir-v3-crud-kit.appspot.com",
+    };
+    firebase.initializeApp(config);
+	*/
+  </script>
+  <!-- Login -->
+  <script src="views/login/login.js"></script>
+  <!-- Register -->
+  <script src="views/register/register.js"></script>
+  <!-- Forgot -->
+  <script src="views/forgotPassword/forgotPassword.js"></script>
+  <!-- Home -->
+  <script src="views/home/home.js"></script>
+  <!-- Add -->
+  <script src="views/add/add.js"></script>
+  <!-- ngStorage -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.6/ngStorage.min.js"></script>
+  
+   
+  <!-- ngCordovaOAuth -->
+  <script src="js/ng-cordova-oauth.min.js"></script>
+  <script src="js/sha1.js"></script>
+  <!--<script src="lib/FCMPlugin.js"></script>-->
+  
+  
+</head>
+
+<body ng-app="App">
+  <ion-nav-bar class="bar-stable">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-nav-view></ion-nav-view>
+</body>
+
+</html>

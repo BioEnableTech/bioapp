@@ -12,16 +12,17 @@
     <ion-tab icon-off="ion-gear-b" icon-on="ion-gear-b" ng-click="changeTab('profile')">
       <ion-nav-view name="tab-account"></ion-nav-view>
     </ion-tab>
-	<!--<ion-tab icon-off="ion-gear-b" icon-on="ion-gear-b" ng-click="changeTab('attendance')">
-      <ion-nav-view name="tab-account"></ion-nav-view>
-    </ion-tab>-->
-	
-	<ion-tab icon-off="ion-gear-a" icon-on="ion-gear-a" ng-click="changeTab('addPage')">
+	<ion-tab icon-off="ion-plus" icon-on="ion-plus" ng-click="changeTab('addPage')">
       <ion-nav-view name="tab-addPage"></ion-nav-view>
     </ion-tab>
-	
-	<ion-tab icon-off="ion-happy" icon-on="ion-happy" ng-click="changeTab('home')">
+	<ion-tab icon-off="ion-cube" icon-on="ion-cube" ng-click="changeTab('home')">
       <ion-nav-view name="tab-home"></ion-nav-view>
+    </ion-tab>
+	<ion-tab icon-off="ion-clipboard" icon-on="ion-clipboard" ng-click="changeTab('attendance')">
+      <ion-nav-view name="tab-account"></ion-nav-view>
+    </ion-tab>
+	<ion-tab icon-off="ion-ios-list" icon-on="ion-ios-list" ng-click="changeTab('task')">
+      <ion-nav-view name="task"></ion-nav-view>
     </ion-tab>
   
   </ion-tabs>

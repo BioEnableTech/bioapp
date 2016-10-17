@@ -29,6 +29,16 @@ angular.module('App').controller('registerController', function($scope, $state, 
               Utils.message(Popup.errorIcon, Popup.usernameAlreadyExists);
             } else {
               //Create Firebase account.
+			  
+			  var employeeId;
+			  if(user.empId!='')
+			  {
+				employeeId=user.empId;
+			  }
+			  else
+			  {
+				employeeId=null;  
+			  }
               firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
                 .then(function() {
                   //Add Firebase account reference to Database. Firebase v3 Implementation.
@@ -37,6 +47,7 @@ angular.module('App').controller('registerController', function($scope, $state, 
                     username: user.username,
                     profilePic: user.profilePic,
                     email: user.email,
+					empId : employeeId,
                     userId: firebase.auth().currentUser.uid,
                     dateCreated: Date(),
                     provider: 'Firebase'

@@ -1,0 +1,41 @@
+<ion-view hide-back-button="true" hide-nav-bar="true">
+  <ion-content class="padding">
+    <div class="list text-center padding">
+      <img class="logo" src="img/logo_crud.png">
+    </div>
+    <form novalidate name="addForm" ng-submit="addForm.$valid && add(product)">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Name:</span>
+          <input name="name" type="text" ng-model="product.name" placeholder="Name of Product" ng-minlength="5" ng-maxlength="30" required>
+        </label>
+        <label class="item item-input item-select">
+          <span class="input-label">Price:</span>
+          <select ng-model="product.currency">
+            <option selected>$ USD</option>
+            <option>€ EURO</option>
+            <option>¥ YEN</option>
+            <option>₱ PESO</option>
+          </select>
+          <input name="name" type="number" ng-model="product.price" placeholder="9.99" ng-minlength="1" required>
+        </label>
+        <label class="item item-input" ng-click="choosePhoto()">
+          <span class="input-label">Image:</br>128 x 128</span>
+          <img ng-src="{{imageUrl}}" style="width: 128px; height: auto;">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Description:</span>
+          <textarea name="description" class="line-height-160 description" type="text" ng-model="product.description" placeholder="Describe your Product" rows="8" wrap="hard" style="margin-right: 50px;" required></textarea>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">URL:</span>
+          <input name="url" type="text" ng-model="product.url" placeholder="URL of Product" ng-minlength="5" ng-maxlength="50">
+        </label>
+      </div>
+    </form>
+    <div class="button-bar">
+      <button class="button button-block button-assertive" ng-click="back()">Back to Products</button>
+      <button class="button button-block button-positive" ng-click="add(product)" ng-disabled="addForm.$invalid">{{mode}}</button>
+    </div>
+  </ion-content>
+</ion-view>

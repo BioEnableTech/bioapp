@@ -7,8 +7,10 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
+	
   });
 
+ 
   //Allow going back when back is selected.
   $scope.back = function() {
     $scope.canChangeView = true;
@@ -19,13 +21,18 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
 
   $scope.$on('$ionicView.enter', function() {
     //Disable scroll to correctly orient the keyboard input for iOS.
-    cordova.plugins.Keyboard.disableScroll(true);
-
+   var isAndroid = ionic.Platform.isAndroid();
+	var isIOS = ionic.Platform.isIOS();
+   if(isAndroid=='true' || isIOS=='true')
+   {
+	cordova.plugins.Keyboard.disableScroll(true);
+   }
     //Set scope variables to the selected group.
     if ($localStorage.groupId) {
       var group = Service.getGroupById($localStorage.groupId);
       $scope.groupName = group.name;
       $scope.messages = group.messages;
+	  
       $scope.unreadGroupMessages = group.unreadMessages;
       for (var i = 0; i < $scope.messages.length; i++) {
         $scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
@@ -77,7 +84,7 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
   $scope.sendTextMessage = function() {
     if ($scope.message != '') {
       $scope.sendMessage('text', $scope.message);
-    }
+	}
   };
 
   //Scroll to bottom so new messages will be seen.
@@ -100,6 +107,23 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
           messages = [];
         }
         if (type == 'text') {
+				firebase.database().ref('groups/'+$scope.groupId+'/users/').once("value", function(snapshot) {
+					var group=snapshot.val()
+					var cnt=0;
+					for(var i=0;i<group.length;i++)
+					{
+						ref = firebase.database().ref('accounts/' + group[cnt]).child('tokenID');
+						ref.once('value', function(accountID){
+							cnt++;
+							if(accountID.val()!=null)
+							{
+								Service.sendNotification(message, "New Message",accountID.val());	
+							}
+						});
+					}
+					
+				});
+					
           messages.push({
             sender: $localStorage.accountId,
             message: message,
@@ -117,7 +141,10 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
         firebase.database().ref('groups/' + $scope.groupId).update({
           messages: messages
         });
+					
       });
+	  
+	  
     }
 
     //Clear, and refresh to see the new messages.

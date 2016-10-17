@@ -8,6 +8,7 @@ angular.module('App').controller('messagesController', function($scope, $state, 
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
+	
   });
 
   //Allow changing to other views when tabs is selected.
@@ -19,11 +20,17 @@ angular.module('App').controller('messagesController', function($scope, $state, 
     $state.go(stateTo);
   };
 
+  
+
   $scope.$on('$ionicView.enter', function() {
     //Check if there's an authenticated user, if there is non, redirect to login.
-    if (firebase.auth().currentUser) {
+    
+	
+	if (firebase.auth().currentUser) {
       //Set status to online or offline on Firebase.
-      $scope.loggedIn = true;
+		
+
+	$scope.loggedIn = true;
       $ionicPlatform.ready(function() {
         document.addEventListener("deviceready", function() {
           if ($localStorage.accountId) {
@@ -31,7 +38,7 @@ angular.module('App').controller('messagesController', function($scope, $state, 
               online: true
             });
           }
-        }, false);
+		}, false);
         document.addEventListener("resume", function() {
           if ($localStorage.accountId) {
             firebase.database().ref('accounts/' + $localStorage.accountId).update({
@@ -70,7 +77,30 @@ angular.module('App').controller('messagesController', function($scope, $state, 
       Watchers.addRequestsSentWatcher($localStorage.accountId);
       Watchers.addNewGroupWatcher($localStorage.accountId);
     }
-
+	
+	var isWebView = ionic.Platform.isWebView();
+	var isAndroid = ionic.Platform.isAndroid();
+	var isIOS = ionic.Platform.isIOS();
+	var isWindowsPhone = ionic.Platform.isWindowsPhone();
+	
+	console.log(isAndroid);
+	
+	if(isAndroid=='true' || isIOS=='true')
+	{	
+		FCMPlugin.getToken(
+		  function(token){
+			if ($localStorage.accountId) {
+				firebase.database().ref('accounts/' + $localStorage.accountId).update({
+				  tokenID: token
+				});
+			  }
+		  },
+		  function(err){
+			console.log('error retrieving token: ' + err);
+		  }
+		)
+	}
+	
     //Set mode to Messages.
     $scope.mode = 'Messages';
 

@@ -36,7 +36,8 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
           username: account.val().username,
           profilePic: account.val().profilePic,
           date: $filter('date')(new Date(account.val().dateCreated), 'MMM dd, yyyy'),
-          provider: account.val().provider
+          provider: account.val().provider,
+		  empId:account.val().empId
         };
         $timeout(function() {
 
@@ -61,7 +62,8 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
           username: account.val().username,
           profilePic: account.val().profilePic,
           date: $filter('date')(new Date(account.val().dateCreated), 'MMM dd, yyyy'),
-          provider: account.val().provider
+          provider: account.val().provider,
+		  empId:account.val().empId
         };
         $timeout(function() {
 
@@ -176,15 +178,8 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
 
                 Service.addMessageToConversation(conversationId, message);
                 $rootScope.$broadcast('messageAdded');
-				//alert("Test");
 				
-				//Service.sendNotification(message.message, "New Message","");
-				
-				
-				Service.sendLocalNotification(message.message);
-				
-				
-				
+				//Service.sendLocalNotification(message.message);
 				
               });
             });
@@ -478,7 +473,7 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
                 Service.addMessageToGroup(groupId, message);
                 $rootScope.$broadcast('messageAdded');
 				
-				//Service.sendNotification(message.message, "New Message","");
+				Service.sendNotification(message.message, "New Message","");
 
               });
             } else if (change.key == 'image') {
@@ -535,6 +530,63 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
         callback: accountGroupsRefChildChanged,
         eventType: 'child_changed'
       });
-    }
+    },
+	
+	//Watcher responsible for task assigned.
+    addTaskAssignedWatcher: function(accountId) {
+	
+		/*	
+      var ref = firebase.database().ref('accounts/' + accountId).child('friendRequests');
+      var callback = ref.on('child_added', function(friendId) {
+
+        var friendId = friendId.val();
+        firebase.database().ref('accounts/' + friendId).once('value', function(account) {
+
+          var account = account.val();
+          var friendRequest = {
+            profilePic: account.profilePic,
+            name: account.name,
+            username: account.username,
+            id: friendId,
+            online: account.online
+          };
+          $timeout(function() {
+            Service.addFriendRequest(friendRequest);
+            Service.addExcludedIds(friendRequest.id);
+
+          });
+        });
+      });
+      //Add watcher to the watchers list to be cleared later when user logged out.
+      watchers.push({
+        ref: ref,
+        callback: callback,
+        eventType: 'child_added'
+      });
+      //Watcher for friendRequests removed.
+      var accountFriendRequestRef = firebase.database().ref('accounts/' + accountId).child('friendRequests');
+      var accountFriendRequestRefChildRemoved = accountFriendRequestRef.on('child_removed', function(friendId) {
+
+        var friendId = friendId.val();
+        $timeout(function() {
+          Service.removeFriendRequest(friendId);
+          Service.removeFromExcludedIds(friendId);
+          
+        });
+      });
+      //Add watcher to the watchers list to be cleared later when user logged out.
+      watchers.push({
+        ref: accountFriendRequestRef,
+        callback: accountFriendRequestRefChildRemoved,
+        eventType: 'child_removed'
+      });*/
+    
+	}
+	
+	
+	
+	
+	
+	
   };
 });

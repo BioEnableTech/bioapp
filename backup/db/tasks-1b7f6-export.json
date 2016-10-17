@@ -1,0 +1,110 @@
+{
+  "EmpData" : {
+    "-KQKhvgfDh5xy9cbTPzj" : {
+      "Email" : "GDK@HGDFK.CUI",
+      "JoinDate" : "2016-08-24",
+      "Status" : "Regular",
+      "company" : {
+        "org" : "Bioenable"
+      },
+      "dept" : {
+        "dept" : "RnD"
+      },
+      "employee_id" : "695865",
+      "employee_name" : "HJSGSJ",
+      "employee_number" : "3523",
+      "group" : {
+        "group" : "Rnd Tech:true"
+      },
+      "loc" : {
+        "location" : "Melbourne"
+      },
+      "password" : "GHSKFSHG",
+      "supervisor" : {
+        "supers" : "Rajesh Shewale"
+      }
+    },
+    "-KQL-biHH9kVL4fItXhN" : {
+      "Email" : "msdewani000@gmail.com",
+      "JoinDate" : "2016-29-08",
+      "Status" : "Regular",
+      "company" : {
+        "org" : "GeoDirect"
+      },
+      "dept" : {
+        "dept" : "Sales"
+      },
+      "employee_id" : "53735",
+      "employee_name" : "Jdgnbs",
+      "employee_number" : "52725",
+      "group" : {
+        "group" : "Support Track:true"
+      },
+      "loc" : {
+        "location" : "Melbourne"
+      },
+      "password" : "vsvvvsnnz",
+      "supervisor" : {
+        "supers" : "Mahesh Ghatge"
+      }
+    }
+  },
+  "company" : {
+    "-KQLULrJ16K4YggkzTrX" : {
+      "company_name" : "ABC Pvt Ltd",
+      "company_role" : "Manufacturing"
+    }
+  },
+  "department" : {
+    "-KQLUUYmoIo7otESYLa4" : {
+      "department_name" : "Account",
+      "department_role" : "Finance"
+    }
+  },
+  "group" : {
+    "-KQLUZcHU-rgYFGT54Po" : {
+      "group_dept" : "Accounts",
+      "group_name" : "Friends"
+    }
+  },
+  "location" : {
+    "-KQLUQPW5fygzDLy3egB" : {
+      "city" : "Amravati",
+      "country" : "India",
+      "state" : "Maharastra"
+    }
+  },
+  "logs" : {
+    "13-8-2016" : {
+      "-KRXpjGtnk59TqL4wvAU" : {
+        "date" : "2016-09-14",
+        "dates" : "2016-09-21",
+        "loc" : "Pune",
+        "name" : "Rajesh",
+        "task" : "GPS Web App",
+        "time" : "2:45:17 PM",
+        "times" : "8:08:20 PM"
+      },
+      "-KRXpjaVoiHHzGxhZU63" : {
+        "date" : "2016-09-14",
+        "dates" : "2016-09-21",
+        "loc" : "Pune",
+        "name" : "Rajesh",
+        "task" : "GPS Web App",
+        "time" : "2:45:17 PM",
+        "times" : "8:08:20 PM"
+      }
+    },
+    "29-7-2016" : {
+      "-KQKs1-gSIEOp1a9wkUq" : {
+        "date" : "2016-08-29",
+        "dates" : "2016-08-29",
+        "loc" : "Location",
+        "name" : "Employees",
+        "task" : "Task",
+        "time" : "4:07:09 PM",
+        "times" : "8:07:09 PM"
+      }
+    }
+  }
+}

@@ -26,11 +26,17 @@
       </li>
     </ol>
   </ion-content>
+  <form ng-submit="sendTextMessage()">
   <ion-footer-bar keyboard-attach class="item-input-inset bar-light" ng-click="scrollBottom()">
-    <a class="button button-icon icon ion-camera positive" ng-click="sendPictureMessage()"></a>
+    
+	<a class="button button-icon icon ion-camera positive" ng-click="sendPictureMessage()"></a>
     <label class="item-input-wrapper">
       <input type="text" placeholder="Type your message" ng-model="message" />
     </label>
-    <a class="button button-icon icon ion-email positive" ng-click="sendTextMessage()"></a>
+    <!--<a class="button button-icon icon ion-android-send positive" ng-click="sendTextMessage()"></a>-->
+	<button type="submit" class="button button-clear icon ion-android-send positive">
+	</button>
+	
   </ion-footer-bar>
+  </form>
 </ion-view>

@@ -1,0 +1,14 @@
+<ion-view style="" class=" " id="page18" title="User List">
+    <ion-content class="has-header" ng-model="user_presence" >
+		
+		<ion-item class="item-icon-left item-avatar" ng-repeat="item in orders" type="item-text-wrap" ng-click="openChatRoom(item.id)">
+			<img ng-src="{{'img/fk/'+ item.profile_image +'.jpg'}}">
+			<h2>{{item.name}}</h2>
+			<p class="ion-iphone">  {{item.mobile}}</p>
+			<div ng-if="item.user_status.includes('online')" ng-model="user_presence_display">{{item.user_status}} </div><div ng-if="!item.user_status.includes('online')" class="ion-clock"> {{item.user_status | date:'dd/MM/yyyy h:mma'}}</div>
+		</ion-item>
+		
+    </ion-content>
+</ion-view>
+
+
