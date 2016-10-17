@@ -1,7 +1,7 @@
 {
-  "name": "foodkart",
+  "name": "bioapp",
   "version": "1.1.1",
-  "description": "foodkart: An Ionic project",
+  "description": "bioapp: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
