@@ -13,7 +13,7 @@ Steps to use BioApp
 
 ####Comming Soon
       1. Twitter Login
-      4. Facebook Login.
+      2. Facebook Login.
 
 Make sure to [follow me on Git ](https://github.com/BioEnableTech) for getting the Latest Project Updates. 
 
