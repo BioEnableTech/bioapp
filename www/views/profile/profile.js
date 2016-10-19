@@ -17,8 +17,7 @@ angular.module('App').controller('profileController', function($scope, $state, $
       disableAnimate: true
     });
     $scope.canChangeView = true;
-    console.log("1"+stateTo);
-	$state.go(stateTo);
+    $state.go(stateTo);
   };
 
   $scope.$on('$ionicView.enter', function() {

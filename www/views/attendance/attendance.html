@@ -1,4 +1,4 @@
-<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" ng-controller="attendanceController">
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
 	<ion-header-bar align-title="center" class="bar-positive">
     <!--<div class="buttons">
       <button class="button button-clear" ng-click="back()">Back</button>
@@ -107,7 +107,7 @@
             	</div>
 			
   
-    <br>
+    <!--<br>
 		<label class="item item-input">
           <span class="input-label">Emp ID :</span>
           <input  type="text" ng-model="att.args" placeholder="Enter Id">
@@ -120,9 +120,10 @@
 		  Attendance 
 		</button>
 	</div>
-
+	-->
   
 					
     </ion-content>
+	<div ng-include src="'views/tabs/tabs.html'"></div>
 	
 </ion-view>

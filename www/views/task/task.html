@@ -25,7 +25,7 @@
         </div>
         <div class="col col-25 clear-padding-margin">
           <div class="button-bar margin-top10">
-            <!--<button class="button button-clear button-assertive" ng-click="deleteRequest(task)"><i class="icon ion-close"></i></button>-->
+            <button class="button button-clear button-assertive" ng-click="openModal('{{task.taskKey}}')"><i class="icon ion-information-circled"></i></button>
             <button class="button button-clear button-balanced" ng-click="startTask('{{task.taskKey}}')"><i class="icon ion-play"></i></button>
           </div>
         </div>

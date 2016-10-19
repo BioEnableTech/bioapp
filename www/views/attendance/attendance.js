@@ -56,20 +56,22 @@ angular.module('App').controller('attendanceController', function($scope, $http,
   
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {
-    $ionicHistory.nextViewOptions({
+	$ionicHistory.nextViewOptions({
       disableAnimate: true
     });
+	
     $scope.canChangeView = true;
     $state.go(stateTo);
+	
   };
 
-  $scope.back = function() {
+  /*$scope.back = function() {
     $scope.canChangeView = true;
     $localStorage.friendId = undefined;
     $localStorage.conversationId = undefined;
     // $ionicHistory.goBack();
     $state.go('task');
-  };
+  };*/
   
   
   $scope.$on('$ionicView.enter', function() {
@@ -91,10 +93,11 @@ angular.module('App').controller('attendanceController', function($scope, $http,
       Watchers.addRequestsSentWatcher($localStorage.accountId);
       Watchers.addNewGroupWatcher($localStorage.accountId);
     
-    
-	//Disable canChangeView to disable automatically restating to messages route whenever Firebase Watcher calls are triggered.
+    $scope.changedProfilePic = false;
+    //Disable canChangeView to disable automatically restating to messages route whenever Firebase Watcher calls are triggered.
     $scope.canChangeView = false;
-    $ionicTabsDelegate.select(7);
+    //Select the 4th tab on the footer to highlight the profile icon.
+    $ionicTabsDelegate.select(4);
   });
 
   
