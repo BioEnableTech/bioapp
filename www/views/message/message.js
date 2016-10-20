@@ -21,9 +21,9 @@ angular.module('App').controller('messageController', function($scope, $state, $
   $scope.$on('$ionicView.enter', function() {
     //Disable scroll to correctly orient the keyboard input for iOS.
     
-	var isAndroid = ionic.Platform.isAndroid();
-	var isIOS = ionic.Platform.isIOS();
-   if(isAndroid=='true' || isIOS=='true')
+   var isWebView = ionic.Platform.isWebView();
+	
+   if(isWebView)
    {
 	cordova.plugins.Keyboard.disableScroll(true);
    }

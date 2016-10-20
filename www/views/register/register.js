@@ -10,6 +10,7 @@ angular.module('App').controller('registerController', function($scope, $state, 
       name: '',
       email: '',
       password: '',
+	  empId:'',
       profilePic: 'img/profile.png'
     };
 

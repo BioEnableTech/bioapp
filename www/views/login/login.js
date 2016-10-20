@@ -49,16 +49,7 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
   $scope.login = function(user) {
     if (angular.isDefined(user)) {
       Utils.show();
-	  /*
-		FCMPlugin.onNotification(
-		  function(data){
-			alert(data.key);
-		  },
-		  successCallback,
-		  errorCallback
-		);
-		*/
-      loginWithFirebase(user.email, user.password);
+	  loginWithFirebase(user.email, user.password);
     }
   };
 
@@ -79,7 +70,13 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
   $scope.loginWithGoogle = function() {
     Utils.show();
     //Login with Google token using the googleWebClientId from app.js
-    $cordovaOauth.google(Social.googleWebClientId, ["https://www.googleapis.com/auth/userinfo.email"]).then(function(response) {
+    
+   var isWebView = ionic.Platform.isWebView();
+	
+   if(isWebView)
+   {
+	
+	$cordovaOauth.google(Social.googleWebClientId, ["https://www.googleapis.com/auth/userinfo.email"]).then(function(response) {
       var credential = firebase.auth.GoogleAuthProvider.credential(response.id_token,
         response.access_token);
       $localStorage.id_token = response.id_token;
@@ -90,7 +87,7 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
       Utils.hide();
     });
 	
-	
+   }else{
 	
 	if (!firebase.auth().currentUser) {
         // [START createprovider]
@@ -105,14 +102,11 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
           var token = result.credential.accessToken;
           // The signed-in user info.
 		  var idToken = result.credential.idToken;
-
-
 		  
 		  console.log(result.credential);
 		  
           var user = result.user;
           // [START_EXCLUDE]
-          
 	  
 		   var credential = firebase.auth.GoogleAuthProvider.credential(idToken, token);
 		  $localStorage.id_token = idToken;
@@ -150,7 +144,7 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
         firebase.auth().signOut();
         // [END signout]
       }
-	
+   }
 	
 	
   };
@@ -158,16 +152,73 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
   $scope.loginWithTwitter = function() {
     Utils.show();
     //Login with Twitter token using the twitterKey and twitterSecret from app.js
-    $cordovaOauth.twitter(Social.twitterKey, Social.twitterSecret).then(function(response) {
-      var credential = firebase.auth.TwitterAuthProvider.credential(response.oauth_token,
-        response.oauth_token_secret);
-      $localStorage.oauth_token = response.oauth_token;
-      $localStorage.oauth_token_secret = response.oauth_token_secret;
-      loginWithCredential(credential, 'Twitter');
-    }, function(error) {
-      //User cancelled login. Hide the loading modal.
-      Utils.hide();
-    });
+    var isWebView = ionic.Platform.isWebView();
+	if(isWebView)
+	{
+		$cordovaOauth.twitter(Social.twitterKey, Social.twitterSecret).then(function(response) {
+		  var credential = firebase.auth.TwitterAuthProvider.credential(response.oauth_token,
+			response.oauth_token_secret);
+		  $localStorage.oauth_token = response.oauth_token;
+		  $localStorage.oauth_token_secret = response.oauth_token_secret;
+		  loginWithCredential(credential, 'Twitter');
+		}, function(error) {
+		  //User cancelled login. Hide the loading modal.
+		  Utils.hide();
+		});
+	}
+	else
+	{
+		if (!firebase.auth().currentUser) {
+			// [START createprovider]
+			var provider = new firebase.auth.TwitterAuthProvider();
+			// [END createprovider]
+			// [START signin]
+			firebase.auth().signInWithPopup(provider).then(function(result) {
+			  // This gives you a the Twitter OAuth 1.0 Access Token and Secret.
+			  // You can use these server side with your app's credentials to access the Twitter API.
+			  var token = result.credential.accessToken;
+			  var secret = result.credential.secret;
+			  // The signed-in user info.
+			  var user = result.user;
+			  // [START_EXCLUDE]
+			 
+
+			 var credential = firebase.auth.TwitterAuthProvider.credential( token , secret);
+			  $localStorage.oauth_token = token;
+			  $localStorage.oauth_token_secret = secret;
+			  loginWithCredential(credential, 'Twitter');
+			  
+			  // [END_EXCLUDE]
+			}).catch(function(error) {
+			  // Handle Errors here.
+			  var errorCode = error.code;
+			  var errorMessage = error.message;
+			  // The email of the user's account used.
+			  var email = error.email;
+			  // The firebase.auth.AuthCredential type that was used.
+			  var credential = error.credential;
+			  // [START_EXCLUDE]
+			  if (errorCode === 'auth/account-exists-with-different-credential') {
+				alert('You have already signed up with a different auth provider for that email.');
+				// If you are using multiple auth providers on your app you should handle linking
+				// the user's accounts here.
+			  } else {
+				console.error(error);
+			  }
+			  // [END_EXCLUDE]
+			});
+			// [END signin]
+		  } else {
+			// [START signout]
+			firebase.auth().signOut();
+			// [END signout]
+		  }
+	}
+	
+	
+	
+	
+	
   };
 
   $scope.loginAsGuest = function() {
@@ -309,3 +360,6 @@ angular.module('App').controller('loginController', function($scope, $state, $lo
   };
 
 });
+
+
+

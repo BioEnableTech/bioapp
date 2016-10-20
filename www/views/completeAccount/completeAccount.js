@@ -47,11 +47,23 @@ angular.module('App').controller('completeAccountController', function($scope, $
           Utils.message(Popup.errorIcon, Popup.emailAlreadyExists);
         } else {
           //Adds the account to Firebase database.
-          firebase.database().ref().child('accounts').push({
+          
+		  var employeeId;
+			  if(user.empId!='')
+			  {
+				employeeId=user.empId;
+			  }
+			  else
+			  {
+				employeeId=null;  
+			  }
+		  
+		  firebase.database().ref().child('accounts').push({
             name: user.name,
             username: user.username,
             profilePic: user.profilePic,
             email: user.email,
+			empId : employeeId,
             userId: firebase.auth().currentUser.uid,
             dateCreated: Date(),
             provider: $localStorage.provider
