@@ -1,4 +1,5 @@
 <ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" cache-view="false" >
+  
   <ion-header-bar align-title="center" class="bar-positive">
     <h1 class="title">Task</h1>
   </ion-header-bar>
@@ -6,16 +7,53 @@
     <div class="button-bar margin-top-10 margin-bottom-10" ng-show="mode == 'Active'">
       <button class="button button-block button-clear button-positive" ng-click="mode = 'Active'">Active </button>
       <button class="button button-block button-positive" ng-click="mode = 'Assigned'">Assigned</button>
+	  <button class="button button-block button-positive" ng-click="mode = 'MyTask'">Task</button>
     </div>
     <div class="button-bar margin-top-10 margin-bottom-10" ng-show="mode == 'Assigned'">
       <button class="button button-block button-positive" ng-click="mode = 'Active'">Active</button>
       <button class="button button-block button-clear button-positive" ng-click="mode = 'Assigned'">Assigned </button>
+	  <button class="button button-block button-positive" ng-click="mode = 'MyTask'">Task</button>
+    </div>
+	<div class="button-bar margin-top-10 margin-bottom-10" ng-show="mode == 'MyTask'">
+      <button class="button button-block button-positive" ng-click="mode = 'Active'">Active </button>
+      <button class="button button-block button-positive" ng-click="mode = 'Assigned'">Assigned</button>
+	  <button class="button button-block button-clear button-positive" ng-click="mode = 'MyTask'">Task</button>
     </div>
     <!--  Assigned Tab -->
 	
     <div ng-show="mode == 'Assigned'">
 	
-      <div class="row" ng-repeat="task in taskAssigned | filter: { status: 'true' }">
+	<ion-list show-delete="shouldShowDelete"
+			   show-reorder="shouldShowReorder"
+			   can-swipe="listCanSwipe">
+	   <ion-item ng-repeat="task in taskAssigned | filter: { status: 'true' }"
+				 class=" item-avatar clear-border"">
+
+		 <img ng-src="{{task.profilePic}}">
+		 <h2>{{task.subject}} </h2>
+		 <p>(@{{task.from}})</p><p class="font-bold font-size-85"><a class="assertive" >Pending </a>{{task.dateCreated}}</p>
+		 <ion-option-button class="button-positive"
+							ng-click="openModal('{{task.taskKey}}')">
+		   Details
+		 </ion-option-button>
+		 <ion-option-button class="button-info"
+							ng-click="startTask('{{task.taskKey}}')">
+		  start
+		 </ion-option-button>
+		 <ion-delete-button class="ion-minus-circled"
+							ng-click="items.splice($index, 1)">
+		 </ion-delete-button>
+		 <ion-reorder-button class="ion-navicon"
+							 on-reorder="reorderItem(item, $fromIndex, $toIndex)">
+		 </ion-reorder-button>
+
+	   </ion-item>
+	 </ion-list>
+	
+	
+      <!--
+	  old list
+	  <div class="row" ng-repeat="task in taskAssigned | filter: { status: 'true' }">
         <div class="col col-75 clear-padding-margin margin-right-10">
           <ion-item class="item-avatar clear-border">
             <img ng-src="{{task.profilePic}}">
@@ -30,6 +68,8 @@
           </div>
         </div>
       </div>
+	  -->
+	  
 	  
       <div class="row" ng-repeat="request in requestsSent">
         <div class="col col-75 clear-padding-margin">
@@ -68,9 +108,8 @@
         <div class="col col-65 clear-padding-margin">
           <ion-item class="item-avatar clear-border">
             <img ng-src="{{task.profilePic}}">
-            <h2 class="font-bold">{{task.to}}</h2>
+            <h2 class="font-bold">{{task.subject}}</h2>
             <p class="font-bold">@{{task.from}}</p>
-			
           </ion-item>
         </div>
         <div class="col col-35 clear-padding-margin">
@@ -103,8 +142,8 @@
         <div class="col clear-padding-margin">
           <ion-item class="item-avatar clear-border" ng-click="chat(friend)">
             <img ng-src="{{friend.profilePic}}">
-            <h2 class="font-bold">{{friend.to}}<div class="online-on" ng-if="friend.online"></div></h2>
-            <p class="icon ion-clock">{{friend.startTime}}</p>
+            <h2 class="font-bold">{{friend.subject}}<div class="online-on" ng-if="friend.online"></div></h2>
+            <p class="icon ion-clock">{{friend.startDate}} {{friend.startTime}}</p>
           </ion-item>
         </div>
 		<div class="col col-25 clear-padding-margin">
@@ -114,6 +153,31 @@
         </div>
       </div>
     </div>
+	
+	
+	<div ng-show="mode == 'MyTask'">
+      
+      <div class="row" ng-repeat="task in mytask">
+        <div class="col col-50 clear-padding-margin margin-right-10">
+          <ion-item class="item-avatar clear-border">
+            <img ng-src="{{task.profilePic}}">
+            <h2 class="font-bold font-size-100">{{task.to}}</h2>
+            <p class="font-bold font-size-85"><a class="assertive" >Pending </a>{{task.dateCreated}}</p>
+          </ion-item>
+        </div>
+        <div class="col col-50 clear-padding-margin">
+          <div class="button-bar margin-top10">
+			<button class="button button-clear button-assertive" ng-click="openModal('{{task.taskKey}}')"><i class="icon ion-information-circled"></i></button>
+			<div class="button-bar margin-top10" ng-if="task.status=='true'" ><a class="assertive" >Pending  </a></div>
+			
+			<div class="button-bar margin-top10" ng-if="task.status=='false' && task.totalTime!='0'"><a class="dark" >  Closed </a></div>
+			<span class="button-bar margin-top10" ng-if="task.status=='working'" countdown='' date="{{task.startDate}} {{task.startTime}}" ng-model="mytime"><a class="balanced" >Started </a>&nbsp;{{mytime}}</span>
+		  </div>
+        </div>
+      </div>
+	  
+    </div>
+	
   </ion-content>
   <div ng-include src="'views/tabs/tabs.html'"></div>
 </ion-view>

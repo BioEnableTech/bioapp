@@ -14,13 +14,19 @@ angular.module('App').controller('attendanceController', function($scope, $http,
   
   $scope.currentTime=new Date();
   
-  
   /*$scope.inDate = new Date();
   $scope.outDate = new Date();
   $scope.inTime = new Date();
   $scope.outTime = new Date();
   $scope.outDate.setDate($scope.outDate.getDate() + 1);
   */
+  
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
+  
+  
    $scope.datetimeValue1=new Date();
    $scope.datetimeValue2=new Date();
    $scope.datetimeValue2.setDate($scope.datetimeValue2.getDate() + 1);
@@ -65,34 +71,24 @@ angular.module('App').controller('attendanceController', function($scope, $http,
 	
   };
 
-  /*$scope.back = function() {
-    $scope.canChangeView = true;
-    $localStorage.friendId = undefined;
-    $localStorage.conversationId = undefined;
-    // $ionicHistory.goBack();
-    $state.go('task');
-  };*/
-  
-  
   $scope.$on('$ionicView.enter', function() {
 	  
 	
       //Initialize Service and Watchers
-      $scope.conversations = [];
-      $scope.conversations = Service.getConversationList();
-
-      $scope.friends = [];
-      $scope.friends = Service.getFriendList();
-
-      console.log("Attaching Watchers");
-      Watchers.addUsersWatcher();
+      $scope.employees = [];
+      //$scope.conversations = Service.getConversationList();
+	  
+	  $scope.employees=Service.getFriendList();
+	  
+	  console.log("Attaching Watchers");
+      /*Watchers.addUsersWatcher();
       Watchers.addProfileWatcher($localStorage.accountId);
       Watchers.addNewFriendWatcher($localStorage.accountId);
-      //Watchers.addNewConversationWatcher($localStorage.accountId);
+      Watchers.addNewConversationWatcher($localStorage.accountId);
       Watchers.addFriendRequestsWatcher($localStorage.accountId);
       Watchers.addRequestsSentWatcher($localStorage.accountId);
       Watchers.addNewGroupWatcher($localStorage.accountId);
-    
+    */
     $scope.changedProfilePic = false;
     //Disable canChangeView to disable automatically restating to messages route whenever Firebase Watcher calls are triggered.
     $scope.canChangeView = false;
@@ -100,27 +96,6 @@ angular.module('App').controller('attendanceController', function($scope, $http,
     $ionicTabsDelegate.select(4);
   });
 
-  
- 
- 
-	/*$scope.goRequest = function() 
-   {
-		$http({
-			url: 'https://fcm.googleapis.com/fcm/send',
-			dataType: 'json',
-			method: 'POST',
-			data: parameter,
-			).then(function mySucces(response) {
-				  console.log(response.data);
-				}, function myError(response) {
-				  console.log(response.statusText);
-				});
-			
-   }
-   */
- 
- 
- 
  
 	$scope.submitAttendance = function(att) {
 	var empID=att.args;
@@ -137,33 +112,40 @@ angular.module('App').controller('attendanceController', function($scope, $http,
 	  });
 	  
 	};
-    
-
- 
  
   
    $scope.save = function(user) 
-   {
-	   
+   { 
 		var taskId;
 		var inDate=$scope.datetimeValue1.toLocaleDateString();
 		var inTime=$scope.timeValue.toLocaleTimeString();
 		var outDate=$scope.datetimeValue2.toLocaleDateString();
 		var outTime=$scope.timeValue1.toLocaleTimeString();
+		var taskAssignedToKey='';
+		
+		if(user.employee=='Self')
+		{
+			taskAssignedToKey=$localStorage.accountId;
+		}
+		else{
+			taskAssignedToKey=user.employee
+		}
 		
 		
 		  firebase.database().ref().child('task').push({
 			from:$localStorage.accountId,
-			to:user.employee,
+			to:taskAssignedToKey,
 			Location:user.Location,
 			taskType:user.taskType,
+			description:user.description,
+			subject:user.subject,
 			status:user.taskStatus,
 			dateCreated: Date(),
 			startDate:inDate,
 			startTime:inTime,
 			endDate:outDate,
-			endTime:outTime
-			
+			endTime:outTime,
+			totalTime:'0' 
 		  }).then(function(response) {
 			//Task added successfully.
 			taskId = response.key;
@@ -179,15 +161,29 @@ angular.module('App').controller('attendanceController', function($scope, $http,
 			  });
 			});
 			
+			firebase.database().ref('accounts/' + taskAssignedToKey ).once('value', function(account1) {
+			  var taskArr1 = account1.val().assignedTaskToMe;
+			  if (!taskArr1) {
+				taskArr1 = [];
+			  }
+			  taskArr1.push(taskId);
+			  firebase.database().ref('accounts/' + taskAssignedToKey ).update({
+				assignedTaskToMe: taskArr1
+			  });
+			});
+			
 			//Show success message then redirect to home.
 			Utils.message(Popup.successIcon, "Task is created")
 			  .then(function() {
+				
 				$scope.canChangeView = true;
 				$state.go('task');
+				
 			  })
 			  .catch(function() {
 				$scope.canChangeView = true;
 				//User closed the prompt, redirect immediately.
+				
 				$state.go('task');
 			  });
 		  });

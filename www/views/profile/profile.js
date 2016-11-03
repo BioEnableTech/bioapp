@@ -10,6 +10,11 @@ angular.module('App').controller('profileController', function($scope, $state, $
       event.preventDefault();
     }
   });
+  
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
 
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {
@@ -137,12 +142,38 @@ angular.module('App').controller('profileController', function($scope, $state, $
   
   
   $scope.submitAttendance = function() {
+	
+	
+	var empID={'args':3506};
+	Utils.show();
+	
+	//$http({method  : 'POST', url : 'https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd', data : empID, headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	 
+	 $http({method  : 'POST', url : 'http://gpsintegrated.com/bioapp/postTest.php?args=Super%20Hero', data , headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	 }).success(function(data) {
+		console.log(data);
+		if(data.connected) {
+		  Utils.hide();
+		  Utils.message(Popup.successIcon, "Attedance done");
+		} else {
+		  Utils.hide();
+		  Utils.message(Popup.successIcon, "Attedance failed");
+		}
+	  });
+	
+	
+	
+	/*
+	
 	var empId;
-	firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
+	/*firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
 		empId=snapshot.val();
 	});
+
 	Utils.show();
-	$http({method  : 'POST', url : 'https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd', data : empId, headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	
+	// device code 
+	$http({method  : 'POST', url : 'https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd', data : '3506', headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
 	 }).success(function(data) {
 		if(data.connected) {
 		  Utils.hide();
@@ -152,7 +183,23 @@ angular.module('App').controller('profileController', function($scope, $state, $
 		  Utils.message(Popup.successIcon, "Attedance failed");
 		}
 	  });
-	};
-  
+		
+		/*
+		
+	   firebase.database().ref('logs/' + empId +'/').once('value', function(account1) {
+		  var taskArr = account1.val().logTime;
+		  var outTime=Date();
+		  if (!taskArr) {
+			taskArr = [];
+		  }
+		  taskArr.push(outTime);
+		  firebase.database().ref('logs/'+ empId).update({
+			logTime: taskArr
+		  });
+		});
+		*/
+
+	
+	}
   
 });

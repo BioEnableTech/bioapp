@@ -15,14 +15,14 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
     friendRequestList: [],
     requestSentList: [],
     friendRequests: 0,
-	taskAssignedList:[]
+	taskAssignedList:[],
+	myTaskAssignedList:[]
   };
   
   // Local Notification 
   this.sendLocalNotification = function(msg) {
     
-        
-		var now = new Date().getTime();
+    	var now = new Date().getTime();
 		var _5SecondsFromNow = new Date(now + 1000);
 		$cordovaLocalNotification.schedule({
 			id: 2,
@@ -467,94 +467,80 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
     return data.requestSentList;
   };
   
-  
-  
-  // For Task 
-  
-  /*
-  //Add friendRequest.
-  this.addFriendRequest = function(friendRequest) {
-    data.friendRequestList.push(friendRequest);
-    data.friendRequests++;
-  };
-  //Get friendRequest List.
-  this.getFriendRequestList = function() {
-    return data.friendRequestList;
-  };
-  //Remove friendRequest.
-  this.removeFriendRequest = function(friendId) {
-    var index = -1;
-    for (var i = 0; i < data.friendRequestList.length; i++) {
-      if (data.friendRequestList[i].id == friendId) {
-        index = i;
-        data.friendRequests--;
-      }
-    }
-    if (index > -1) {
-      data.friendRequestList.splice(index, 1);
-    }
-  };
-  //Get friendRequest count.
-  this.getFriendRequestsCount = function() {
-    return data.friendRequests;
-  };
-  //Add requestSent.
-  this.addRequestSent = function(friendRequest) {
-    data.requestSentList.push(friendRequest);
-  };
-  //Remove requestSent.
-  this.removeRequestSent = function(friendId) {
-    var index = -1;
-    for (var i = 0; i < data.requestSentList.length; i++) {
-      if (data.requestSentList[i].id == friendId) {
-        index = i;
-      }
-    }
-    if (index > -1) {
-      data.requestSentList.splice(index, 1);
-    }
-  };
-  */
-  //Get requestSent List.
+ 
+ //Get requestSent List.
   this.getTaskAssignedList = function() {
 		data.taskAssignedList=[];
-		firebase.database().ref('accounts/' + $localStorage.accountId+'/assignedTask').once('value', function(account) {
+		firebase.database().ref('accounts/' + $localStorage.accountId+'/assignedTaskToMe').once('value', function(account) {
 			
-			  account.forEach(function(childSnapshot) {
-				
+			account.forEach(function(childSnapshot) {
 				var childData = childSnapshot.val();
-				
 				firebase.database().ref('task/'+childData).once('value', function(task) {
-					
 					var supervisorName;
+					var taskTo;
 					firebase.database().ref('accounts/' + task.val().from).once('value', function(accountName) {
-						
 						supervisorName=accountName.val().username;
+						firebase.database().ref('accounts/' + task.val().to).once('value', function(accountName1) {
+						taskTo=accountName1.val().username;
 							data.taskAssignedList.push({
 							Location : task.val().Location,
 							taskKey:childData,
-							startTime:$filter('date')(new Date(task.val().startTime), 'h:mm a'),
-							endTime:$filter('date')(new Date(task.val().endTime), 'h:mm a'),
+							subject:task.val().subject,
+							description:task.val().description,
+							startTime:task.val().startTime,
+							startDate:task.val().startDate,
+							endTime:task.val().endTime,
+							totalTime :task.val().totalTime,
 							dateCreated:$filter('date')(new Date(task.val().dateCreated), 'MMM dd'),
 							from : supervisorName,
 							status : task.val().status,
 							taskType : task.val().taskType,
-							to : task.val().to,
+							to : taskTo,
 							profilePic:accountName.val().profilePic
 						});
-					
+						});
 					})
-					
 				});
-				
-			  });
-		
-        });
-	
+			});
+		});
 	return data.taskAssignedList;
-  
   };
   
-  
+  this.getMyTaskAssignedList = function() {
+		data.myTaskAssignedList=[];
+		firebase.database().ref('accounts/' + $localStorage.accountId+'/assignedTask').once('value', function(account) {
+			account.forEach(function(childSnapshot) {
+				var childData = childSnapshot.val();
+				firebase.database().ref('task/'+childData).once('value', function(task) {
+					var supervisorName;
+					var taskTo;
+					firebase.database().ref('accounts/' + $localStorage.accountId).once('value', function(accountName) {
+						supervisorName=accountName.val().username;
+						firebase.database().ref('accounts/' + task.val().to).once('value', function(accountName1) {
+						taskTo=accountName1.val().username;
+							data.myTaskAssignedList.push({
+							Location : task.val().Location,
+							taskKey:childData,
+							subject:task.val().subject,
+							description:task.val().description,
+							startTime:task.val().startTime,
+							endTime:task.val().endTime,
+							totalTime :task.val().totalTime,
+							startDate:task.val().startDate,
+							endDate:task.val().endDate,
+							dateCreated:$filter('date')(new Date(task.val().dateCreated), 'MMM dd'),
+							from : supervisorName,
+							status : task.val().status,
+							taskType : task.val().taskType,
+							to : taskTo,
+							profilePic:accountName.val().profilePic
+						});
+						});
+					})
+				});
+			});
+		});
+	return data.myTaskAssignedList;
+  };
   
 });

@@ -21,6 +21,12 @@ angular.module('App').controller('messagesController', function($scope, $state, 
   };
 
   
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
+  
+  
 
   $scope.$on('$ionicView.enter', function() {
     //Check if there's an authenticated user, if there is non, redirect to login.
@@ -83,9 +89,7 @@ angular.module('App').controller('messagesController', function($scope, $state, 
 	var isIOS = ionic.Platform.isIOS();
 	var isWindowsPhone = ionic.Platform.isWindowsPhone();
 	
-	console.log(isAndroid);
-	
-	if(isAndroid=='true' || isIOS=='true')
+	if(isWebView)
 	{	
 		FCMPlugin.getToken(
 		  function(token){

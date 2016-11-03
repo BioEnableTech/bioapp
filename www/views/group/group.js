@@ -10,6 +10,11 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
 	
   });
 
+ $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
+ 
  
   //Allow going back when back is selected.
   $scope.back = function() {
@@ -35,8 +40,12 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
 	  
       $scope.unreadGroupMessages = group.unreadMessages;
       for (var i = 0; i < $scope.messages.length; i++) {
-        $scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
-      }
+        
+		$scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
+		var username=Service.getProfileName($scope.messages[i].sender);
+		$scope.messages[i].senderName=username;
+		
+	  }
       $scope.scrollBottom();
       if ($localStorage.groupId) {
         //Update users read messages on Firebase.
@@ -67,17 +76,26 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
 
   //Send picture message, ask if the image source is gallery or camera.
   $scope.sendPictureMessage = function() {
-    var popup = Utils.confirm('ion-link', 'Photo Message: Do you want to take a photo or choose from your gallery?', 'ion-images', 'ion-camera');
-    popup.then(function(isCamera) {
-      var imageSource;
-      if (isCamera) {
-        imageSource = Camera.PictureSourceType.CAMERA;
-      } else {
-        imageSource = Camera.PictureSourceType.PHOTOLIBRARY;
-      }
-      //Show loading.
-      Utils.getPicture(imageSource);
-    });
+	 var isWebView = ionic.Platform.isWebView();
+	
+   if(isWebView)
+   { 
+		var popup = Utils.confirm('ion-link', 'Photo Message: Do you want to take a photo or choose from your gallery?', 'ion-images', 'ion-camera');
+		popup.then(function(isCamera) {
+		  var imageSource;
+		  if (isCamera) {
+			imageSource = Camera.PictureSourceType.CAMERA;
+		  } else {
+			imageSource = Camera.PictureSourceType.PHOTOLIBRARY;
+		  }
+		  //Show loading.
+		  Utils.getPicture(imageSource);
+		});
+   }
+   else{
+	   Utils.message(Popup.errorIcon,Popup.cordovaError);
+   }
+	
   };
 
   //Send text message.

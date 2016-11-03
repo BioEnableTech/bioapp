@@ -4,7 +4,20 @@
       </ion-header-bar>
       <ion-content >
 			
-                
+				<div class="list row">
+					<label class="item item-input col" >
+					  <span class="padding-left icon ion-clipboard positive"></span>
+					  <span class="padding-left" ng-model="subject">{{subject}}</span>
+					</label>
+				</div>
+				<div class="list row">
+					<label class="item item-input col" >
+					  <span class="padding-left icon ion-clipboard positive"></span>
+					  <span class="padding-left" ng-model="description">{{description}}</span>
+					</label>
+				</div>
+				
+				
 				<div class="list row" >
 				   <label class="item item-input col-50" >
 					  <span class="icon ion-person-add positive"></span>
@@ -34,7 +47,7 @@
 					  <span class="padding-left" ng-model="startDate">{{startDate}}</span>
 					</label>
 					<label class="item item-input col-50" >
-					  <span class="icon ion-ios-clock positive"></span>
+					  <span class="icon ion-ios-clock-outline positive"></span>
 					  <span class="padding-left" ng-model="startTime" name="times">{{startTime}}</span>
 					</label>
 				</div>
@@ -44,11 +57,16 @@
 					  <span class="padding-left" ng-model="endDate">{{endDate}}</span>
 					</label>
 					<label class="item item-input col-50" >
-					  <span class="icon ion-ios-clock positive"></span>
+					  <span class="icon ion-ios-clock-outline positive"></span>
 					  <span class="padding-left" ng-model="endTime" name="times">{{endTime}}</span>
 					</label>
 				</div>
-                
+                <div ng-if="totalTime!='0'" class="list row">
+					<label class="item item-input col-50" >
+					  <span class="icon ion-ios-timer positive"></span>
+					  <span class="padding-left" ng-model="totalTime">{{totalTime}}</span>
+					</label>
+				</div>
             
 				
 		<button class="button button-block button-positive" ng-click="closeModal()">

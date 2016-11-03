@@ -58,7 +58,8 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova','ion-
     manyRequests: "Sorry, but we\'re still proccessing your previous login. Please try again later.",
     uploadImageError: "Sorry, but we\'ve encountered an error uploading your image. Please try again later.",
 	 uploadImageError: "Sorry, we\'ve encountered an error uploading your image to Firebase. Try again later.",
-	productAddSuccess: "Congratulations! Your product has been successfully added.",
+	cordovaError: "This feature work in device only",
+	 productAddSuccess: "Congratulations! Your product has been successfully added.",
     productEditSuccess: "Congratulations! Your product has been successfully updated."
   })
   .config(function($stateProvider, $urlRouterProvider) {

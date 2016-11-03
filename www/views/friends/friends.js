@@ -21,6 +21,11 @@ angular.module('App').controller('friendsController', function($scope, $state, $
     $state.go(stateTo);
   };
 
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
+  
   $scope.$on('$ionicView.enter', function() {
     //Set mode to friends tab.
     $scope.mode = 'Friends';

@@ -9,6 +9,11 @@ angular.module('App').controller('groupsController', function($scope, $state, $l
       event.preventDefault();
     }
   });
+  
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
 
   //Allow changing to other views when tabs is selected.
   $scope.changeTab = function(stateTo) {

@@ -8,10 +8,13 @@
     <ol class="messages padding-top10">
       <li class="{{message.class}} margin-left10 margin-right10" ng-repeat="message in messages">
         <div class="avatar">
-          <img ng-src="{{message.profilePic}}">
+		
+        <img ng-src="{{message.profilePic}}">
         </div>
+		
         <div class="msg" ng-if="message.type == 'text'">
-          <p>{{message.message}}</p>
+          <span class="button-clear button-positive">{{message.senderName}}  </span>
+		  <p>{{message.message}}</p>
           <time>
             <i class="icon ion-clock"></i> {{message.time}}
           </time>

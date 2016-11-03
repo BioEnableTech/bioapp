@@ -10,6 +10,11 @@ angular.module('App').controller('groupDetailsController', function($scope, $sta
     }
   });
 
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
+  
   //Allow going back when back is selected.
   $scope.back = function() {
     $scope.canChangeView = true;

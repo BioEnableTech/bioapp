@@ -17,6 +17,11 @@ angular.module('App').controller('messageController', function($scope, $state, $
     // $ionicHistory.goBack();
     $state.go('messages');
   };
+  
+  $scope.exit=function()
+  {
+	  ionic.Platform.exitApp();
+  }
 
   $scope.$on('$ionicView.enter', function() {
     //Disable scroll to correctly orient the keyboard input for iOS.
@@ -79,17 +84,29 @@ angular.module('App').controller('messageController', function($scope, $state, $
 
   //Send picture message, ask if the image source is gallery or camera.
   $scope.sendPictureMessage = function() {
-    var popup = Utils.confirm('ion-link', 'Photo Message: Do you want to take a photo or choose from your gallery?', 'ion-images', 'ion-camera');
-    popup.then(function(isCamera) {
-      var imageSource;
-      if (isCamera) {
-        imageSource = Camera.PictureSourceType.CAMERA;
-      } else {
-        imageSource = Camera.PictureSourceType.PHOTOLIBRARY;
-      }
-      //Show loading.
-      Utils.getPicture(imageSource);
-    });
+	  
+	var isWebView = ionic.Platform.isWebView();
+	
+   if(isWebView)
+   {	  
+		var popup = Utils.confirm('ion-link', 'Photo Message: Do you want to take a photo or choose from your gallery?', 'ion-images', 'ion-camera');
+		popup.then(function(isCamera) {
+		  var imageSource;
+		  if (isCamera) {
+			imageSource = Camera.PictureSourceType.CAMERA;
+		  } else {
+			imageSource = Camera.PictureSourceType.PHOTOLIBRARY;
+		  }
+		  //Show loading.
+		  Utils.getPicture(imageSource);
+		});
+   }
+   else
+   {
+	   Utils.message(Popup.errorIcon,Popup.cordovaError);
+   }
+	
+	
   };
 
   //Send text message.

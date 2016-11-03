@@ -7,19 +7,21 @@
   </ion-header-bar>
     <ion-content style="padding-top:50px;" class="padding">
         <div>
-                <div class="list row" >
+                <div >
 					<div class="item item-input item-select row" sub-header-class="bar-positive">
                         <div class="col col-50">
-                            <i class="icon ion-person-add positive" ></i><label class="foo" > Employee</label>
+                            
+							<i class="icon ion-person-add positive" ></i><label class="foo" > Employee</label>
 							<select ng-model="user.employee">
-								<option ng-repeat="message in conversations | orderBy: 'lastActiveDate':true | messageFilter: conversationSearch" value="{{message.friend.name}}">{{message.friend.name}}</option>
+								<option value="Self">Self</option>
+								<option ng-repeat="message in employees" value="{{message.id}}">{{message.name}}</option>
 							</select>
 							
 						</div>
 
                     </div>
                 </div>
-                <div class="list row" >
+                <div >
                     <div class="item item-input item-select row"  modal-select="" ng-model="someSetModel2" options="selectableNames2" option-property="name" has-search="true" sub-header-class="bar-positive">
                         <div class="col col-50">
                             <i class="icon ion-android-locate positive" ></i> <label class="foo" id="loc1" > Location</label>
@@ -33,7 +35,7 @@
 
                     </div>
                 </div>
-                <div class="list row" >
+                <div >
                     <div  class="item item-input item-select row" modal-select="" ng-model="someSetModel3" options="selectableNames3" option-property="name" has-search="true" sub-header-class="bar-positive">
                         <div class="col col-50">
                             <i class="icon ion-android-bulb positive" ></i> <label id="task1" class="foo" > Type</label> 
@@ -44,9 +46,26 @@
 								<option>EFG</option>
 							</select>
                         </div>
-
                     </div>
                 </div>
+				
+				<div >
+                    <div  class="item item-input row">
+                        <div class="col">
+                            <input type="text" ng-model="user.subject" placeholder="Subject">
+                        </div>
+                    </div>
+                </div>
+				
+				<div >
+                    <div  class="item item-input row">
+                        <div class="col">
+                            <textarea rows="4" ng-model="user.description" cols="50">Description</textarea>
+                        </div>
+                    </div>
+                </div>
+				
+				
                 <!-- old code 
 				<div class="list row">
 					<label class="item item-input col-50">
@@ -73,24 +92,24 @@
 				
 				
 
-                <div class="list row">
+                <div class="row">
 					<label class="item item-input col-50" ion-datetime-picker date ng-model="datetimeValue1">
 					  <span class="icon ion-ios-calendar positive"></span>
-					  <strong class="padding-left" ng-model="inDate">{{datetimeValue1| date: "yyyy-MM-dd"}}</strong>
+					  <strong class="padding-left" ng-model="inDate">{{ datetimeValue1 | date: "yyyy-MM-dd"}}</strong>
 					</label>
 					<label class="item item-input col-50"  ion-datetime-picker time am-pm ng-model="timeValue1">
-					  <span class="icon ion-ios-clock positive"></span>
+					  <span class="icon ion-ios-clock-outline positive"></span>
 					  <strong class="padding-left" ng-model="inTime" name="times">{{timeValue1| date: "H:mm a"}}</strong>
 					</label>
 				</div>
 		  
-				  <div class="list row">
+				  <div class="row">
 					<label class="item item-input col-50" ion-datetime-picker date ng-model="datetimeValue2">
 					  <span class="icon ion-ios-calendar positive"></span>
 					  <strong class="padding-left" ng-model="outDate">{{datetimeValue2| date: "yyyy-MM-dd"}}</strong>
 					</label>
 					<label class="item item-input col-50"  ion-datetime-picker time am-pm ng-model="timeValue">
-					  <span class="icon ion-ios-clock positive"></span>
+					  <span class="icon ion-ios-clock-outline positive"></span>
 					  <strong class="padding-left" ng-model="outTime" name="times">{{timeValue | date: "H:mm a"}}</strong>
 					</label>
 					
