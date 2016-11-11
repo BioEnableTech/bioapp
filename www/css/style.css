@@ -418,7 +418,7 @@ h4 a {
   max-width: 100%;
 }
 .messages .other .msg, .messages .self .msg {
-  margin-left: 10px;
+  margin-left: 70px;
 }
 .messages .other .msg p, .messages .self .msg p {
   background: #004d99;
@@ -458,11 +458,33 @@ h4 a {
 }
 .messages .other .avatar {
   order: 2;
+  right:10px;
 }
 .messages .other .msg {
   margin-left: inherit;
-  margin-right: 10px;
+  margin-right: 70px;
 }
+
+
+
+.messages  .self .msgDate {
+  position: relative;
+    left: 65px;
+    top: -85px;
+}
+
+.messages .other .msgDate {
+  position: relative;
+    right: 65px;
+    top: -85px;
+}
+
+
+
+
+
+
+
 .messages .other .msg p {
   background: #e8e8e8;
   color: #6f6f6f;

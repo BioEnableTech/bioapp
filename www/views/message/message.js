@@ -41,8 +41,34 @@ angular.module('App').controller('messageController', function($scope, $state, $
         $scope.conversationId = $scope.conversation.id;
         $scope.messages = $scope.conversation.messages;
         $scope.unreadMessages = $scope.conversation.unreadMessages;
-        for (var i = 0; i < $scope.messages.length; i++) {
-          $scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
+        
+		var temp=0;
+		
+		for (var i = 0; i < $scope.messages.length; i++) 
+		{
+          
+		  $scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
+		  
+		  if(temp==0)
+		  {
+			temp=$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd");
+			$scope.messages[i].myDate=$scope.messages[i].rawDate;  
+		  } 
+			
+			if(temp==$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd"))
+			{
+				if(temp==0)
+				{
+					$scope.messages[i].myDate="A";
+				}
+				
+			}
+			else
+			{
+				$scope.messages[i].myDate=$scope.messages[i].rawDate;
+				temp=$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd");
+			}
+		  
         }
       }
       $scope.scrollBottom();
@@ -55,6 +81,7 @@ angular.module('App').controller('messageController', function($scope, $state, $
     $scope.updateMessagesRead();
     //Disable canChangeView to disable automatically restating to messages route whenever Firebase Watcher calls are triggered.
     $scope.canChangeView = false;
+	
   });
 
   //Broadcast from our Watcher that tells us that a new message has been added to the conversation.
@@ -151,7 +178,14 @@ angular.module('App').controller('messageController', function($scope, $state, $
           if (type == 'text') {
 			    var ref = firebase.database().ref('accounts/' + $localStorage.friendId).child('tokenID');
 				ref.once('value', function(accountID){
-					Service.sendNotification(message, "New Message",accountID.val());
+					var isWebView = ionic.Platform.isWebView();
+					if(isWebView)
+					{
+						var ref = firebase.database().ref('accounts/' + $localStorage.accountId).child('name');
+						ref.once('value', function(friendName){
+								Service.sendNotification(message, friendName.val(),accountID.val());
+						});
+					}
 				});
 			messages.push({
               sender: $localStorage.accountId,

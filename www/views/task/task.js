@@ -229,7 +229,19 @@ function formatDate(dateVal)
 	}
 	
 	
+	$scope.$watch('searchText',function(value){
+    console.log(value);
+  })
+	
+	
 })
+
+
+  
+  
+  
+  
+
 .directive('countdown', [
     'Util', '$interval', function(Util, $interval) {
       return {

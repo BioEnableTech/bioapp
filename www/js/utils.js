@@ -3,7 +3,7 @@ angular.module('App').factory('Utils', function($ionicLoading, $timeout, Popup, 
   var Utils = {
     show: function() {
       $ionicLoading.show({
-        template: '<ion-spinner icon="ripple"></ion-spinner>'
+        template: '<ion-spinner icon="android"></ion-spinner>'
       });
     },
     hide: function() {

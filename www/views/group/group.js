@@ -135,7 +135,16 @@ angular.module('App').controller('groupController', function($scope, $state, $lo
 							cnt++;
 							if(accountID.val()!=null)
 							{
-								Service.sendNotification(message, "New Message",accountID.val());	
+								ref = firebase.database().ref('groups/'+$scope.groupId).child('name');
+								ref.once('value', function(groupName){
+								
+								
+								var isWebView = ionic.Platform.isWebView();
+									if(isWebView)
+									{	Service.sendNotification(message, groupName.val(),accountID.val());	}
+								
+								
+								});
 							}
 						});
 					}

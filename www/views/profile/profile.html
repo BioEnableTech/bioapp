@@ -37,29 +37,29 @@
         </div>
       </div>
     </div>
-    <div class="button-bar">
+    <div class="row">
       <button class="button button-block button-balanced profile-button" ng-click="changeTab('messages', 0)"><i class="icon ion-chatbox"></i>&nbsp;&nbsp;<b>Messages</b></button>
       <button class="button button-block button-positive profile-button" ng-click="changeTab('groups', 1)"><i class="icon ion-chatboxes"></i>&nbsp;&nbsp;<b>Groups</b></button>
     </div>
-    <div class="button-bar">
+    <div class="row">
       <button class="button button-block button-assertive profile-button" ng-click="changeTab('friends', 2)"><i class="icon ion-ios-people"></i>&nbsp;&nbsp;<b>Friends</b></button>
       <button class="button button-block button-calm profile-button" ng-click="logout()"><i class="icon ion-log-out"></i>&nbsp;&nbsp;<b>Logout</b></button>
     </div>
 	
-	<!--<form action="http://gpsintegrated.com/bioapp/postTest.php" method="POST">-->
+	<!--<form action="http://gpsintegrated.com/bioapp/postTest.php" method="POST">
 	<form action="https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd" method="POST">
           <input  type="hidden" name="args" value="{{profile.empId}}">
-	
 	<button type="submit" class="button button-block button-positive" ng-click="save(user)" >
 		  Attendance
 		</button>
+	</form>-->
 	
-	</form>
 	
-	<!--<div class="button-bar">
+	<!--class="button-bar"-->
+	<div >
 	  <button class="button button-block button-assertive profile-button" ng-click="submitAttendance()"><i class="icon ion-arrow-swap"></i>&nbsp;&nbsp;<b>Attendance</b></button>
 	</div>
-	-->
+	
     </div>
   </ion-content>
   <div ng-include src="'views/tabs/tabs.html'"></div>

@@ -254,6 +254,7 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova','ion-
       }
     }
   })
+  
   //Disables the back button of Android from activating on the Home screen to return back to Login view. Pressing back on Home Screen now closes the app.
   .run(['$rootScope', '$ionicPlatform', '$state', '$ionicHistory',
     function($rootScope, $ionicPlatform, $state, $ionicHistory) {

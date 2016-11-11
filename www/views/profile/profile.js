@@ -143,13 +143,28 @@ angular.module('App').controller('profileController', function($scope, $state, $
   
   $scope.submitAttendance = function() {
 	
+	var empId;
+	firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
+		empId=snapshot.val();
+	});
 	
-	var empID={'args':3506};
+	var empID={args:empId};
+	
+	var jsonstring = JSON.stringify(empID);
+	
 	Utils.show();
 	
+	 $http.post('https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd',jsonstring ).then(function (response) {
+		Utils.hide();
+		Utils.message(Popup.successIcon, "Attedance done");
+	 });
+	
+	/*
+	$http({method  : 'POST', url : 'http://gpsintegrated.com/bioapp/postTest.php?args=Super%20Hero', jsonstring , headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
 	//$http({method  : 'POST', url : 'https://api.particle.io/v1/devices/1f0039001747353236343033/led?access_token=e335ee16ec1cccd95c4df87f1651451bda84d5fd', data : empID, headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	 */
 	 
-	 $http({method  : 'POST', url : 'http://gpsintegrated.com/bioapp/postTest.php?args=Super%20Hero', data , headers : {'Content-Type': 'application/x-www-form-urlencoded'} 
+	 /*
 	 }).success(function(data) {
 		console.log(data);
 		if(data.connected) {
@@ -160,7 +175,6 @@ angular.module('App').controller('profileController', function($scope, $state, $
 		  Utils.message(Popup.successIcon, "Attedance failed");
 		}
 	  });
-	
 	
 	
 	/*

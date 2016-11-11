@@ -42,7 +42,7 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
 		var parameter = JSON.stringify({
 			  "notification":{
 				"title":""+title+"",  
-				"body":""+body+"",  
+				"body":"Message:"+body+"",  
 				"sound":"default", 
 				"click_action":"FCM_PLUGIN_ACTIVITY", 
 				"icon":"fcm_push_icon" , 
@@ -59,7 +59,7 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
 			data: parameter,
 			headers: {
 				"Content-Type": "application/json",
-				"Authorization": "key=AIzaSyAFheIveJy3cMK-0WUSEb_Z9D8GKi6Tk40"	}
+				"Authorization": "key=AIzaSyCBO-Jt_MfArm3K5qw2LXaova_0YTwnpAs"	}
 	
 			}).then(function mySucces(response) {
 				  console.log(response.data);

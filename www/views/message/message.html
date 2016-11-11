@@ -6,9 +6,11 @@
     <h1 class="title">{{conversationName}}</h1>
   </ion-header-bar>
   <ion-content ng-click="scrollBottom()" class="has-footer">
-    <ol class="messages padding-top10">
-      <li class="{{message.class}} margin-left10 margin-right10" ng-repeat="message in messages">
-        <div class="avatar">
+    
+	<div class="messages list">
+	  <div class=" {{message.class}} item  range-positive" ng-repeat="message in messages">
+		<div ng-model="temDate" class="">{{message.myDate | date}}</div>
+		<div class="avatar">
           <img ng-src="{{message.profilePic}}">
         </div>
         <div class="msg" ng-if="message.type == 'text'">
@@ -16,20 +18,47 @@
           <time>
             <i class="icon ion-clock"></i> {{message.time}}
           </time>
-        </div>
+		  
+	    </div>
         <div class="msg" ng-if="message.type == 'image'">
           <img ng-src='{{message.image}}' imageonload="scrollBottom()" alt='' ng-click="enlargeImage(message.image)"/>
           <time>
             <i class="icon ion-clock"></i> {{message.time}}
           </time>
+		  
+        </div>
+		
+	  </div>
+	</div>
+	
+	<!--
+	<ol class="messages padding-top10">
+	  <li class="{{message.class}} margin-left10 margin-right10" ng-repeat="message in messages">
+    	<div class="avatar">
+          <img ng-src="{{message.profilePic}}">
+        </div>
+        <div class="msg" ng-if="message.type == 'text'">
+          <p>{{message.message}}</p>
+          <time>
+            <i class="icon ion-clock"></i> {{message.time}}
+          </time>
+		  <div ng-model="temDate" class="msgDate">{{message.myDate | date}}</div>
+	    </div>
+        <div class="msg" ng-if="message.type == 'image'">
+          <img ng-src='{{message.image}}' imageonload="scrollBottom()" alt='' ng-click="enlargeImage(message.image)"/>
+          <time>
+            <i class="icon ion-clock"></i> {{message.time}}
+          </time>
+		  <div ng-model="temDate" class="msgDate">{{message.myDate | date}}</div>
         </div>
       </li>
     </ol>
+	-->
   </ion-content>
   <form ng-submit="sendTextMessage()">
   <ion-footer-bar keyboard-attach class="item-input-inset bar-light" ng-click="scrollBottom()">
     
-	<a class="button button-icon icon ion-camera positive" ng-click="sendPictureMessage()"></a>
+	<a class="button-icon icon ion-camera positive" ng-click="sendPictureMessage()"></a>
     <label class="item-input-wrapper">
       <input type="text" placeholder="Type your message" ng-model="message" />
     </label>
