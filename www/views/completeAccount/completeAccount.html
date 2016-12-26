@@ -22,6 +22,14 @@
           <span class="input-label font-bold">Employee Id</span>
           <input name="empId" type="text" ng-model="user.empId" placeholder="Employee Id" ng-minlength="4" ng-maxlength="4" required>
         </label>
+		<label class="item item-input item-clear">
+          <span class="input-label font-bold">Supervisor</span>
+		  <select name="supervisor" ng-model="user.supervisor" placeholder="Select supervisor" required>
+			<option value="" selected>Select supervisor</option>
+			<option ng-repeat="emp in employeesList" value="{{emp.id}}">{{emp.userName}}</option>
+		  </select>
+        </label>
+		
       </div>
     </form>
     <div class="button-bar margin-top-10">

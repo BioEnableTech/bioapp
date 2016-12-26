@@ -1,0 +1,19 @@
+<ion-view title="Flash Light">
+    <ion-content id="flash-light-content" scroll="false">
+        <div class="row">
+            <div id="flash-light-icon" class="col">
+                <i ng-class="{'flash-light-color' : isTurnOn}" class="fa fa-diamond center-screen icon-flash-light"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="flash-light-control" class="col">
+                <p>Devise Flash Light</p>
+                <a ng-class="{'md-warn' : isTurnOn}" class="md-raised md-primary md-button md-default-theme"
+                   ng-click="flashLight()">
+                    Turn {{isTurnOn == true ? 'OFF' : 'On'}}
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,58 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+		<div class="tabs" >
+		  <a class="tab-item active" style="color:white !important;" ng-click="changeMemu('logsReport')">
+			Logs
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('todayReport')">
+			Today
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('weeklyReport')">
+			Weekly
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('attendanceMonthly')">
+			Monthly
+		  </a>
+		</div>
+	</div>
+	<ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+	<h1 class="title">Report</h1>
+ </ion-header-bar>
+	
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+		<br><br>  	
+		<ion-list class="disable-user-behavior"><div class="list">
+			<div ng-repeat="group in LogsData1 | reverse">
+			  <ion-item class="item-stable item ng-binding" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+				<i class="icon ion-arrow-down-b" ng-class="isGroupShown(group) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+				&nbsp;
+				{{group.date }} &nbsp;   <span class="badge">{{group.items.length}}</span> {{group.totalHours}}
+			  </ion-item>
+			  <ion-item class="item-accordion item ng-binding ng-hide" style="padding: 0px;min-height:0px;" ng-repeat="item in group.items" ng-show="isGroupShown(group)">
+				<div class="row">
+				  <div class="col col-10 col-offset-10">
+					<span ng-if="item.logType=='In'" class="ion-arrow-right-c"></span>
+					<span ng-if="item.logType=='Out'" class="ion-arrow-left-c"></span>
+					</div>
+				  <div class="col col-30 col-offset-30">{{item.logTime}} <!--{{item.logType}} -->
+					<span ng-if="item.logStatus=='invalid'" class="badge">Invalid</span>
+					<span ng-if="item.logStatus=='approved'" class="badge badge-balanced">Approved</span>
+					</div>
+				</div>
+			  </ion-item>
+			</div>
+		</ion-list>
+		
+	</ion-content>
+	<div ng-include src="'views/tabs/tabsReport.html'"></div>
+	<!--&nbsp; Total Logs({{group.items.length}}) Location : {{group.logLocation}}-->
+	
+</ion-view>
+
+
+
+		
+		
+		
+         

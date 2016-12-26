@@ -1,6 +1,8 @@
 <ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false">
   <ion-header-bar align-title="center" class="bar-positive">
-    <button class="button button-clear" ng-click="cancel()" ng-if="mode == 'Compose'">Cancel</button>
+    
+	<button class="button button-clear button-icon ion-navicon" ng-if="mode != 'Compose'" menu-toggle="left"></button>
+	<button class="button button-clear" ng-click="cancel()" ng-if="mode == 'Compose'">Cancel</button>
     <h1 class="title" ng-if="mode == 'Groups'">Groups</h1>
     <h1 class="title" ng-if="mode == 'Compose'">New Group</h1>
     <button class="button button-clear" ng-click="compose()" ng-if="mode == 'Groups'"><i class="icon ion-plus"></i></button>
@@ -95,3 +97,5 @@
   </ion-content>
   <div ng-include src="'views/tabs/tabs.html'"></div>
 </ion-view>
+
+

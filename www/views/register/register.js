@@ -2,7 +2,7 @@
 // This is the controller that handles the registration of the user through Firebase.
 // When the user is done registering, the user is automatically logged in.
 'Use Strict';
-angular.module('App').controller('registerController', function($scope, $state, $localStorage, Utils, Popup, $window) {
+angular.module('App').controller('registerController', function($scope, $state, Service, $localStorage, Utils, Popup, $window) {
   $scope.$on('$ionicView.enter', function() {
     //Clear the Registration Form.
     $scope.user = {
@@ -17,6 +17,10 @@ angular.module('App').controller('registerController', function($scope, $state, 
     $scope.profilePic = 'img/profile.png';
   });
 
+  
+  $scope.employeesList=Service.getAccountList();
+  
+  
   $scope.register = function(user) {
     //Check if form is filled up.
     if (angular.isDefined(user)) {
@@ -48,6 +52,7 @@ angular.module('App').controller('registerController', function($scope, $state, 
                     username: user.username,
                     profilePic: user.profilePic,
                     email: user.email,
+					supervisor : user.supervisor,
 					empId : employeeId,
                     userId: firebase.auth().currentUser.uid,
                     dateCreated: Date(),
@@ -55,9 +60,20 @@ angular.module('App').controller('registerController', function($scope, $state, 
                   }).then(function(response) {
                     //Account created successfully, logging user in automatically after a short delay.
                     Utils.message(Popup.successIcon, Popup.accountCreateSuccess)
-                      .then(function() {
-                        getAccountAndLogin(response.key);
-                      })
+							  .then(function() {
+						userKey=response.key;
+						var jsonstring={"userKey":userKey,"empId":employeeId};
+						getAccountAndLogin(response.key);
+						
+							firebase.database().ref('accounts/'+user.supervisor).once('value', function(account1) {
+							  var taskArr = account1.val().userList;
+							  if (!taskArr) {	taskArr = [];	}
+							  taskArr.push(jsonstring);
+							  firebase.database().ref('accounts/'+user.supervisor).update({
+								userList: taskArr
+							  });
+							});
+					  })
                       .catch(function() {
                         //User closed the prompt, proceed immediately to login.
                         getAccountAndLogin(response.key);

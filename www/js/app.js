@@ -19,9 +19,14 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova','ion-
 	$rootScope.timeValue1 = new Date();
 	$rootScope.timeValue1.setHours ( $rootScope.timeValue1.getHours() + 4 );
     $rootScope.datetimeValue = new Date();
+	
+	$rootScope.mdatetimeValue1=new Date();
+	//$rootScope.mtimeValue1=new Date();
+	//$rootScope.mtimeValue=new Date();
+	
+	
+	
 })
-
-
 
 .constant('Social', {
     facebookAppId: "311446895879250",
@@ -134,7 +139,51 @@ angular.module('App', ['ionic', 'ngStorage', 'ngCordovaOauth', 'ngCordova','ion-
         templateUrl: 'views/task/task.html',
         controller: 'taskController'
       })
-	  
+	  .state('attendanceLogs', {
+        url: '/attendanceLogs',
+        templateUrl: 'views/attendanceLogs/attendanceLogs.html',
+        controller: 'attendanceLogsController'
+      })
+	  .state('attendanceMonthly', {
+        url: '/attendanceMonthly',
+        templateUrl: 'views/attendanceMonthly/attendanceMonthly.html',
+        controller: 'attendanceMonthlyController'
+      })
+	  .state('supervisor', {
+        url: '/supervisor',
+        templateUrl: 'views/supervisor/supervisor.html',
+        controller: 'supervisorController'
+      })
+	  .state('leaveApplication', {
+        url: '/leaveApplication',
+        templateUrl: 'views/leaveApplication/leaveApplication.html',
+        controller: 'leaveApplicationController'
+      })
+	  .state('manualLogs', {
+        url: '/manualLogs',
+        templateUrl: 'views/manualLogs/manualLogs.html',
+        controller: 'manualLogsController'
+      })
+	  .state('appliedLeave', {
+        url: '/appliedLeave',
+        templateUrl: 'views/appliedLeave/appliedLeave.html',
+        controller: 'appliedLeaveController'
+      })
+	  .state('logsReport', {
+        url: '/logsReport',
+        templateUrl: 'views/logsReport/logsReport.html',
+        controller: 'logsReportController'
+      })
+	  .state('weeklyReport', {
+        url: '/weeklyReport',
+        templateUrl: 'views/weeklyReport/weeklyReport.html',
+        controller: 'weeklyReportController'
+      })
+	  .state('todayReport', {
+        url: '/todayReport',
+        templateUrl: 'views/todayReport/todayReport.html',
+        controller: 'todayReportController'
+      })
 	  .state('addPage', {
         url: '/addPage',
         templateUrl: 'views/addPage/addPage.html',

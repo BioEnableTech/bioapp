@@ -1,0 +1,22 @@
+<ion-view view-title="Friend List">
+    <ion-nav-buttons side="left">
+        <a ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item nav-back-btn">
+            <i class="ion-android-arrow-back"></i>
+        </a>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()">
+        </ion-refresher>
+        <md-list class="md-list-padding-left">
+            <md-list-item ng-repeat="item in friendsList">
+                <img alt="{{item.name}}" ng-src="{{ item.picture.data.url }}" class="md-avatar"/>
+
+                <p>{{ item.name }}</p>
+            </md-list-item>
+        </md-list>
+
+        <ion-infinite-scroll ng-if="!paging.shouldLoadData" on-infinite="loadMore()" distance="1%">
+        </ion-infinite-scroll>
+    </ion-content>
+</ion-view>

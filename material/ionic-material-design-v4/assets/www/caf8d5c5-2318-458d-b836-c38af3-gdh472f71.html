@@ -1,0 +1,31 @@
+<ion-view title="Single Push Notification">
+    <ion-content id="push-notification">
+            <form>
+                <div>
+                    <i class="fa fa-sign-in fa-rotate-90 md-primary-color"></i>
+                </div>
+                <div class="sub-header">Single Push Notification</div>
+                <br/>
+            </form>
+
+            <div class="notification-option">
+
+                <md-input-container md-no-float="">
+                    <input ng-model="notificationMessage" placeholder="Notification Message Here.">
+                </md-input-container>
+                <a class="md-raised social-button md-button md-default-theme material-background"
+                   ng-click="singlePush(notificationMessage)">
+                    Send Push Notification
+                </a>
+                <br/>
+                <a class="md-raised social-button md-button md-default-theme material-background"
+                   ng-click="clearAllNotification()">
+                    Clear All Push Notification
+                </a>
+
+                <div class="footer">
+                    Push Notification will show at <br/> Notification center of your devise.
+                </div>
+            </div>
+    </ion-content>
+</ion-view>

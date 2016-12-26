@@ -1,0 +1,19 @@
+<ion-view title="Vibration">
+    <ion-content  scroll="false">
+
+        <div class="row">
+            <div id="vibration-icon" class="col">
+                <i ng-class="{'vibration-sad-color' : vibrateing}"
+                   class="ion-android-happy center-screen icon-vibration"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div id="vibration-control" class="col">
+                <p>Devise Vibration</p>
+                <a class="md-raised md-warn md-button md-default-theme" ng-click="vibrate()">
+                    Vibrate
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

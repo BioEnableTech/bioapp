@@ -1,0 +1,61 @@
+<ion-view view-title="">
+    <md-toolbar class="md-tall md-primary toolbar-with-image">
+        <div>
+            <h1>Contract Us</h1>
+
+            <h2>We love Material Design</h2>
+        </div>
+    </md-toolbar>
+
+    <a class="md-button md-accent md-fab fab-toolbar-medium"
+       ng-click="callTo(contractInfo.telephone)"
+       aria-label="Add">
+        <i class="ion-android-call"></i>
+    </a>
+
+    <ion-content id="contract-us-content">
+        <div class="row header">
+            <div class="col">
+                Contact Our Team:
+            </div>
+
+        </div>
+
+        <div class="row content">
+            <div class="col-75">
+                {{contractInfo.email}}
+            </div>
+            <div class="col-25">
+                <i class="ion-android-mail" ng-click="sentEmail(contractInfo.email)"></i>
+            </div>
+        </div>
+
+        <div class="row content">
+            <div class="col-75">
+                {{contractInfo.telephone}}
+            </div>
+            <div class="col-25">
+                <i class="ion-android-textsms" ng-click="sentSms(contractInfo.telephone)"></i>
+            </div>
+        </div>
+
+        <div class="row header">
+            <div class="col">
+                Address:
+            </div>
+        </div>
+        <div class="row content">
+            <div class="col-90">
+                99 Sukhumvit Road
+                <br/>
+                Bangkok Thailand
+            </div>
+
+        </div>
+        <div class="row content">
+            <div class="col-90">
+                Please contract us if you have any questions.
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

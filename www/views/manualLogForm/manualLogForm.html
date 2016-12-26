@@ -1,0 +1,29 @@
+<ion-modal-view >
+      <ion-header-bar class="bar-positive">
+        <h1 class="title">Add Manual Log</h1>
+      </ion-header-bar>
+      <ion-content style="padding-top:50px;" scroll="true" class="padding" >
+			
+				<div class="row">
+					<label class="item item-input col-50"  ion-datetime-picker date time am-pm ng-model="user1.mtimeValue1">
+					  <span class="icon ion-ios-clock-outline positive"></span>
+					  <strong class="padding-left"  name="times">{{user1.mtimeValue1 | date: "d-M-y h:mm a"}}</strong>
+					</label>
+					
+					<label class="item item-input col-50"  ion-datetime-picker date time am-pm ng-model="user1.mtimeValue">
+					  <span class="icon ion-ios-clock-outline positive"></span>
+					  <strong class="padding-left"  name="times">{{user1.mtimeValue | date: "d-M-y h:mm a"}}</strong>
+					</label>
+				</div>
+				
+        <button class="button button-block button-positive" ng-click="newLogs(user1)">
+		  Save
+		</button>
+		
+		<button class="button button-block button-positive" ng-click="closeModal()">
+		  Close
+		</button>
+		
+      </ion-content>
+</ion-modal-view>
+  

@@ -1,0 +1,64 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<ion-header-bar align-title="center" class="bar-positive">
+    <!--<div class="buttons">
+      <button class="button button-clear" ng-click="back()">Back</button>
+    </div>-->
+	<button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+	<h1 class="title">Leave Application</h1>
+  </ion-header-bar>
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+        <div>
+                <div >
+					<div class="item item-input row" sub-header-class="bar-positive">
+                        <div class="col col-50">
+                    		<i class="icon ion-person-add positive" ></i><label class="foo padding-left" >{{employeeName}}</label>
+						</div>
+					</div>
+                </div>
+                
+                <div >
+                    <div  class="item item-input item-select row" modal-select="" ng-model="someSetModel3" options="selectableNames3" option-property="name" has-search="true" sub-header-class="bar-positive">
+                        <div class="col col-50">
+                            <i class="icon ion-android-bulb positive" ></i> <label id="task1" class="foo" > Priority</label> 
+							<select ng-model="leave.taskType">
+								<option selected>Normal</option>
+								<option>Important</option>
+								<option>Critical</option>
+							</select>
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+					<label class="item item-input col-50" ion-datetime-picker date ng-model="datetimeValue1">
+					  From <span class="icon ion-ios-calendar positive padding-left"></span>
+					  <strong class="padding-left" ng-model="inDate">{{ datetimeValue1 | date: "yyyy-MM-dd"}}</strong>
+					</label>
+					<label class="item item-input col-50" ion-datetime-picker date ng-model="datetimeValue2">
+					  To <span class="icon ion-ios-calendar positive padding-left"></span>
+					  <strong class="padding-left" ng-model="outDate">{{datetimeValue2| date: "yyyy-MM-dd"}}</strong>
+					</label>
+				</div>
+				<div >
+                    <div  class="item item-input row">
+                        <div class="col">
+                            <input type="text" ng-model="leave.subject" placeholder="Subject">
+                        </div>
+                    </div>
+                </div>
+				<div >
+                    <div  class="item item-input row">
+                        <div class="col">
+                            <textarea rows="4" ng-model="leave.description" cols="50">Description</textarea>
+                        </div>
+                    </div>
+                </div>
+				<div class="row">
+					<button class="button button-block button-positive" ng-click="saveLeave(leave)" >
+					  Save
+					</button>
+					</div>
+            	</div>
+					
+    </ion-content>
+	
+</ion-view>

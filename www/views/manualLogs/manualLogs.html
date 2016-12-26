@@ -1,0 +1,48 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<ion-header-bar align-title="center" class="bar-positive">
+    <!--<button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>-->
+	<button class="button button-clear button-icon ion-arrow-left-c" ng-click="changeMemu('supervisor')"></button>
+	<h1 class="title">Manual Logs</h1>
+	
+  </ion-header-bar>
+  
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+		
+		<!--<div style="height: 0%;width:100%;min-width: 0px;min-height: 0px;" data-init="true" class="panel panel-inverse" data-sortable-id="index-3"> 	
+		<div class="panel-heading">
+				<h4 style="color:white !important;margin-top:10px;"> <i style="padding-right:10px;" class="fa fa-calendar-check-o"></i>Manual Logs</h4>
+		</div>
+		</div>-->
+		<div class="row">
+			<div class="col"><input type="text" ng-model="month" placeholder="Search Employee"></div>
+		</div>
+		
+		<div class="list">
+			<div ng-repeat="group in ManualLogsData | filterByMonth:month">
+			  <ion-item class="item-stable item ng-binding" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+				<i class="icon ion-arrow-down-b" ng-class="isGroupShown(group) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+				&nbsp;
+				{{group.userName}} 
+				<span ng-if="group.logStatus=='invalid'" class="badge ">&nbsp;&nbsp; <span class="icon ion-ios-calendar-outline"></span> &nbsp;&nbsp;&nbsp;{{group.date }}&nbsp;&nbsp;</span>
+			  </ion-item>
+			  
+			  <ion-item class="item-accordion item-button-right item ng-binding ng-hide" ng-repeat="item in group.items" ng-show="isGroupShown(group)">
+				{{item.logTime}} 
+				<button class="button button-clear button-balanced" ng-click="updateLogs(group.date,item,group.empId1)">
+					  <i class="icon ion-checkmark-circled"></i>
+				</button>
+			  </ion-item>
+			  </div>
+			</div>
+		
+	</ion-content>
+	<!--<div ng-include src="'views/tabs/tabs.html'">   | reverse  </div>-->
+	
+</ion-view>
+
+
+
+		
+		
+		
+         

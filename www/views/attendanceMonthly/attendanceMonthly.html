@@ -1,0 +1,216 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" ng-controller="attendanceMonthlyController">
+	<div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+		<div class="tabs" >
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('logsReport')">
+			Logs
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('todayReport')">
+			Today
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('weeklyReport')">
+			Weekly
+		  </a>
+		  <a class="tab-item active" style="color:white !important;" ng-click="changeMemu('attendanceMonthly')">
+			Monthly
+		  </a>
+		</div>
+	</div>
+	<ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+	<h1 class="title">Report</h1>
+ </ion-header-bar>
+  
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+		<br><br>
+		
+
+		<div class="row" align="center">
+						
+					<!-- begin panel -->
+					<!-- end panel -->
+					<div style="height: 50%;width:100%;min-width: 330px;min-height: 320px;" data-init="true" class="panel panel-inverse" data-sortable-id="index-3">
+							<div class="panel-heading">
+									<h4 style="color:white !important;margin-top:10px;"> <i style="padding-right:10px;" class="fa fa-calendar-check-o"></i>{{month}} Attendance Summary</h4>
+							</div>
+							<div id="schedule-calendar" class="bootstrap-calendar">
+									<div class="calendar" id="cal_1mwf">
+											<center>
+											<table class="table header">
+													<tbody>
+															<tr></tr>
+													</tbody>
+													<tbody>
+															<tr>
+																	<td></td>
+																	<td colspan="5" class="year span6">
+																			<div class="visualmonthyear"><span>{{month}}</span><span>{{year}}</span></div>
+																	</td>
+																	<td></td>
+															</tr>
+													</tbody>
+											</table></center>
+											<table id="monthlyCalendar" style="width:100%" class="daysmonth table table">
+													<tbody>
+															<tr class="week_days"></tr>
+															<tr>
+																	<td style="height:40px; !important" class="cal_td ">S</td>
+																	<td style="height:40px; !important" class="cal_td ">M</td>
+																	<td style="height:40px; !important" class="cal_td ">T</td>
+																	<td style="height:40px; !important" class="cal_td ">W</td>
+																	<td style="height:40px; !important" class="cal_td ">T</td>
+																	<td style="height:40px; !important" class="cal_td ">F</td>
+																	<td style="height:40px; !important" class="cal_td ">S</td>
+															</tr>
+															<tr>
+																	<td class="cal_td_date"></td>
+																	<td class="cal_td_date"></td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextm">Holiday</span><span id="1" class="badge timeline-badge maroon">1</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextd">Absent</span><span id="2" class="badge timeline-badge danger">2</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="3" class="badge timeline-badge info">3</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="4" class="badge timeline-badge info">4</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="5" class="badge timeline-badge info">5</span><br>
+																	</td>
+															</tr>
+															<tr>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="6" class="badge timeline-badge pink">6</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="7" class="badge timeline-badge info">7</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="8" class="badge timeline-badge info">8</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="9" class="badge timeline-badge info">9</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="10" class="badge timeline-badge info">10</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="11" class="badge timeline-badge info">11</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="12" class="badge timeline-badge pink">12</span><br>
+																	</td>
+															</tr>
+															<tr>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="13" class="badge timeline-badge pink">13</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No Data</span><span id="14" class="badge timeline-badge inverse">14</span><br>	</td>
+																	
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="15" class="badge timeline-badge info">15</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="16" class="badge timeline-badge info">16</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptexti">Present</span><span id="17" class="badge timeline-badge info">17</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="18" class="badge timeline-badge inverse">18</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="19" class="badge timeline-badge inverse">19</span><br>
+																	</td>
+															</tr>
+															<tr>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="20" class="badge timeline-badge pink">20</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="21" class="badge timeline-badge inverse">21</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip">
+																		<span class="tooltiptextin">No Data</span>
+																		<span id="22" class="badge timeline-badge inverse">22</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="23" class="badge timeline-badge inverse">23</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="24" class="badge timeline-badge inverse">24</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="25" class="badge timeline-badge inverse">25</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="26" class="badge timeline-badge pink">26</span><br>
+																	</td>
+															</tr>
+															<tr>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextp">Week
+																					Off</span><span id="27" class="badge timeline-badge pink">27</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="28" class="badge timeline-badge inverse">28</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="29" class="badge timeline-badge inverse">29</span><br>
+																	</td>
+																	<td class="cal_td_date tooltip"><span class="tooltiptextin">No
+																					Data</span><span id="30" class="badge timeline-badge inverse">30</span><br>
+																	</td>
+															</tr>
+													</tbody>
+											</table>
+											<br>
+											<center><div class="row">
+													<table>
+															<tbody>
+																	<tr>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge inverse">No
+																									DATA </span> <span class="badge timeline-badge inverse tooltiptextin">No
+																									DATA </span> </div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge info">P</span> <span class="badge timeline-badge info tooltiptexti">Present</span> </div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge danger">A</span> <span class="badge timeline-badge danger tooltiptextd">Absent</span> </div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge success">L</span> <span class="badge timeline-badge success tooltiptexts">Leave</span> </div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge pink">WO</span><span class="badge timeline-badge pink tooltiptextp">Week
+																									Off</span></div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge purple">TR</span><span class="badge timeline-badge purple tooltiptextpu">Tour</span></div>
+																			</td>
+																			
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge maroon">H</span> <span class="badge timeline-badge maroon tooltiptextm">Holiday</span> </div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"> <span class="badge timeline-badge warning">CO</span><span class="badge timeline-badge warning tooltiptextw">Comp
+																									Off</span></div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge black">WFH</span> <span class="badge timeline-badge black tooltiptextb">WFH</span></div>
+																			</td>
+																			<td>
+																					<div class="cal_td_date tooltip"><span class="badge timeline-badge coral">TA</span><span class="badge timeline-badge coral tooltiptextc">Tardy</span></div>
+																			</td>
+																	</tr>
+																	<tr></tr>
+															</tbody>
+													</table>
+											</div></center>
+									</div>
+							</div>
+					</div>
+						
+				</div>
+					
+    </ion-content>
+	<!--<div ng-include src="'views/tabs/tabs.html'"></div>-->
+	
+</ion-view>
+
+
+
+		
+		
+		
+         

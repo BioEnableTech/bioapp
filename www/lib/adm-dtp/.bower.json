@@ -1,0 +1,45 @@
+{
+  "name": "adm-dtp",
+  "homepage": "https://github.com/AmirkabirDataMiners/ADM-dateTimePicker",
+  "authors": [
+    "ADM | Amirkabir Data Miners <info@adm-co.net>"
+  ],
+  "description": "Pure AngularJs Gregorian and Jalali smart dateTimePicker",
+  "main": [
+    "dist/ADM-dateTimePicker.min.js",
+    "dist/ADM-dateTimePicker.min.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "ADMdtp",
+    "angular",
+    "pure",
+    "gregorian",
+    "jalali",
+    "persian",
+    "datepicker",
+    "sass",
+    "amirkabirdataminers",
+    "adm"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "c41d027438",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c41d02743867530888d02e7cd542a693b2423f65"
+  },
+  "_source": "https://github.com/AmirkabirDataMiners/ADM-dateTimePicker.git",
+  "_target": "*",
+  "_originalSource": "adm-dtp",
+  "_direct": true
+}

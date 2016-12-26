@@ -1,0 +1,31 @@
+<ion-view title="Sign In">
+    <ion-nav-buttons side="left">
+        <a ng-click="$ionicGoBack()" class="button back-button buttons button-clear header-item nav-back-btn">
+            <i class="ion-android-arrow-back"></i>
+        </a>
+    </ion-nav-buttons>
+
+    <ion-content id="social-login" class="bg-white">
+        <form class="fakeLogin-form">
+            <div>
+                <img src="img/app_icon.png"/>
+            </div>
+            <div class="sub-header">Sign in to application</div>
+
+            <div id="fakeLogin">
+                <md-input-container md-no-float="">
+                    <input class="user-name" placeholder="Username">
+                </md-input-container>
+                <hr/>
+                <md-input-container md-no-float="">
+                    <input class="user-password" type="password" placeholder="Password">
+                </md-input-container>
+            </div>
+            <div>
+                <a class="md-raised social-button md-button md-default-theme material-background">
+                    Sign In
+                </a>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

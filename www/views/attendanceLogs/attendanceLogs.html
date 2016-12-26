@@ -1,0 +1,76 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+	<h1 class="title">Attendance</h1>
+	<button id="attendance" class="button button-clear"><i class="icon ion-ios-circle-filled"></i></button>
+  </ion-header-bar>
+  
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+		  
+		  <div class="card">
+			  <div class="row" >
+				  <div class="col"></div>
+					<center><h1 class="col">{{cuurentTime}} </h1>
+					<h5>{{cuurentDate}}</h5>
+					</center>
+				  <div class="col"></div>
+			  </div>
+			 <marquee behavior="alternate" ng-if="logDay!=''" >
+				<span style="font-size:10px">  Your Last logIn Was On {{logDay}}  {{logDate}} {{logMonth}} {{logYear}} ({{logTime}}) 
+				 {{logLocation}}</span>
+			  </marquee>
+		  </div>
+		
+		<div class="row" >
+			<div class="col"><button id="btnIn" class="button button-block button-positive" ng-click="submitAttendance('In')">IN</button></div>
+			<div class="col"><button id="btnOut" class="button button-block button-positive" ng-click="submitAttendance('Out')">OUT</button></div>
+		  </div>
+		  
+		  
+		    <!--<div class="card" ng-if="logDay!=''">
+			  <!--<div class="item item-divider">
+				Your Last logIn Was On
+			  </div>
+			  <marquee behavior="alternate" >
+				<span style="font-size:10px">  Your Last logIn Was On{{logDay}}  {{logDate}} {{logMonth}} {{logYear}} ({{logTime}}) 
+				 {{logLocation}}</span>
+			  </marquee>
+				 
+			</div>-->
+		  
+		  <div class="row" >
+			<div class="col"><button class="button button-block button-positive" ng-click="openModal()">
+			  Add Log
+			</button></div>
+		  </div>
+		  	
+		<!--
+		Logs display 
+		<ion-list class="disable-user-behavior"><div class="list">
+			<div ng-repeat="group in LogsData1 | reverse">
+			  <ion-item class="item-stable item ng-binding" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+				<i class="icon ion-arrow-down-b" ng-class="isGroupShown(group) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+				&nbsp;
+				{{group.date }} &nbsp;   <span class="badge">{{group.items.length}}</span> {{group.totalHours}}
+			  </ion-item>
+			  <ion-item class="item-accordion item ng-binding ng-hide" ng-repeat="item in group.items" ng-show="isGroupShown(group)">
+				{{item.logTime}}  
+				<span ng-if="item.logStatus=='invalid'" class="badge">Invalid</span>
+				<span ng-if="item.logStatus=='approved'" class="badge badge-balanced">Approved</span>
+			  </ion-item>
+			</div>
+		</ion-list>
+		-->
+		
+		
+	</ion-content>
+	<!--<div ng-include src="'views/tabs/tabs.html'">   | reverse  </div>-->
+	<!--&nbsp; Total Logs({{group.items.length}}) Location : {{group.logLocation}}-->
+</ion-view>
+
+
+
+		
+		
+		
+         

@@ -1,0 +1,65 @@
+<ion-view title="">
+
+    <ion-content scroll="false">
+        <md-toolbar class="bar-subheader md-tall md-primary toolbar-medium toolbar-in-content">
+            <div>
+                <h1>
+                    <i class="fa fa-info-circle"></i>
+                </h1>
+
+                <h3> Device Information </h3>
+            </div>
+        </md-toolbar>
+
+        <md-list id="device-information-content" class="fade-in">
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Platform :
+                </div>
+                <div class="col-50">
+                    {{deviceInformation.platform}}
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Model :
+                </div>
+                <div class="col-50">
+                    {{deviceInformation.model}}
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Version :
+                </div>
+                <div class="col-50">
+                    {{deviceInformation.version}}
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item class="row">
+                <div class="col-50 title">
+                    Manufacturer :
+                </div>
+                <div class="col-50">
+                    {{deviceInformation.manufacturer}}
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+            <md-list-item>
+                <div class="col">
+                    {{deviceInformation.uuid}}
+                </div>
+            </md-list-item>
+            <md-divider></md-divider>
+        </md-list>
+    </ion-content>
+
+    <div id="device-information-loading-progress" class="loading-progress fade-in">
+        <ion-spinner ng-if="!isAndroid" class="progress-circular"></ion-spinner>
+        <md-progress-circular ng-if="isAndroid" md-mode="indeterminate"></md-progress-circular>
+    </div>
+
+</ion-view>

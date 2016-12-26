@@ -2,17 +2,26 @@
 // This is the controller that handles the messages of the users.
 // Selecting on a message will open the conversation where the user can chat.
 'Use Strict';
-angular.module('App').controller('messagesController', function($scope, $state, $localStorage, Popup, Utils, $filter, Watchers, $timeout, $ionicPlatform, Service, $window, $stateParams, $ionicTabsDelegate, $ionicHistory) {
+angular.module('App').controller('messagesController', function($scope,$rootScope, $ionicSideMenuDelegate, $state, $localStorage, Popup, Utils, $filter, Watchers, $timeout, $ionicPlatform, Service, $window, $stateParams, $ionicTabsDelegate, $ionicHistory) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
-  $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+  /*$scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
 	
-  });
-
+  });*/
+  
+ 
+  
+ $rootScope.changeMemu = function(stateTo) {
+    //alert(stateTo);
+	$scope.changeTab(stateTo)
+ };
+  
+  
+  
   //Allow changing to other views when tabs is selected.
-  $scope.changeTab = function(stateTo) {
+  $rootScope.changeTab = function(stateTo) {
     $ionicHistory.nextViewOptions({
       disableAnimate: true
     });
@@ -73,7 +82,9 @@ angular.module('App').controller('messagesController', function($scope, $state, 
 
       $scope.friends = [];
       $scope.friends = Service.getFriendList();
-
+		
+		
+	  
       console.log("Attaching Watchers");
       Watchers.addUsersWatcher();
       Watchers.addProfileWatcher($localStorage.accountId);
@@ -82,6 +93,7 @@ angular.module('App').controller('messagesController', function($scope, $state, 
       Watchers.addFriendRequestsWatcher($localStorage.accountId);
       Watchers.addRequestsSentWatcher($localStorage.accountId);
       Watchers.addNewGroupWatcher($localStorage.accountId);
+	
     }
 	
 	var isWebView = ionic.Platform.isWebView();

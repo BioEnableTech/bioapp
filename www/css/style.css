@@ -376,11 +376,12 @@ h4 a {
   margin: 0;
   font-size: .875rem;
 }
+
+/*min-width: 60px !important;
+min-height: 60px !important;*/
 .messages img {
   display: block;
   border-radius: .75rem;
-  min-width: 60px !important;
-  min-height: 60px !important;
   object-fit: cover;
 }
 .messages {
@@ -477,6 +478,12 @@ h4 a {
   position: relative;
     right: 65px;
     top: -85px;
+}
+
+
+.messages .other .tikMark {
+  display:none;
+
 }
 
 

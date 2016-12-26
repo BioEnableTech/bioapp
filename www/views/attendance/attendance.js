@@ -2,15 +2,23 @@
 // This is the controller that handles the groups of the user.
 // Selecting a group will open the group chat.
 'Use Strict';
-angular.module('App').controller('attendanceController', function($scope, $http, $rootScope, $state, $localStorage, Utils, Popup, $timeout, Service, Watchers, $ionicTabsDelegate, $ionicHistory) {
+angular.module('App').controller('attendanceController', function($scope, $rootScope, $http, $ionicSideMenuDelegate, $rootScope, $state, $localStorage, Utils, Popup, $timeout, Service, Watchers, $ionicTabsDelegate, $ionicHistory) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
-  $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+  /*$scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
 	
-  });
+  });*/
 
+  
+  $rootScope.changeMemu = function(stateTo) {
+    //alert(stateTo);
+	$scope.changeTab(stateTo)
+ };
+  
+  
+  
   
   $scope.currentTime=new Date();
   
@@ -61,7 +69,7 @@ angular.module('App').controller('attendanceController', function($scope, $http,
   //$scope.currentTime=(new Date).toLocaleFormat("%A, %B %e, %Y");
   
   //Allow changing to other views when tabs is selected.
-  $scope.changeTab = function(stateTo) {
+  $rootScope.changeTab = function(stateTo) {
 	$ionicHistory.nextViewOptions({
       disableAnimate: true
     });

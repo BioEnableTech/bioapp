@@ -1,0 +1,5303 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: D1gqLFQxgz2notkMa8lt/rfzu3s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/toast/toast.html
+SHA1-Digest: orWf/M454mSPjzy+3x/35zbhDJE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/outro
+ .js
+SHA1-Digest: +NHlmW/TsHNLc7h3F6Z+EJ1RzeE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet.js
+SHA1-Digest: 5plsRNOJ6k0vMSecOwVNhqzCVTQ=
+
+Name: res/menu/select_action_menu.xml
+SHA1-Digest: DwohIaqiiahMTbWUpRTT52Bukzs=
+
+Name: assets/www/154ac94e-d4cc-4ccc-9565-d0c65d17f4d9.html
+SHA1-Digest: yUEAC72NO1NNHMaRnE99uYf/WI8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/fileOpener2.js
+SHA1-Digest: xHb9eplJRCO3iQp0C3atu47kf1A=
+
+Name: assets/www/5a6522a9-f5e3-4ee5-b510-14848dccc1ef.min.js
+SHA1-Digest: mZIfZdDIzYrzYhtDnymxC3Khs4U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/event
+ -alias.js
+SHA1-Digest: WNH0uipw8ROHvgEs7gUp470eoY8=
+
+Name: res/layout/dropdown_item.xml
+SHA1-Digest: P9Pcpg6j2yP4Wa113X65bIe+WhU=
+
+Name: res/drawable-hdpi-v4/loading_icon.png
+SHA1-Digest: kUKHt/M+Mlgxg1Wcg1LexII1FDY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/config
+ /karma.conf.js
+SHA1-Digest: GQLk78e+RPnVl+T2szdGiFfORt8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /traversing.js
+SHA1-Digest: SGhZSKEnS4fntnANBlTPeH2YKso=
+
+Name: assets/www/205bfa05-7a67-4b91-8c55-aae0dddfg-527f7.html
+SHA1-Digest: BDbtZEAU8phRPYThTPJpVJE/swI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip-default-theme.min.css
+SHA1-Digest: f2w48X4I26BRpwYxPcIvTOGaGSs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Italic/RobotoDraft-Italic.eot
+SHA1-Digest: uR0KrG3qFWftlPKQ/SeqVCGJCKg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /with_fries.xml
+SHA1-Digest: q4p7JeeEMaZ5TjbxTwxj98fsdZg=
+
+Name: assets/www/df85wer07f2-a4de-4b65-9688-777f71e6aac6.html
+SHA1-Digest: QE+aq4vIoYEb7AlLit0MIl+r+oA=
+
+Name: assets/www/5b27cbbb-b7dfca-4312-819e-ae5e8c940797.html
+SHA1-Digest: 31jOpHaFiW44CAMGRsfW7UoV4KM=
+
+Name: assets/www/lib/ionic/fonts/ionicons.svg
+SHA1-Digest: B9v0F3lgwTTIB3cO+w21ldNDl5w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select.min.css
+SHA1-Digest: ZxXEvIAJ0LmWCuu0HW3dAxJk+To=
+
+Name: assets/www/e09271ce-351a-4262-8eb9-96d7ed35d9e1.min.js
+SHA1-Digest: qVhcyWxjNRvMh0+0OHDCdtbRSB4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton-default-theme.min.css
+SHA1-Digest: 2C4P1904wWS3gYC3BomJPlNXbYs=
+
+Name: assets/www/7345f01a-506b-48c5-b62a-210c259aa36b.min.js
+SHA1-Digest: p61Cm4ywGkNJj3z5pw3RY1a9EXI=
+
+Name: res/drawable-xxxhdpi-v4/ic_menu_share_holo_light.png
+SHA1-Digest: C+DRtrIc5O54g/281fA0UZG9fPU=
+
+Name: res/anim/image_pop_in.xml
+SHA1-Digest: p/jDimcXGq9HLnS1n5cHFtxminE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/menu/menu.js
+SHA1-Digest: O7qpQumpl9q4vBw9jMhsgfL7Jio=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/fontawesome-webfont.svg
+SHA1-Digest: mhEj8VjRRIGkLKW8Tzi3eNnvXHo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /robotodraft.scss
+SHA1-Digest: mV6qq1gHUtUNliJRFAGMatDQDDI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /support/bodyBackground.html
+SHA1-Digest: l5fkSIRt/jZxkXdJuPeEeALzg/s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /evalScript.php
+SHA1-Digest: 5zic2CG3m9Z48RehuP5b1aoEOME=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b05.min.js
+SHA1-Digest: MJ831An437GTJke2rofLleZ7E5E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressLinear/progressLinear.js
+SHA1-Digest: M+gEF6CGkA9csAroFXtJ66g07ds=
+
+Name: assets/www/2c6f27df-c70f-432b-8a80-3c02169da9e2.html
+SHA1-Digest: fTSZ/5XNOAW0vvSfiWYpugzVGwY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-60.png
+SHA1-Digest: 7gpXsvc4mVsizhKoRebyfn6/dxk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressLinear/progressLinear.css
+SHA1-Digest: /j40QApEaEebwnzhy8h+ce/1buM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/toast.js
+SHA1-Digest: IZmpLOfKbQwhrCu/iD99Xu2uDf0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_modal.scss
+SHA1-Digest: GlNuXBo5ZtfbaFzuTgPgr1VSVlM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/fixed.html
+SHA1-Digest: 5OZtadKa7cklYPT1Dm2icedQDsw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /testinit.js
+SHA1-Digest: i3NlD/V3JN5PG+clpRa9CTLsvcA=
+
+Name: assets/www/9f9622dc-aecb-48b9-ac46-0aa0de392b2f.html
+SHA1-Digest: XuvnnBw2c4rb0mnT2WZmCJBquHs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/READ
+ ME.md
+SHA1-Digest: QWe1rIMrXFecBpwVp+mUuCdY8So=
+
+Name: assets/www/img/food_01.png
+SHA1-Digest: Kn1zZ7DrHSS26XDlTO0/0NGuzJ0=
+
+Name: assets/www/lib/ionic/fonts/ionicons.eot
+SHA1-Digest: DQ9yqCPdIE3LxZi52GEt4kCOrkA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/facebookConnectPlugin.js
+SHA1-Digest: m49PdSrQtwlLQymrMf8SpXqDMFQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/bower.json
+SHA1-Digest: JW/vZUrT8/R1z3NGZ07D0KCOqok=
+
+Name: assets/www/d5de3adf-1d7d-48b4-8ec5-7c0c04541afd.html
+SHA1-Digest: xPA7zsh6kXcJtoPkf3csIVbNGFg=
+
+Name: res/drawable/dropdown_popup_background_down.9.png
+SHA1-Digest: eYxuJHacY6EIOW9A9CWkeJtkUPA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select.css
+SHA1-Digest: /nKHVwLbiA6PEMFwttYhGu5VpHg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default@2x~iphone.png
+SHA1-Digest: Ul2R2ASiBYmSNDqGimOUbF4HyFo=
+
+Name: assets/www/lib/ionic/scss/_grid.scss
+SHA1-Digest: HTSCQ2E+uawHe8CY7dlWucZBAV4=
+
+Name: assets/www/90626f44-3f9f-4590-9d19-a938a1yutyu-c995d5.html
+SHA1-Digest: 0YzXtxsXbD+BEWorYkbJQDYbvp4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/facebook/facebook.html
+SHA1-Digest: pU1DoaXHxkrBRr/10EyAqBqoiFE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/sqlite/sqlite.html
+SHA1-Digest: BXvlwtOgSES3zLi8nicTHc8z/6A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/after_plugin_add/010_register_plugin.js
+SHA1-Digest: ichJM1CFM5kf5K8rn9p68kQT09c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop.min.js
+SHA1-Digest: Jgrna8cqw5PJH6wJ8xfthvfxQ24=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/googleAnalytics.spec.js
+SHA1-Digest: L4MrEYw/xyDoH5GLgFp6XYjkXt4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabToolbar/fabToolbar.js
+SHA1-Digest: skQ3emL37HvkGYrRIx4eAtBnYSg=
+
+Name: res/drawable-xxhdpi-v4/ic_search.png
+SHA1-Digest: Q7+QFb4AEsyeqX8IkfpkZqEaW5o=
+
+Name: assets/www/a6c8d013-da7b-4efd-85b0-82c9d408c770.min.js
+SHA1-Digest: +SYqh3K45UlYMQApcqBBiwDWMfA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ angular-animate.js
+SHA1-Digest: UA1MJGC91yqxuXKUQsSSTtT1D7s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/checkbox/checkbox.js
+SHA1-Digest: 0HvKN+DGZvujMD/b7gkvMXWYt+4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/chips/chips.css
+SHA1-Digest: YeRQ09Qi3uENf1FH0rHa79r9tO4=
+
+Name: assets/www/img/location_feed_000.png
+SHA1-Digest: zL1l5Pr3jGbL31M5mxiyCJYHUao=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content-default-theme.css
+SHA1-Digest: LXRiNH0cLjdxqj/qprY8As8rhwI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/bower.json
+SHA1-Digest: Cnza+fikqRDvvYWTneeJJkJnJlk=
+
+Name: assets/www/lib/ionic/bower.json
+SHA1-Digest: f2X49dXbpyjXYHklblaK+CS9FI4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox.js
+SHA1-Digest: PYYPqKZLSUWc4c7lQek1pTZwLw0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/angular.js
+SHA1-Digest: pMeBrcdBtAQJ5RJmEVUwEWxWSAA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/BoldItalic/RobotoDraft-BoldItalic.svg
+SHA1-Digest: IftDWbv+yvJkSIMfOdIddnE1978=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sticky/sticky.js
+SHA1-Digest: FvlCqVPBOhR9UjFG1D4UNFVqCpw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Thin/RobotoDraft-Thin.woff2
+SHA1-Digest: MsYf+Z3NA+iFZXTY16D0gk+JozQ=
+
+Name: assets/www/dad7697a-f4ef-454b-9368-2d2110a48f9a.min.js
+SHA1-Digest: 9dyXPuiTicI47UXyt6Ky7+gxYIY=
+
+Name: assets/www/img/shirt_03.png
+SHA1-Digest: QQnUy04Dqduox91TUH/hIq5bfEo=
+
+Name: res/drawable-xhdpi-v4/color_picker_advanced_select_handle.png
+SHA1-Digest: q8aklqG5PCcQep+kKQUaqREh30E=
+
+Name: res/layout-v21/date_time_picker_dialog.xml
+SHA1-Digest: uZKnZ+fgAv8uq4HqBeeGcJnebHI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Regular/RobotoDraft-Regular.ttf
+SHA1-Digest: mldfvv5MXzP04R7kKjzgdA6YKcE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ index.js
+SHA1-Digest: NSbHmNoAlkWUB6lcz7p2kUke4cE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/list/demoListControls/img/100-0.jpeg
+SHA1-Digest: uCTGNLn+ZY/SKI/W+h3dMWeB4ew=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/network.spec.js
+SHA1-Digest: 5BAMX8I1ycSdvjbn8wCGhMqWDPY=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverHandle
+ .js
+SHA1-Digest: 3RcnVVkilVYjJvAgpxNVPzioT4o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Light/RobotoDraft-Light.eot
+SHA1-Digest: idXq2Vm4cOHUZcjPNgltkfUtjbI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-76.png
+SHA1-Digest: sb/pFYDc3xa4L+5mAYfJ1/W2AEY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/bower.json
+SHA1-Digest: boR337DZedVBoPMcnb5bD9QA3y8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/list/demoListControls/img/100-2.jpeg
+SHA1-Digest: RbWNB3sNm5P2hzlVV3O0J0XoskI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/sticky/sticky.js
+SHA1-Digest: quyFWaaoHRebUmWGnUWuUqu4qt8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_menu.scss
+SHA1-Digest: o7w5x8xEX+j+hxLL28pA3xCYHZs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs.min.css
+SHA1-Digest: VpEJHLll2KqqqbJyVdobZvGXq30=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /manipulation.js
+SHA1-Digest: x429bxt1iT1MEYpRV/4XvqGcO9g=
+
+Name: assets/www/caf8d5c5-2318-458d-b836-c38af3472f71v.html
+SHA1-Digest: v+46kiDf344G+UjpMnEY7ORxlMo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/tabs/demoStaticTabs/style.scss
+SHA1-Digest: vc80MFfkcMDHdS7YqwYOhelFiQk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default~iphone.png
+SHA1-Digest: WlLGQe3vhuMM9E6BeQ9fCJec0Rc=
+
+Name: assets/www/img/location_feed_05.png
+SHA1-Digest: dK6v0F2OdOLNv/gzpTPFLMy8vDI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/bower.json
+SHA1-Digest: Ns/ipivDPDhgBcp95Og2YK11hOM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_fixed-width.scss
+SHA1-Digest: tsN6i10/KGnCB/XEYc+otCsizEQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/ind
+ ex.js
+SHA1-Digest: H5oDfCnRsQLizUu4wUjJz0Jzol8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/ble.js
+SHA1-Digest: pANVw2KJ6zF2SKKFsK+Y228Ar4U=
+
+Name: assets/www/lib/ionic/scss/_action-sheet.scss
+SHA1-Digest: Nj1t3HCw/1/EHMVVpXGcsEdh0GU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/fileTransfer/fileTransfer.ctrl.js
+SHA1-Digest: OEqPX/hxNWd/aLTGj6IM06Kql3U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/touchid/touchid.html
+SHA1-Digest: 1sb/qv1cctrSwMNQ5bgyoJJJu50=
+
+Name: res/raw/messaging_api.js
+SHA1-Digest: 8yjNxdlwEPc5icCcsQ3t3kA5HnE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/tabs/demoDynamicTabs/style.scss
+SHA1-Digest: ynkN1L/my6534Q+YXu9GvqD98vI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/network/network.html
+SHA1-Digest: w5mKegaW2KpEMb52Q6PaiKdkFFA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material.min.js.map
+SHA1-Digest: 90SQClc0rpdJgwSZjk+i8LR9zs4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/FontAwesome.otf
+SHA1-Digest: 5N+Z/gnGQAAAvA2vE0QlyCA3imA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/README
+ .md
+SHA1-Digest: 1c/qgWs9y3Z04qWMIYwZIZ+B/i8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/n
+ gCordova-icon.sketch
+SHA1-Digest: isRfT57qTuy+vV+BFXvEsjVJrAQ=
+
+Name: assets/www/e7b7e272-ab5d-4e2a-9484-f84393d0c70f.html
+SHA1-Digest: ufaWwDRe7231sPKF6iHnlSC3Pis=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /manipulation/iframe-denied.html
+SHA1-Digest: UcRTIcj8WRIBzCBx+hbpbozM40I=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/app.js
+SHA1-Digest: X8yu9QsSVD+vpbbmPIBQFsmREZQ=
+
+Name: assets/www/56a54bdsaf5e-6639-4857-964c-480edb934f48.html
+SHA1-Digest: 4db/mu7ch9xRfmSRmqsukAwL0uI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input.min.css
+SHA1-Digest: k2Xstr/RVUle/9LiPqrscfJmgVI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ dule.js
+SHA1-Digest: sBnNteg0LeKSLSG0qf1jgTtbht8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_animations.scss
+SHA1-Digest: 7SGzJi8ASAScEJhz7/jv27BDKXE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Bold/RobotoDraft-Bold.eot
+SHA1-Digest: KsiUeeFM1/Nh5Vf7+hvZibjHmO0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /test.php
+SHA1-Digest: XGmXzqxfAKcnFoksnBrtamzEvXI=
+
+Name: res/layout/validation_message_bubble.xml
+SHA1-Digest: hW+ENaSz2nloOaNvolbOZZ0hWzI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic-angular.js
+SHA1-Digest: K4tlgNCf3h9dgsb+oZiExSS9emg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/device.spec.js
+SHA1-Digest: upxLbyRpjSqne2209Fl9+YrtsCg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/localNotification/localNotification.ctrl.js
+SHA1-Digest: G4ZP/gqLeXVfKZNZvH32artTCmE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabActions/bower.json
+SHA1-Digest: xrBhx0fLBEnNOcD4TUjMC5Zs6TU=
+
+Name: assets/www/img/slide_01.png
+SHA1-Digest: qVSdbaoksnuFv9/gdM2OhxefOyg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/angular-sanitize.js
+SHA1-Digest: alesSkTZa7BoPnWcdIhe5fFgyk8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav.min.css
+SHA1-Digest: jTCU1cVleBupR4joOtXPCt4KD9Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/loca
+ lfile.html
+SHA1-Digest: QHf8O03aIuh8EohfsqBT28UYEiA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/button/button.js
+SHA1-Digest: 5Da9Kop/l1cF94Uv01PXsn4DTuQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /support/shrinkWrapBlocks.html
+SHA1-Digest: y2MdrfQ+TlCX8LrTnzcBoDoW+Gk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_mixins.scss
+SHA1-Digest: bb8M/3/bzOppG4uc5y0AQglzcVo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/localNotification/localNotification.html
+SHA1-Digest: wzeB3BAOmF4I7DWqgybFg/LbUJs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/dist/ng-cordova-mocks.js
+SHA1-Digest: /VxWp+HVxgqGFZ+UAX3IVJ5RHRI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Light/RobotoDraft-Light.svg
+SHA1-Digest: 9i5QJ2C7JgsN3WssD+1enidlx9c=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactError.js
+SHA1-Digest: 0UOK43HJ5z6DVJGA9pwOisCG3sA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/css/angular-material-layout.css
+SHA1-Digest: 35JAr0rzNF2R8PhrY/kbZpRJ5l0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/fil
+ ter.html
+SHA1-Digest: WTbrBMEMgBkDxNOoUCEk4Enwk+o=
+
+Name: assets/www/7503d608-bcd1-48f6-819e-bce1c768e95b.html
+SHA1-Digest: XKXqoV0mWnvaXwP+4fFTKOgc5Jw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabActions/fabActions.min.js
+SHA1-Digest: vEh7j40k73KjINVFnqrPdPYNm3o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabTrigger/fabTrigger.js
+SHA1-Digest: 9A1oUsUxZFVYhwa6/2ftYMLf3yI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/inAppBrowser/inAppBrowser.ctrl.js
+SHA1-Digest: jbsKzkywhQCM8T/TwhlmJf1pwx8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/bower.json
+SHA1-Digest: 4tz4qGNG2xphdiNwkm+qhTPlaiI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/ang
+ ular-aria.js
+SHA1-Digest: yEe2BiKUz+PHbpeBfRaiUVtcNTQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Regular/RobotoDraft-Regular.woff
+SHA1-Digest: UxZCttHe2G+atxS/PZK+ZLaqtgo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card-default-theme.min.css
+SHA1-Digest: C/Y7V8xW8Xdk1iTqsnd9Hj/H7JY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/view.js
+SHA1-Digest: /WOI0SkrEnRa+ZF4y/ko9YN8v/c=
+
+Name: assets/www/c90a77d6-fb9c-4d1a-93ed-bfb90462-hgjacc8.html
+SHA1-Digest: iDQV7xMeTRjN8Zr/gX2tjcbCm6o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/resolve.js
+SHA1-Digest: O2I9pqOCl2jIkSa+JISX2eneAf0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/LICENSE
+SHA1-Digest: HVRTyrl2kMzl5UZLnnhJeBr6ivc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/barcodeScanner/barcodeScanner.ctrl.js
+SHA1-Digest: 31GcVRmgm46ZPL54EIUmKRmweqk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/icon/icon.css
+SHA1-Digest: G0442K2tBpjIk1rBc/qi2X6HEAU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /cleanScript.html
+SHA1-Digest: PcN9oY3Mbg+mRdKRW418MSbum4c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/AUTHORS.t
+ xt
+SHA1-Digest: o1fGHpk5XdvafEG5kwy/1ZG2uSg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/clipboard/clipboard.html
+SHA1-Digest: 92k3k3Yz2cbJMBLNT8JJhwBdnMY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/dist/n
+ g-cordova-mocks.min.js
+SHA1-Digest: fR+E496subFCIqxBcef5EHWJHM8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/composer.
+ json
+SHA1-Digest: R+lMHHKa2S2+CU4Q8+Rbo0QlzyI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /deferred.js
+SHA1-Digest: 7vQEBjGadjcosyQhS+CveXsv884=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/table.html
+SHA1-Digest: n7V2TOsa5lpONeQkoe70tvfDOF8=
+
+Name: assets/www/lib/ionic/js/ionic.js
+SHA1-Digest: 46a9RzWDSIMRv+qMDxdJv0yGZiQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input-default-theme.min.css
+SHA1-Digest: TUicoxknssEaXE1EwvNI+mOD9/U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/expor
+ ts.js
+SHA1-Digest: 7zKbmj6vBqw5JdwCvo+5gMVJAIk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/whiteframe/bower.json
+SHA1-Digest: yBd6FYm13On4UpvKe/l4VqmQ+0c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/BoldItalic/RobotoDraft-BoldItalic.ttf
+SHA1-Digest: DKG/wkS1wRbEcujloU2PoCJ8rMY=
+
+Name: assets/www/0ced7d56-c958-4cda-afef-be7e2ef4ae4dsf6.html
+SHA1-Digest: uz8zJ9cXIHixb+KOjUCWl9hEK4w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/keychain.js
+SHA1-Digest: a2oAJ03GVkT3jGdFr73ZltfYZ6E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button.js
+SHA1-Digest: gDO1MmeFJtxtfo1B1c3KsDUNBi8=
+
+Name: assets/www/plugins/ionic-plugin-keyboard/www/android/keyboard.js
+SHA1-Digest: Iar7DFHZRP7IHcg24hq+FkhWJuU=
+
+Name: assets/www/lib/ionic/scss/_form.scss
+SHA1-Digest: tqZIK40P8wExK3TYjBS++vhowXw=
+
+Name: res/drawable/bubble.9.png
+SHA1-Digest: rGER+ofChO9ZwPCIB4K9iZdONyM=
+
+Name: assets/www/19ccd457-8515-4fb1-8756-4655060adedc.min.js
+SHA1-Digest: pvjS1oDRZikJxEJBTTt7aFIWMHY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider-default-theme.css
+SHA1-Digest: m7NvBFixw6fL2oYJZVHeg1YdzaU=
+
+Name: assets/www/5d41b7cc-84df21-441b-9cb3-ea02de78b9a5.html
+SHA1-Digest: GcPqXx4tQOkHqzjS2Wcapgrn8cU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_split-pane.scss
+SHA1-Digest: KufbO8tfwpunyNC/m9V7sFz21b8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /readywaitloader.js
+SHA1-Digest: D4FNRbpqUZNTUfFzI3GNFX5Twzc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/core.min.js
+SHA1-Digest: RNwe8pE3sEjhr+VbS78boHTwXqQ=
+
+Name: assets/xwalk-command-line
+SHA1-Digest: rVnWJvhG6/v2mugy19OH/JhV2/U=
+
+Name: assets/www/3d127acd-aca9-4925-ad42-6e0f95b8037c.html
+SHA1-Digest: m6khxgyQjcjLkW4F8Rrwz5awVOU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/localNotification.js
+SHA1-Digest: iKeDSsSSXJ0D3aMmmyCpuztgU00=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/autocomplete/autocomplete.js
+SHA1-Digest: 211zcaKGzWmnjzyzScr4I/PP4Mc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/before_platform_add/init_directories.js
+SHA1-Digest: a1IylIjy6BsUahWKl7dXsYqTeA0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Bold/RobotoDraft-Bold.woff
+SHA1-Digest: i/Im5y/5fXhid85tP0hYTcylio8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/core/default-theme.js
+SHA1-Digest: S01tHTAVqu/Ola8GnZs7ylbQwHM=
+
+Name: assets/www/lib/ionic/scss/_util.scss
+SHA1-Digest: p6Hhl60eyvQ7uiXwlOoktivUjsk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /echoData.php
+SHA1-Digest: uCmyYmcstDm2CvZwKF8XBD4jJmU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-568h@2x~iphone.png
+SHA1-Digest: OhUqmgBie5w9WqxnYy7+CI+SNXE=
+
+Name: res/drawable-hdpi-v4/ic_warning.png
+SHA1-Digest: vHap05R3T3K3pCqNUiND+msyNQo=
+
+Name: assets/www/lib/ionic/js/ionic.bundle.js
+SHA1-Digest: 7+D/+L/6dbx9wxAUPJCzkth6Kdg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/fileOpener2/fileOpener2.ctrl.js
+SHA1-Digest: 030OjD2gXd5O4tSGvA0cSLvI1to=
+
+Name: assets/www/8dd6195a-4adsfsdac7-4acd-8aed-2ceef2f2c943.html
+SHA1-Digest: kCCVKzLbDxPNf/YGw87E0PSH3wc=
+
+Name: assets/www/4129c91c-9372-4db6-b944-e6f8154c6bf8.html
+SHA1-Digest: 6pgttczSvEItQXDTPH21JoRZKAE=
+
+Name: assets/www/f80e959f-0610-4c2f-8f6e-86101afc9076.min.js
+SHA1-Digest: +u8k/rbbwQWoMaiHO1Y6zf6Mm/c=
+
+Name: res/drawable/grid_background.xml
+SHA1-Digest: 2b9LGcixoSUtsYCf1rc7HcESClA=
+
+Name: assets/www/f3dfdsfds61ad6e-45f2-438c-b75a-6c6cbedfbac4.html
+SHA1-Digest: Z/PkSpccs/fH1RTvNOgoVgSspLE=
+
+Name: assets/www/plugins/cordova-sqlite-storage/www/SQLitePlugin.js
+SHA1-Digest: G8S14Z1oqXJzAlwPVB/paifOq2M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabToolbar/fabToolbar.js
+SHA1-Digest: FdrJfk4CbQcjTezQ+OiGyOXNy4o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/core/core.css
+SHA1-Digest: j8QaXqB0bTJRg5RqOKdUgffBIfY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/list/list-default-theme.css
+SHA1-Digest: 5C41psUYoXViqrQaECQSyKCnoiI=
+
+Name: res/drawable-xhdpi-v4/verify_checkmark.png
+SHA1-Digest: Oiz3s5920hAyVLabyNS1jqb0vOs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/whiteframe/whiteframe.min.css
+SHA1-Digest: JCE3JSd1uTmnRcn5yxkmYC8tRP4=
+
+Name: assets/www/f361ad6e-45f2-438c-b75a-6c6cbedfbac4.html
+SHA1-Digest: jG2ynPeU5YHaJDM0N8dU5mHUbk4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/after_platform_add/010_install_plugins.js
+SHA1-Digest: Gpj7ABPkhMl0qYcv//BaC1jiuOs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /bower.json
+SHA1-Digest: plizA1SGofnjXt91i/Rfm3Fs29s=
+
+Name: assets/www/3fcdeed4-d7f2-4bf5-b00d-b05d62ee55b4.min.js
+SHA1-Digest: c1Rd2x9GryWQhPk0l6G5Ikx2whU=
+
+Name: assets/www/ba2ca7af-3b71-4d26-acfe-76714d1-i95fce.html
+SHA1-Digest: MJFRw+HPVxY/17F9OElDS/NF2b0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/README.md
+SHA1-Digest: 3/XaH2Yf3R8qFQyfI0EWMNEAdJ0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/backdrop/backdrop.js
+SHA1-Digest: hor1lqWd84Hrr+PWHk9wtAJW2X8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabSpeedDial/fabSpeedDial.css
+SHA1-Digest: hv76Z23dM44HucTg+yqYO5n8Voo=
+
+Name: assets/www/img/food_04.png
+SHA1-Digest: VUbCDIUrD8NHZwvN/ZLhMN9FZNc=
+
+Name: assets/www/img/food_10.png
+SHA1-Digest: d6n/86TufZZsbM5AP1rHvUiIsC0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/hangout.svg
+SHA1-Digest: SuAnMhgJw1Sw2Ubb0+M0LCDE6vY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/flashlight/flashlight.html
+SHA1-Digest: 4Qzt7Dp9CF9fzLrOIgbuEC1sByc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/deviceMotion.js
+SHA1-Digest: SPFNn2OMGjWrZ35KQVjfh5SdTkU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/network/network.ctrl.js
+SHA1-Digest: Ff72xIBhivQQrPsz8lpIa8acUOA=
+
+Name: lib/armeabi-v7a/libxwalkcore.so
+SHA1-Digest: WXfQn+JFQOS5FBL7hnTFyZzgHTw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabToolbar/fabToolbar.min.js
+SHA1-Digest: tQIWx2d8eMAxHRNpl9+MxwRpSi0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/swipe/swipe.js
+SHA1-Digest: WGkLfn7J93OH/0ZNAMSxYzgWBfU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /json.php
+SHA1-Digest: Gd7sMZbZqYUjgaEnXPNg6pUYEsE=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: DyNoltEL4yj1M0KRnp7t1ESe+Fo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear.min.css
+SHA1-Digest: OLLVYvk/ccivcgEvAZIi/gCt5KY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /ua.txt
+SHA1-Digest: L9Kzb8y+7MPom1RtBfn5XiL4Nmw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/bower.json
+SHA1-Digest: b57FoE1uv+r4znr58Uobd7C3clY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/menu/menu-default-theme.css
+SHA1-Digest: hwu9t3UYNa4K/wUnFhp1faRYNSU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon@2x.png
+SHA1-Digest: OXp5mdEKE9ipt3hzB8TSNAIoR7g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/file.spec.js
+SHA1-Digest: dKptHi5abF2Y49qOUmPdgrIa2P4=
+
+Name: res/layout/color_picker_advanced_component.xml
+SHA1-Digest: 7D2AzURBRrugYcifarxR1f3r/OQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconSets/assets/cake.svg
+SHA1-Digest: wvcJb5r/hsAj/7ArfZxxs787Q/c=
+
+Name: assets/www/5b27cbbb-b7ca-4312-819e-ae5e8c940797.html
+SHA1-Digest: oFBi6ObfsWb7EVvyZF/ALg7JpPM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/radioButton/radioButton.css
+SHA1-Digest: w1ygJis70w89/4mAAduHRAfsVFM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /dimensions/documentSmall.html
+SHA1-Digest: h3+l6sZir1uh9pJGC/iQ87kxMKI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar-default-theme.css
+SHA1-Digest: ac0N5FbrN9vc25kTNd3IGHip5CA=
+
+Name: assets/www/6b501aff-ebfd-40c0-a8e2-7cc0d78ee55a.min.js
+SHA1-Digest: fE8Qp6SjAYurCntx0LTFfPSGcGA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Black/RobotoDraft-Black.ttf
+SHA1-Digest: QfD4KYzUJBRrB/OeMP/vN6vVnUM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconsFromURL/img/icons/android.svg
+SHA1-Digest: VqYECkjbpRvHlU3ndyklQEk42bE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/bottomSheet/bottomSheet-default-theme.css
+SHA1-Digest: 9A8ROvin2+BX8454+7xlVGzvbu0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/HELP-US-OUT.txt
+SHA1-Digest: PCMaOZKtPfZBupY5/Vr2B8o0f+g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/i
+ nit.sh
+SHA1-Digest: wNxXak8ZSfu3BYgqAuTpKjkp1g0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/after_plugin_rm/010_deregister_plugin.js
+SHA1-Digest: eUlV7lu+ZFI9zrIoCH2i+FAHklY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/package.json
+SHA1-Digest: gFgRQy6TITceCm+TmWSrYKPVAcY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabSpeedDial/fabSpeedDial.js
+SHA1-Digest: g1V/skhcVomFMQH1QEUonwxjcwk=
+
+Name: res/layout-v17/multi_field_time_picker_dialog.xml
+SHA1-Digest: NPpgPyq6aJUZQjqfQ1viktKE3Ok=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/build/rel
+ ease-notes.js
+SHA1-Digest: 6kWME+1XGo3wEXe0hVXEQzK7c4M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/build/rel
+ ease.js
+SHA1-Digest: iVQ5ANi9K1oNGj98Slnxx+JkjdA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /angular-sanitize.min.js
+SHA1-Digest: n9ClFboOerE7x//oWB4ZZcjn90E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Thin.scss
+SHA1-Digest: g2z3Sxs9Xl00QF8GWUNCYM9lqa4=
+
+Name: assets/www/lib/ionic/scss/_button.scss
+SHA1-Digest: IQyG9Ofi+AqVmLaBq2ZsPQWB6PI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop.min.css
+SHA1-Digest: kqFDryEHN1omKd5REPm8m3CyzMA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar.js
+SHA1-Digest: jJPBR1TY4CWOrHcvXBTvnxxWN54=
+
+Name: res/layout-v17/autofill_suggestion_item.xml
+SHA1-Digest: S3DJz9DAivhojuqP2gM5gtm9xX4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/barcodeScanner.spec.js
+SHA1-Digest: zY5dcZ4rgcFLHbJDiD5GP8pJamk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/i
+ onic.project
+SHA1-Digest: yfKLTPK2gE2HtnbewxySgFclCe0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/depre
+ cated.js
+SHA1-Digest: XSHkPkGC17QhjcKJwkj4BxrRIbY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/component
+ .json
+SHA1-Digest: 0ypgpN96n2WjlefHuQHgj9x6T4I=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/file.js
+SHA1-Digest: oKS87Qun1fPNfQEkZb1fMlrdaYA=
+
+Name: assets/www/img/location_feed_01.png
+SHA1-Digest: H4MV/8OYkPJXpL/28VuQafZTbNM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop.js
+SHA1-Digest: bhOo5wsqDyUsWFFx6W/jyZzs3Hk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/globalization/globalization.html
+SHA1-Digest: fk0Nelkiuiy/YOgizaJrfBO4vOM=
+
+Name: assets/www/lib/ionic/scss/_loaders.scss
+SHA1-Digest: 4orgXYmC6ZYLaaFjq/LpoB/s0oQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabTrigger/bower.json
+SHA1-Digest: aJrN+NoaAW7L4wvcecpxvDTMTfo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Light/RobotoDraft-Light.woff2
+SHA1-Digest: Y+JJ0VJtK8895vkgKJ+7j+52//8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list.js
+SHA1-Digest: m7H38KMJ8jusCjJVfq5hsXN54sU=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: QcTSdkUuiO6w/zjIPF98zq1hTMs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/event
+ .js
+SHA1-Digest: neTzmartdIQMM5o1tZ4DvTDHh7s=
+
+Name: res/drawable-hdpi-v4/ic_action_previous_item.png
+SHA1-Digest: M1GfB2VNcCSehXeSgRHXvHxnf3E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/trave
+ rsing.js
+SHA1-Digest: h4MsT95nvCJPujmvv3tY0DNU0sA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch.js
+SHA1-Digest: uI2nUWGGNbUARLw7Xyw6qnhTUto=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /text.php
+SHA1-Digest: wSj2vGl52YuFs2/Crl4ZAnDD5/w=
+
+Name: assets/www/d1112d50-a7a2-4aae-801a-bede19a8b8a5.min.js
+SHA1-Digest: dALCpQF8BuXVjCAP7h2OUo+tc60=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_radio.scss
+SHA1-Digest: qsZt1amf11xfGdey0Y14jSd4C7A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField-default-theme.min.css
+SHA1-Digest: 0o7C0iQcG4CLI8J67OM0e43b0f4=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_share_holo_light.png
+SHA1-Digest: xjeSbcbV7GuXBmNMmeqQimSTCT8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /CHANGELOG.md
+SHA1-Digest: lLaGfyLduF/V4jMo+cy2Os1p1mM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list.min.css
+SHA1-Digest: cxAgCbby4Xsc+LiFDuJ+I5uQcN4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_stacked.scss
+SHA1-Digest: klQCe6vtfsxh7XBg67wt4H8QEco=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/googleAnalytics/googleAnalytics.ctrl.js
+SHA1-Digest: ltiXo5fdlLH2JVezZ+dbhXbkat0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/splash.png
+SHA1-Digest: tcojTn+bqhQO/dZXfrJptKCbim0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider.js
+SHA1-Digest: nwLmIJwte2J/zPHTs7i9d/LxNO0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu-default-theme.css
+SHA1-Digest: KcKRm3KMokLhBwKbFpFwloimKmc=
+
+Name: res/drawable-xhdpi-v4/dropdown_popup_background_up.9.png
+SHA1-Digest: vSqQKK3PSTxOUpvbCiEvV7iSrKI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /package.json
+SHA1-Digest: OxLWh3Qh+4/mKvkZT4A/uzDtAvw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/appRate/appRate.ctrl.js
+SHA1-Digest: VJx1FH8gIv/CS6Y1XMKUCN+B/F8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /name.html
+SHA1-Digest: 9L1XiaTfVhkouBN+8e3iMmnUzlg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /index.js
+SHA1-Digest: O0E86zFydSN0uyYYiWuBAkFkOaY=
+
+Name: assets/www/img/shirt_04.png
+SHA1-Digest: eSZ4eL7+Wh7lND6lsIaSZtYMO+Y=
+
+Name: assets/www/plugins/cordova-plugin-flashlight/www/Flashlight.js
+SHA1-Digest: moUkZdmbRakbfkAjnuBJwT4mDX0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/dialog/dialog.css
+SHA1-Digest: Z1kH9UME9dxVD9biaOXlqaaA5PQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon.min.css
+SHA1-Digest: Kf2+nVoAjDkSjhPPuig5TAY7HtE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton.min.css
+SHA1-Digest: LyqpcNmgyDJRolmbRR6RPoJpX8M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/upsPushNotifications/pushNotifications.html
+SHA1-Digest: eqK8vWru6PN1Rn7MONH/a9Gs0V8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/globalization.spec.js
+SHA1-Digest: A84YDMA9DHiO8L3Q9ura1oT4dR4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/push.js
+SHA1-Digest: j5wu1oCfiV4ghsxkMvjMYnGrTHA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/ajax/
+ jsonp.js
+SHA1-Digest: lEpuXCVX/yjNlxC59wFYsWT2pwI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/CHANGELOG.md
+SHA1-Digest: YpoLAjy9FcjPE+jUk1xY3IcFZLA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/dialogs/dialogs.html
+SHA1-Digest: 3q0Y9trTYUgoJH1Jb+HJj+mShuY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon.min.js
+SHA1-Digest: qhdlET1jfCPXjHW1tu/ovXICP1Y=
+
+Name: assets/www/index.html
+SHA1-Digest: 9PquXWv7r+uaosEGxz96U+D9NRE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-736h.png
+SHA1-Digest: Oas7oU2b7UfeauOkx389i2bZEsQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar.css
+SHA1-Digest: m5TV6UWwwaWRiW9586X4KvMHHPY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Black/RobotoDraft-Black.woff2
+SHA1-Digest: 1iAHtvyJgJAvnuxgBZ5/8qft9Qk=
+
+Name: assets/www/e7b7dfe272-ab5d-4e2a-9484-f84393d0c70f.html
+SHA1-Digest: xWV12CkXGJiCzuWJe2Ul6m1WylI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips.css
+SHA1-Digest: b5yu4kBMCHr3Ymw2BCGlIe0njws=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/after_prepare/020_remove_sass_from_platforms.js
+SHA1-Digest: h4VbBvA0RieXLaJ5pgoK8c2sBso=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Bold.scss
+SHA1-Digest: WuYYT44gJRM0lY+FoCEwhqnD+7E=
+
+Name: res/layout/color_picker_dialog_content.xml
+SHA1-Digest: 5XUIZoErqTj7nrONmvl3fNeSgOk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content.min.css
+SHA1-Digest: XDNEvZSWxOZevKFzLr7dXUglHPM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /readywaitasset.js
+SHA1-Digest: y7udbH/TyoHcv1u9hMKBz81FHbs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/angular.min.js.gzip
+SHA1-Digest: dOOHKNMwtShzhtADTvX2lajEGig=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear.css
+SHA1-Digest: ZwEIzEfezHStARe0NR6cLr2ZgBA=
+
+Name: assets/www/9aa60d88-9251-4b1e-8a42-0af242fddee9.html
+SHA1-Digest: PZ65nZVQT9LVuGk57IsFi+FJiQM=
+
+Name: res/drawable-xxhdpi-v4/ic_action_next_item.png
+SHA1-Digest: VCkMmGnd+0Re/Zh47VJcIYoV8xY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select.min.js
+SHA1-Digest: CbfSzRFFeQFIe0Z31D+P/ojaErs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/core.js
+SHA1-Digest: 6BoeC/1/IyKoFCevJAyD9PEq1vg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressLinear/progressLinear-default-theme.css
+SHA1-Digest: VjSp+lBMpq6pf4iIoA8mmAtKCTY=
+
+Name: assets/www/lib/ionic/scss/_radio.scss
+SHA1-Digest: 0cXLRthvimb83Hz2N5D9pp+Mg+Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/printer/printer.html
+SHA1-Digest: gd4GXqb3f+JXBLzAnx0ZbNdVZn4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/CONTRIBUTING.md
+SHA1-Digest: PbouuUhP7xxzEon7CEWLKfAdwH4=
+
+Name: assets/www/img/slide_08.png
+SHA1-Digest: dWeFFwAJ7hInkyNiomqd4DVXg/g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/README.md
+SHA1-Digest: T94ek15SP2QmD/2CCzyW8LQSnqQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/keychain.spec.js
+SHA1-Digest: sx3ThPvnfK+KC6WputOS8GFOJfU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /badjson.js
+SHA1-Digest: idh7AsERz7l5cg88OQotmS4xyII=
+
+Name: assets/www/lib/ionic/js/ionic.min.js
+SHA1-Digest: 1dlVPugxPMM+MURN34y7lpYQhCI=
+
+Name: assets/www/286f9a7e-0468-4f8e-acee-88f4f95f46d9.min.js
+SHA1-Digest: mTfKzXfnbuoAbxxKrKNuQVpwM5c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/viewDirective.js
+SHA1-Digest: UEMZlL6xqTHLs0Z5M2GxFMV2+zk=
+
+Name: res/drawable/color_picker_advanced_select_handle.png
+SHA1-Digest: 9YLG8j16vtbcmW0mm6eXSezO16o=
+
+Name: assets/www/4db62b5a-07a8-4aba-9527-b9520f1fe721.html
+SHA1-Digest: +bSNSOG37rTcSo/SkYQoZU/M3FQ=
+
+Name: assets/www/318115a7-5041-412a-85ef-bc7c69beae21.min.css
+SHA1-Digest: ePwu8RwEsZS0qa1snVW7WjEoVyw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/push.js
+SHA1-Digest: LnzvZbZcochX6t317X+y7Ohlo2g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/core/core.js
+SHA1-Digest: wa2Khr6ZfpJ0cjfC9FsrYKddKxY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/gulpfi
+ le.js
+SHA1-Digest: Vb7IDRCYPR7msuQ41VjfKEw5Hyo=
+
+Name: assets/www/7c0226b7-6564-40b2-8d32-b3c5bce8f50b.min.js
+SHA1-Digest: BIDoiN+KN+a8NKvdxT2YuuvhO5g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/fontawesome-webfont.woff2
+SHA1-Digest: kj5h4YofgVR6GJDSVy9hdO70/sA=
+
+Name: assets/www/lib/ionic/scss/_range.scss
+SHA1-Digest: jroOphuuppX3BK5MG7aZDbWBaHE=
+
+Name: assets/www/lib/ionic/scss/_reset.scss
+SHA1-Digest: F0HoY7GRW5C4C8wqXtgvLOu1fhE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton.css
+SHA1-Digest: ol1XO6lHoS+WleuRg2gYr0l4Ies=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip.css
+SHA1-Digest: TOLOF2pt+Qxhv5NrhRH2Vd4uzIg=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: +Mm/1mvxsI8Gz63ccCdkIeym1vM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /angular-messages.js
+SHA1-Digest: Qydd0Zc/VbTJkLjhZHpGNaOpocc=
+
+Name: assets/www/lib/ionic/scss/_modal.scss
+SHA1-Digest: DKw5FE9tIlnimiPVL141E7skl2E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/netw
+ orkerror.html
+SHA1-Digest: HyP/b55++mnSpnJmwf3YKBk0GgY=
+
+Name: assets/www/43157ae3-ddd1-4fed-b8b1-edcee28ac3ca.min.js
+SHA1-Digest: VLYYI41b5a1E1HuOxlbwLu9dHMs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_button.scss
+SHA1-Digest: FUWzT5OGcO7i0WX/6296/ZaDAss=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card-default-theme.css
+SHA1-Digest: jAwcT1QT7+FfZCCTnfDd4RdmJEQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/packag
+ e.json
+SHA1-Digest: HVn9dwO1ZrPJL9CE06hOaNdTARs=
+
+Name: assets/www/lib/ionic/README.md
+SHA1-Digest: WGoEN6fL7xYvJ6i0tztoYIxaO4s=
+
+Name: res/drawable-xhdpi-v4/ic_action_done_light.png
+SHA1-Digest: gBOUKV/0SVNgcUbP1C/jVjEOdM0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content-default-theme.min.css
+SHA1-Digest: 9nEgJZCKp82kt+/T05I6ujzmEzo=
+
+Name: assets/www/9a480294-45c8-4e03-b46c-779db85d1396.min.js
+SHA1-Digest: LNFuSwvh2/DjUm23bLOmUxSVNNU=
+
+Name: res/xml/config.xml
+SHA1-Digest: D3wGVbEGs2YC6liAI1jBe+X3yyA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/whiteframe/whiteframe.min.js
+SHA1-Digest: nv9Dh2ZP3jKgpjwKkWCGn4ExTo8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/copy2.svg
+SHA1-Digest: 5eTtmSMTVJyK//3/56tUPUY26rM=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: psZr5Bz5+hBVr5yqKkwM7ZKT0kA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/bower.json
+SHA1-Digest: 2VJ7zuJOrN6bwBA3Xdo0Ddx4nPg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Bold/RobotoDraft-Bold.ttf
+SHA1-Digest: OWZuL05GH+z9I4Xu4mQ1Evya/O0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/bow
+ er.json
+SHA1-Digest: TXs0f2WmvlKVA+qc/SGu7S+8cs8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider-default-theme.min.css
+SHA1-Digest: mW+Vs+PPLDtcGyVg0LUfxBIxqa0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast-default-theme.min.css
+SHA1-Digest: eU9mPq4tVE9b9vtBZhRWKenh4YI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /atom+xml.php
+SHA1-Digest: E6JdWCXDst4ZeURZIyE7TYc5lsI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_core.scss
+SHA1-Digest: LAW+he04L7iB7LFcPFhc6CagwFM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_tabs.scss
+SHA1-Digest: aU75xBE4GKl9OfW/OLIYrAEPys8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/list/list.js
+SHA1-Digest: xiyT2WoJJETHUhiNMYqp7zVfAIM=
+
+Name: res/raw/xwalk.pak
+SHA1-Digest: errDsxGGjryQbjUyBUR/MYrvIkw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sticky/bower.json
+SHA1-Digest: BeosFMlOPG9vW5BwNs038x3s1Kk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/camera/camera.html
+SHA1-Digest: /n99eLaMHFFUKpKrc24ta0YJLE4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider.js
+SHA1-Digest: WzwJ65twBvffgNw2667fSJ/DNDM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton.min.js
+SHA1-Digest: 6lXhZSEwsjoJ6AtKogmw5UnofVM=
+
+Name: assets/www/lib/ionic/scss/_tabs.scss
+SHA1-Digest: kULZbOfuedbdliJ+i8B5mwP3pTk=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: iO7bWZJnZglxl5ytYYx4G0nkvDk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/bower.json
+SHA1-Digest: a6g5XrssINzS4lMjl/PbwAy50nA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/button/button.css
+SHA1-Digest: MRA6TP/UuZa+ZIcJPXPSJ5Qi56g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/card/card-default-theme.css
+SHA1-Digest: 2qxrKJ9yYnEmdpctKnDILI3O/qo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-Landscape~ipad.png
+SHA1-Digest: cYqCd8BgTu6Yc3AK6SQIaUcqP6w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_animated.scss
+SHA1-Digest: LPpgi2PMmsVQky4+BqExXLlbvw0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/clo
+ sest.html
+SHA1-Digest: L0XfqhWN0fBnvUgE4DZSkR79HuA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/backdrop/backdrop.css
+SHA1-Digest: 7vXPve/MWRVdfuBorcrk+uisrlg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/socialSharing.spec.js
+SHA1-Digest: jVyVccABoYrS2q3fft2gaaQZn5w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /with_fries_over_jsonp.php
+SHA1-Digest: Jx8ifCjWousME46iJOg6wUzff3U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/datePicker/datePicker.html
+SHA1-Digest: CPPRfizJ8244guFT++pCqpMvm5k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_slide-box.scss
+SHA1-Digest: xU1e81X8Fnp7vOpSCfW3VY7mkYU=
+
+Name: assets/www/63e66bc6-5033-44a7-b895-c36ffef59d3b.min.js
+SHA1-Digest: ar5nksEhEloevjXrGnzl2tKo0Ks=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField.css
+SHA1-Digest: UibqKDUIL0ADfG8o6COMMRlNDQQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/gridList/gridList-default-theme.css
+SHA1-Digest: QS7HB2fgU+anknMgRQhI12FstnI=
+
+Name: assets/www/fc365bca-8344-4e76-96a2-6a7afc6ea60d.min.js
+SHA1-Digest: RIsSLPJMzAdToEv7ufPUhV6nN1s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_platform.scss
+SHA1-Digest: xsnemTRZ27N8Om1h/teK5ra83GM=
+
+Name: res/layout-v17/date_time_suggestion.xml
+SHA1-Digest: 1WE0Nir0nqV5caD78GEUBPghWNY=
+
+Name: assets/www/c596fdc8-ae7f-47a1-b081-7a756f9bac94.html
+SHA1-Digest: 7u7KfFpTcyFXBZu1xZSt5FjkuNE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_variables.scss
+SHA1-Digest: kVBKumZD0lLdIJ7aNojSXHY9i90=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton-default-theme.css
+SHA1-Digest: rS5zmcpe9mk1vEMwT6oPqqiYm+M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/dist/ng-cordova.min.js
+SHA1-Digest: +5sEo/lQbU2s5OAjqENhsHhAL8E=
+
+Name: assets/www/4b82dsfab092-ae76-40ca-a6ed-d05edb74f802.html
+SHA1-Digest: C1CdMd3DlTgTy0+H8+E8KUwRP7c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular-default-theme.min.css
+SHA1-Digest: xS1qLDSX50gmX5XW7gE5ggGkNHc=
+
+Name: assets/www/c90a77d6-fb9c-4d1a-93ed-bfb90462acc8.html
+SHA1-Digest: Oy2vshsjyIyRf5YdRmkvZxdCDTE=
+
+Name: assets/www/d4ef01a2-3893-4023-a506-246820fdvf152d1b.html
+SHA1-Digest: u/jpereEqUzVoKC834c3oaDj5nA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button-default-theme.css
+SHA1-Digest: XCK+r57sKv40kfbI26hShoXYMi4=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: 38WtpiAj5vmsHOuyTUe8kYOXH14=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/slider/slider.js
+SHA1-Digest: hkvPsLUh93vSamj/38brnvsM67I=
+
+Name: res/drawable-xhdpi-v4/bubble_arrow_up.png
+SHA1-Digest: vBlSkwkvneVQ9dMas42LiXwS3dQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/twitter.svg
+SHA1-Digest: bCaNkZyfd5MJa0FPhpAUoQAtdeY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_action-sheet.scss
+SHA1-Digest: R2RuK3TZUZqeh+Fy9bqso7+Vlwk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/bower.json
+SHA1-Digest: DCxQPyYXffWWXamz8+SlTEAK4Zo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /dashboard.xml
+SHA1-Digest: q7bH7b0oarkFXhM86e46+edzN1Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/file/file.ctrl.js
+SHA1-Digest: zD4LPQ3sbfoBbdqYFzmi8lMH6mo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/select/select.js
+SHA1-Digest: cH1u9ldiLQ7m+8fN9oAT67jliAY=
+
+Name: assets/www/img/cube_feed_01.png
+SHA1-Digest: RfZZ4vUyAmKb+Q5JCiI5yUghnf8=
+
+Name: assets/www/lib/ionic/js/ionic-angular.js
+SHA1-Digest: JXspgfXJPS3Ei7JEe53UO8/A2Gc=
+
+Name: assets/www/11116019-2dfa-4a30-bae3-e79a0441f826.min.js
+SHA1-Digest: t4bMZ+lGoznHYgtCc32fvc4+PUA=
+
+Name: res/drawable-port-xxhdpi-v4/screen.png
+SHA1-Digest: CpAizlWbo+QisrAaaOiYgrGjneI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/ajax.
+ js
+SHA1-Digest: sQUNN1FS8+yll1r/VLAHNH9VBps=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/about.html
+SHA1-Digest: GaCsLcJU4N5lkLjB3a1v4sQu+KE=
+
+Name: res/drawable-xhdpi-v4/ondemand_overlay.9.png
+SHA1-Digest: bfml7OE/n7uLRRd2VCc3KzrqJNg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/angular.
+ min.js.gzip
+SHA1-Digest: 8H8C1u4biGxukBE677et8/3BfZM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-Portrait~ipad.png
+SHA1-Digest: BDXHjhehTmJ+szg+3t2h/xy+bjc=
+
+Name: res/drawable-hdpi-v4/ondemand_overlay.9.png
+SHA1-Digest: sJvs2gAPL3SJE7ybN0Jal3XN7BU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/fontawesome-webfont.woff
+SHA1-Digest: /hm+N65bSQgE5KS9I+7YTK/k450=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_icons.scss
+SHA1-Digest: dt2X4WwHq6hJYtUIgeK7mm5fQSA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/socialSharing.js
+SHA1-Digest: RpZBbE1abpYTp0S3QFC3oTs4f4U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/common.js
+SHA1-Digest: mXTTFdx30L1iocfrqBMJIuMq+Xk=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.email-composer/www
+ /email_composer.js
+SHA1-Digest: c+79CaWf7AlUEBFJMp7hYE09CE4=
+
+Name: res/drawable/ondemand_overlay.9.png
+SHA1-Digest: oqQRZ0+eodYKSA13joN8w8BDBMA=
+
+Name: assets/www/img/food_09.png
+SHA1-Digest: RmyGcTV6IJuym/i8WNm1V28fLMc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/bower.json
+SHA1-Digest: URXvuTm0cu5cJ8W/HZ67hemx/Vs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/device/device.ctrl.js
+SHA1-Digest: 8A5GzmdVnTX2oCte04wxtHVBzOE=
+
+Name: assets/www/img/cube_feed_03.png
+SHA1-Digest: fWsTCyn42snHtBZKINqJd+DStAQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/queue
+ .js
+SHA1-Digest: 89GX75RgtChMYd+HjBWsZCY32l8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/README.md
+SHA1-Digest: HhEUmvCnKzzNvToe6sOFUT68zCE=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: DVSQC1XZ6GHLNjUroCdEhVCanz4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/config
+ /build.config.js
+SHA1-Digest: zTo0N0BD/LjTz0kibZhWvX2lb+g=
+
+Name: assets/www/2c9dcc4e-5136-494d-9e27-da7fce9b0cc0.min.js
+SHA1-Digest: gDPHyyekHiWK0H+VVwCKZLczdlo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/preferences/preferences.html
+SHA1-Digest: 2PMULSYI+y6N5sG4V0qsz826fdA=
+
+Name: res/drawable/ic_search.png
+SHA1-Digest: +GZP61EZbl1LrQUmyK40SMTLWKg=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-animation.scss
+SHA1-Digest: rXfMMiV3KYXi9197kn492pEzgeg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/mixins.less
+SHA1-Digest: wdJ4zx6cgFSbyr/8mqBKiKYmlTU=
+
+Name: res/layout-v17/color_picker_dialog_content.xml
+SHA1-Digest: TgPN6I3h53Bt5bxY6XL52iACEPU=
+
+Name: assets/www/img/slide_07.png
+SHA1-Digest: E6yO5NDdVFeXcd3/Wld/+ynarFU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/sqlite/sqlite.ctrl.js
+SHA1-Digest: EpOb73+RdXKcx9xvhInUdw6Y2Xo=
+
+Name: assets/www/4b82b092-ae76-40ca-a6ed-d05edb74f802.html
+SHA1-Digest: IEJI0M//Z2U5gVK4e0CyL6ZTSaM=
+
+Name: res/raw/launch_screen_api.js
+SHA1-Digest: J2gR0Z4FdQ5+XieqOP3ScgUfV4o=
+
+Name: res/drawable-ldpi-v4/icon.png
+SHA1-Digest: nB2IwVfPnOyXzLaUiNjjutWfD2Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/fileOpener2.spec.js
+SHA1-Digest: TcPGpUyGcGacg92O0BIgCZCx3rQ=
+
+Name: assets/www/ef810125-f7b8-4514-84b0-6ce90cbb30e9.min.js
+SHA1-Digest: Di7WVrVdOR7VTwQUb4fWCwYPCDU=
+
+Name: assets/www/0ced7d56-c958-4cda-afef-be7e2ef4ae46.html
+SHA1-Digest: XMBZ+8IvcApHZGqWSxngdmi49KI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/media/media.html
+SHA1-Digest: qM8q99tJ0RipJsLqQ54F2XRo980=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toolbar/toolbar-default-theme.css
+SHA1-Digest: aVnsFgB5J7pCByEGUtOLZu6zdu0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/facebook.js
+SHA1-Digest: YzuICbl7agszUi4BwezONF8yIU4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_larger.scss
+SHA1-Digest: I9jiLBh+nmMnTXf4gffbMbKh4BA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/stacked.less
+SHA1-Digest: vNYijNnrFv38s7qFvrt1ZZozB/E=
+
+Name: res/drawable/ic_warning.png
+SHA1-Digest: xzrZfZc+9Qh5c6fWOgFNAs55Acg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox.css
+SHA1-Digest: s6a66D3jw9wF1pYutPX/9aHF4u0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabSpeedDial/fabSpeedDial.js
+SHA1-Digest: M8c4CGYsAyvxYvxa7C8adFEQyk4=
+
+Name: res/raw/contacts_api.js
+SHA1-Digest: 0rDpScJ1oON8HPwF826GxBc+MdE=
+
+Name: assets/www/img/food_02.png
+SHA1-Digest: Z+LEn3MmhWSMa3OghwtZzDs/0pE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/datePicker.js
+SHA1-Digest: 5AFtJqf67Tj4IFMUyXTfmCsVfY4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconSets/assets/social-icons.svg
+SHA1-Digest: lChiQUwUayDtRjPvVjidoVBXXlE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sticky/sticky.min.css
+SHA1-Digest: +xFj6RDwcvvnismF387O77ulres=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_popup.scss
+SHA1-Digest: ZH7fw721AvmYnC6oC+4vO8pJi0g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/camera/camera.ctrl.js
+SHA1-Digest: GxTByKnbgvczAbf2+87jdQRNZOo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/data.
+ js
+SHA1-Digest: ZRp1aV2pIAWyThoulwCN0oEfg1o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input-default-theme.css
+SHA1-Digest: 9erfLLx9d5EzeK8xJmR56aZHGrs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader.min.js
+SHA1-Digest: AQSbJZzlqJoBq3xab/FFph/MbYg=
+
+Name: assets/www/f5d6dfe253-a58b-41cf-9248-269a16ad979b.html
+SHA1-Digest: LV8AaTmXBcpUoO4VDbxBLB8LoOQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/googleAnalytics.js
+SHA1-Digest: sHsMsTzrEP4WP+Sk0x+Z8dbaAOo=
+
+Name: res/layout-v17/dropdown_item.xml
+SHA1-Digest: PL+3J4VUjusx8z8u5gJuLtGNo1E=
+
+Name: assets/www/0eeeecf5-24fa-dfasd44a1-b6c0-00f3c1f357ef.html
+SHA1-Digest: 0JEYFXCBA6fMxbz7r2XZ4JOGSIQ=
+
+Name: assets/www/plugins/cordova-plugin-inappbrowser/www/inappbrowser.
+ js
+SHA1-Digest: Z17Ppfg8RCKBrVJNEKZWCB1oOac=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/globalization.js
+SHA1-Digest: 8Mr1FotsCe+v5qPugFMvpHxCDK0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/radioButton/radioButton-default-theme.css
+SHA1-Digest: M/zjTAVaa0wa4Rfa50sIo6B5T20=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_rotated-flipped.scss
+SHA1-Digest: LX3aUq59oMvWZVbFX9ELVUutSAo=
+
+Name: assets/www/f0acb965-04e5-4643-9aef-1535fd359775.min.js
+SHA1-Digest: aOrolyT5sbV/aTm6bGatWQQocNE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox.min.js
+SHA1-Digest: RQofUrXx+I7rC2RjYfz7RUl5LSk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/input/input-default-theme.css
+SHA1-Digest: FJls5G7GUWjotBmlgAca59XYArw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/capture.spec.js
+SHA1-Digest: YmM3qb36ERbIXOo36oIK6Sk2DPw=
+
+Name: assets/www/3ed18adfasd87-00de-47be-b3a5-eb52091f71f0.html
+SHA1-Digest: aUng5jP0VyoO7Z5hNy8DvZctxfs=
+
+Name: assets/www/img/icons/menu.svg
+SHA1-Digest: Pby3PhWlWOVmYpwD3oVyXvPP9NU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sticky/sticky.min.js
+SHA1-Digest: AGJ1cZYenD1vOLwtaSXfX37oBDI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/list/demoListControls/img/100-1.jpeg
+SHA1-Digest: xxGGr9Ek6KzCd0xGGwYZ96zgbcA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tabs/tabs-arrow.svg
+SHA1-Digest: km/rm6ffrSIN0JZmWIbwnmeiAic=
+
+Name: assets/www/a4e1757c-2b0a-45ad-a3d8-2e98c06b9588.html
+SHA1-Digest: tJcf5rX5fDG/cDQa4cYGb0XFiyE=
+
+Name: assets/www/d4bdcc3f-4609-49e3-ae12-55f254ty2c3bff.html
+SHA1-Digest: WX/E+oxILSuIK6P6LZ5YS2yHAgs=
+
+Name: assets/www/1b0dfgfdsdc7f-3b3c-4581-89b5-165d77edf2d5.html
+SHA1-Digest: sdNCXwm9x2TWsMwdbbi4T00LcDo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngIOS9UIWebViewP
+ atch/angular-ios9-uiwebview.patch.js
+SHA1-Digest: BomWRbuISHyfv+Q50ey6NG+3Xwo=
+
+Name: res/drawable-mdpi-v4/ic_action_done_light.png
+SHA1-Digest: ADLg/2ErWBFSKIN3eGE3PywktYA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_grid.scss
+SHA1-Digest: zSBjOFWOiYrGtzyNJRc0UJiZvRg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/deviceMotion/deviceMotion.html
+SHA1-Digest: ilR5NnBTyWhB3lX7H0/9I4JVwSk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoUsingTemplateCache/assets/android.svg
+SHA1-Digest: Zb3sU5s/ZCIj+lkYt12ZANBFByk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabTrigger/fabTrigger.js
+SHA1-Digest: YYbR9VMwKNxRF51GdvRsxWDw6NY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Italic/RobotoDraft-Italic.svg
+SHA1-Digest: 4aJ9ARKbDmrzAjLYswPCEIKujn4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /event/syncReady.html
+SHA1-Digest: o1/DXfrTXGHzhR3ZkCHXbAWrybk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /testsuite.css
+SHA1-Digest: hEMg2AY5VeO4epRNu5Y/MToFCpE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Regular/RobotoDraft-Regular.svg
+SHA1-Digest: IisGzG4mlIV0PWdaRYlQliZuH+w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/flashlight/flashlight.ctrl.js
+SHA1-Digest: duPp5bdRrDwssbKSS+LotjAAgvo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/divider/divider.css
+SHA1-Digest: cx/Z+CIfbeWXx/+YjUZ/1rIxDfw=
+
+Name: assets/www/lib/ionic/scss/_popup.scss
+SHA1-Digest: x0vjMAfkwa+7nNQns9keWfdzCwE=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: 2lBeUuDBcNUvxpHw2vB17CNAO4E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/config.xml
+SHA1-Digest: CYqDkL8wBJC+aBSQ2U7xBpKGyD4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/bordered-pulled.less
+SHA1-Digest: DFuHa3QkFvw+wCV0hWK0CKuLx5Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card.min.css
+SHA1-Digest: lLT5QVuW7EpoRVs0+t+QRbLPfyA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /name.php
+SHA1-Digest: cAi8+KXqg7IK26Ic1FxAyr7LmHI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /test3.html
+SHA1-Digest: zrfoVGstWsgix2Afa/Qw81VaEaI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/splashscreen.spec.js
+SHA1-Digest: oFULvngHfIxrBEzdqSjL7Cqn9DM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/css/font-awesome.css
+SHA1-Digest: k9c1W79ppxPh+EHqXLFnJ6/frUI=
+
+Name: assets/www/6d35a65c-8b4f-4a0c-be0d-6dafc9963a29.min.js
+SHA1-Digest: vtu4k+vhSfn3BqP1L8oDyRTMbYo=
+
+Name: assets/www/30694341-fe65-48a9-b51c-2a182ae980-2650a.html
+SHA1-Digest: 8hd9ePsm1zjkChdzJRqdrs/KRIk=
+
+Name: res/drawable-xhdpi-v4/dropdown_popup_background_down.9.png
+SHA1-Digest: JO12AFJC3keG3C1SQc4cT/OzsnQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/geolocation/geolocation.html
+SHA1-Digest: Nbyd71QUxTxOS8nhQr08HarofRM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list.css
+SHA1-Digest: Pk3D4YmfEMqn9/NhBI/2wyURFAI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/css/ionic.css
+SHA1-Digest: 5ujSf7s0krm9slAVai7h7GKCfq4=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b0-s32ds5/9b884382-b
+ ff6-4fd9-91ik78-0b348d548da7.min.css
+SHA1-Digest: bKZBnnpYDifYnfNz82cRuyesk+Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/sidenav/sidenav-default-theme.css
+SHA1-Digest: dgiDwDbj5QVaGMdyneOh6PK0jX8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete-default-theme.css
+SHA1-Digest: soQWMkKJZ2LvLO49O7k1fVdgeNU=
+
+Name: assets/www/img/location_feed_00.png
+SHA1-Digest: UjJQyEciN2yHz0nBmanb+BsKp7Y=
+
+Name: assets/www/832dc46e-4233-483d-b01b-5e9f7c6fyuu67-5577.html
+SHA1-Digest: SUhbbnGdzt/xPs2Lcu6IemZ5Tjg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader-default-theme.min.css
+SHA1-Digest: t3rzln/YEZtU2aOW7nTxzwxi47k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/insomnia/insomnia.ctrl.js
+SHA1-Digest: 08xXW9yyvOkux7k9V0JOPMX35lc=
+
+Name: res/raw/presentation_api.js
+SHA1-Digest: a3X7hOdbpN3eBpDIs9mATzm+Gkw=
+
+Name: assets/www/e602d185-b270-457b-b455-9288201dbc33.html
+SHA1-Digest: 8D6oxB2G/jXpbmArdyIG4CXkFcw=
+
+Name: assets/www/fff2fdsgdf4efa-2429-473d-a47e-076aca5c83f6.html
+SHA1-Digest: Wtoog8kMScNYIQpQiNRSs0qrEN4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField.min.css
+SHA1-Digest: XfrVXCrmVraF7pxYvQA3EBtuQ9U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/deviceOrientation.spec.js
+SHA1-Digest: MiNXwnwxHeuTbPu8ymfhsheG7IA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/brightness.spec.js
+SHA1-Digest: ksKWN8kKEVXL6DHLGJg3BFEZCHs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_backdrop.scss
+SHA1-Digest: DIfvYZsOdGqIilgrfAIq+40c40w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/input/demoIcons/icons/ic_email_24px.svg
+SHA1-Digest: MzSMSeULmMOBsX+SpSG0w1HslRA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/appRate/appRate.html
+SHA1-Digest: u2VU3K6rLY55URfBJuvPmWFHZNc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip.min.js
+SHA1-Digest: vscLMubARIqK32zU4lmjCLy1CqE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/fileOpener2/fileOpener2.html
+SHA1-Digest: h0vNj02ecZ4LGGte4laAQ/l0UHM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /errorWithText.php
+SHA1-Digest: rpfZXtVxQvD36ftIrtOYj1xMmEY=
+
+Name: assets/www/lib/ionic/css/ionic.css
+SHA1-Digest: p27QPcFdBOcmZk7aFmQ2QCAbALo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /ajax/unreleasedXHR.html
+SHA1-Digest: ccuzVM4z7nbHscmDOmGeyw8SuxM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/core.min.css
+SHA1-Digest: vCq+cfcEPcoIA1kFKwAiEachQwk=
+
+Name: assets/www/2a3726a8-efdsaf6b-44bf-a66c-a9369fb3be59.html
+SHA1-Digest: 687JIHqMNSkkZnflmUv3OoQYUX4=
+
+Name: assets/www/90626f44-3f9f-4590-9d19-a938a1c995d5.html
+SHA1-Digest: RFaAXChlZIWuH2ZY3i9qX+9I8t4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /ajax.js
+SHA1-Digest: 6r1H0sIK1AmkShqNqtCUbQZu9E8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/toolbar/demoBasicUsage/img/icons/more_vert.svg
+SHA1-Digest: OUSbexZO1zY/kfbW8S0XPk4qYks=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/bower.json
+SHA1-Digest: qTXPDGM/5RnwY3NQOfbv0x947wc=
+
+Name: assets/www/img/location_feed_03.png
+SHA1-Digest: TuNNy1t7RIyQoGmKY71nPnjIkKM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/subheader/subheader-default-theme.css
+SHA1-Digest: wUctFSyQlOP/T9WE9W4p4WCbcRQ=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-font.scss
+SHA1-Digest: 8CmZiR6xF9yyIyYpkADXsFbTSNs=
+
+Name: assets/www/0f998f44-7520-4b8e-a3a9-6dd3c090bf6e.min.js
+SHA1-Digest: Kzxq07HZMaNk4zQ9mrDJtgsAGAc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabSpeedDial/fabSpeedDial.min.js
+SHA1-Digest: pCJnnhhYgWUCPSh5j+Jg5nVgdgs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/Gruntfile
+ .js
+SHA1-Digest: TlhygJPozn4XxWCYGARDlzUABDs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/ajax/
+ script.js
+SHA1-Digest: bL7ecDbUQLCVXURFvEDYMlPb53M=
+
+Name: res/drawable-xhdpi-v4/ic_menu_share_holo_light.png
+SHA1-Digest: aF2+FdfruiKKSwNn4aZzOQQ7Cck=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/emailComposer/emailComposer.html
+SHA1-Digest: ilFTmiOfLnTVjB4SmL3EoneQIEE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-40@2x.png
+SHA1-Digest: 5qi/ZFh6Ve3JohkbdYJL1bFq2/0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/larger.less
+SHA1-Digest: 7UTgpcT4hsWtKpxfSR9x9ix5nr4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionicons/_ionicons-animation.scss
+SHA1-Digest: n2nQRPZkn2Kp9qauZ4iIbRwD0WU=
+
+Name: assets/www/d4ef01a2-3893-4023-a506-24682f152d1b.html
+SHA1-Digest: +WpRXUF4hZwq5HQ1550F6oslKKc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /echoQuery.php
+SHA1-Digest: hUG8UYVen30ako8NwouFDbr7cx0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_popover.scss
+SHA1-Digest: PJHRK0K/zG9fTffYWF5tCvkEFuY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ angular-animate.min.js.map
+SHA1-Digest: eo34cVv5PQ9zjgHQMb/zpw4cHW0=
+
+Name: assets/www/9f9622dc-aecb-48b9-ac46-0aa0de392tyb2f.html
+SHA1-Digest: 0CmktvoFZJFIqeFrdzouJsBcBn0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoLoadSvgIconsFromUrl/img/icons/addShoppingCart.svg
+SHA1-Digest: wLAPtjDfrIGWD0yz7QYD8vtqLKQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_bar.scss
+SHA1-Digest: UmZ0/GpbqD0stoA5ckQZYUOipps=
+
+Name: res/layout/actionbar_discard_button.xml
+SHA1-Digest: jGpfIxb/aueBaCq1PhommDuEogA=
+
+Name: assets/www/cacfc92f-aade-4415-8161-d2309068ca63.min.js
+SHA1-Digest: 9DOzPuUyVH2BHnSVmS3/gd3zNEI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabSpeedDial/fabSpeedDial.css
+SHA1-Digest: y9DTYRY3gcU4YBriFKl4g/Y7sqk=
+
+Name: res/drawable/color_button_background.xml
+SHA1-Digest: DjCL2+EXkQbSr/W6BjZp5F3IlN0=
+
+Name: assets/www/lib/ionic/fonts/ionicons.woff
+SHA1-Digest: VIfznJpw+29jAG1niK/tTqSoP2o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Regular.scss
+SHA1-Digest: awJurqHHqMyjVOO+/vvjUQV2ARI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content.js
+SHA1-Digest: tTGKj2hgn23AOo0R7QIfHmAAPCM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/toolbar/demoBasicUsage/img/icons/menu.svg
+SHA1-Digest: r7hy8enqr0CUe3gGEWzmD5tD+Kw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Light/RobotoDraft-Light.woff
+SHA1-Digest: HORWINjWXa+Es2Pn4qdzHgz8ziM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_scaffolding.scss
+SHA1-Digest: 0vlfjqdCRbhsNW8qwB3gGvOp3Jk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/fonts/ionicons.ttf
+SHA1-Digest: DWCIFyQTcdPMZtrvw91TMVYfgVM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/appAvailability/appAvailability.ctrl.js
+SHA1-Digest: OtZgywftuykZM5i7aY4CFvl1Lh0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/tabs/demoDynamicHeight/style.scss
+SHA1-Digest: B05Bzh3Sx/Z2CP96CdCy8BtYDSg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/CONTRIBUT
+ ING.md
+SHA1-Digest: qijuiAFGa34EUVv0wsT5yQQjQYw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/h
+ ooks/after_prepare/010_add_platform_class.js
+SHA1-Digest: pUbQWnZQwd6Zb32enxVAug3QAL0=
+
+Name: assets/www/img/food_07.png
+SHA1-Digest: VWn3xeZisr0Dcn5rBUz9ScUnOXg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/slider/slider.css
+SHA1-Digest: YTrBgqMN9tABoqI95cUhyhrHWgk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu.js
+SHA1-Digest: D7iYvLvfupD6dBS39lvGMWcGn70=
+
+Name: assets/www/8dd6195a-4ac7-4acd-8aed-2ceef2f2c943.html
+SHA1-Digest: KUgX6bSmcz6mMWD2exdASCtIB/c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/deviceOrientation/deviceOrientation.ctrl.js
+SHA1-Digest: ANgzQIcVduwqKK8SOUeVQJkor9U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Black.scss
+SHA1-Digest: FyzYPG5d1sfSKG9D3FikKegWLXo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/geolocation.spec.js
+SHA1-Digest: 00EUS3ElUXUXjwBG50EH/yFoXOo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/gridList/demoBasicUsage/style.scss
+SHA1-Digest: kacc057vOiPGKDdAMhn1N5TuS8I=
+
+Name: assets/www/img/icons/message.svg
+SHA1-Digest: 29LbJuPqcrShFrw3DJgvzDA0hdk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Italic.scss
+SHA1-Digest: /PpeTigTR7nG1q4qbpifzxzgZjA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/MIT-LICEN
+ SE.txt
+SHA1-Digest: l9DOky22udtCM62yg+lOBZWen8o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/datePicker.spec.js
+SHA1-Digest: KBYqhQMTomKR970RHmgewRCKs+8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_mixins.scss
+SHA1-Digest: Ht7KnwrO9RCxDCY50+JChrLaw90=
+
+Name: assets/www/img/food_cover_01.png
+SHA1-Digest: hBEPUKH1cmUgpvrIINT+vmbVwi8=
+
+Name: res/drawable-hdpi-v4/ic_action_next_item.png
+SHA1-Digest: if3MCCMitp+rQkSVaFJf812cKSw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/dialog/dialog-default-theme.css
+SHA1-Digest: odcaroqCx4Spoovrbfm3yK/DfVQ=
+
+Name: assets/www/9e45e6ab-ad0e-415a-93bb-de04521105d8.html
+SHA1-Digest: dJ0M8GEKcvwa7aCGZHM6VimvQ6Q=
+
+Name: assets/www/lib/ionic/scss/_badge.scss
+SHA1-Digest: EzEoFDV56Rfi8nzbSshkA9J9O7k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/viewScroll.js
+SHA1-Digest: DeNEXy4V/9INDsHavU0OamOaZgk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/bottomSheet/bottomSheet.css
+SHA1-Digest: IiJrTPMlW8zyODPnuljkCX6x6DM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /jsonp.php
+SHA1-Digest: moYGI6ZKxnn6DdNHncwJEzm2PPY=
+
+Name: assets/www/9406639c-33f9-4708-888b-5210e7ba6638.min.js
+SHA1-Digest: aA3ShBy49GRCyiq6UQTEm99GFpg=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss
+SHA1-Digest: BltFMSeoISfXfVgNOaF5rJhh5FQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/CHANGELOG.md
+SHA1-Digest: 8RPQt/F3HCSRsQwiKBiMJ+MJj2Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/upsPushNotifications/pushNotifications.ctrl.js
+SHA1-Digest: QnidDuWJrxx2mtlCFxagHXiitKA=
+
+Name: res/layout-land/date_time_picker_dialog.xml
+SHA1-Digest: LBWhe7zxOCiRe8rY3DLno8UTlTY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/robo
+ todraft.scss
+SHA1-Digest: gMQSw1UgI8krxLagMMyGaJAnGcw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox-default-theme.css
+SHA1-Digest: kh1/lhQ7KfmKTyb5lbMHH3UTBl4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/gmaps.js
+SHA1-Digest: EXTNFE5mOYy+K8vy5SzPjl4mzFQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/api/angular-ui-router.d.ts
+SHA1-Digest: osMJJMQTM+JrkhLR/pjcGz15f0g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/angular.
+ min.js
+SHA1-Digest: +Dc1htgPRzIJ6USym3+S5afgsjc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/jquery.mi
+ n.js
+SHA1-Digest: wLE6bSD8Pa4cYLKXMHibF6FCEdo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/stateFilters.js
+SHA1-Digest: lLwDbKu+P2my4m/QDNkXNMrHm74=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/stateDirectives.js
+SHA1-Digest: 3rGRYanV4uBfS+qCVEG8k8CcaC8=
+
+Name: assets/www/1c7d888a-2ac1-47a4-bd71-999bba08021e.min.js
+SHA1-Digest: z424lViZnDrbrZ3JX0Dlb6KE3Gc=
+
+Name: res/drawable-xxhdpi-v4/verify_checkmark.png
+SHA1-Digest: Rf6ikTRbGvTjVj5ulkGeqiGEElE=
+
+Name: assets/www/ba2ca7af-3b71-4d26-acfe-76714d195fce.html
+SHA1-Digest: ydXN8zSDGEZXy3VTn/UwQA0yvL0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tooltip/tooltip.css
+SHA1-Digest: VdSi28AItD9fzxStt8R4A9uu/z4=
+
+Name: assets/www/img/bg_cover_01.png
+SHA1-Digest: yw3gCMFO0OSiRW6kicuCDwCpWqU=
+
+Name: res/drawable-mdpi-v4/ic_action_done_dark.png
+SHA1-Digest: OTi3QY5vPWWNGeVvOQJq3w6Xi94=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/input/demoIcons/icons/ic_person_24px.svg
+SHA1-Digest: vUENZmZ2Mqc7fRcLIjFHUYpBwEY=
+
+Name: assets/www/90a854f3-7ae2-4819-9108-32d77d-3db130.html
+SHA1-Digest: cvmQkrYd2TkfBoT4yrMuu6xxDdE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/bower.json
+SHA1-Digest: 2kNSsAUjSzaph/b1ICN4osiqOuo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_checkbox.scss
+SHA1-Digest: fkOzwFeWxTup0pNs4kkU0rLp5G4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/batteryStatus/batteryStatus.html
+SHA1-Digest: UIhWAf/pXZLSYsA4HbuPckY87pU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Black/RobotoDraft-Black.woff
+SHA1-Digest: 6KN0ZfYt9R+oPT0UTJ2fm0pFXkI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /badcall.js
+SHA1-Digest: cKRVANSIga5zc+257v3eK7cy6Lk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/subheader/subheader.js
+SHA1-Digest: CsDyDgG10wPv33Xuzs7EawOq58E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete.min.js
+SHA1-Digest: RdR2dLvlS1Ypwjx6gl8kkasmdc8=
+
+Name: assets/www/2a3726a8-ef6b-44bf-a66c-a9369fb3be59.html
+SHA1-Digest: b2OCH7QaV8CYs1qmo613tHgPd+Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/core.
+ js
+SHA1-Digest: 3GIfJRwPHibI10SPpG7BI+zTTnk=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b0-s32ds5/9b884382-b
+ ff6-4fd9-9178-0b348d548da79q9q-02hgdm.min.css
+SHA1-Digest: PAWV7KXraF2dr+XhCefq/vPG1CE=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: zSlTRU8HxUISyyqDCPgSSJgcj+g=
+
+Name: assets/www/lib/ionic/scss/_checkbox.scss
+SHA1-Digest: RWPRgrz8AuMH+RB+0mwluPSpric=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /deprecated.js
+SHA1-Digest: I++x+zJZFnd2otemTdLCfRQ4SSY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/jquery.mi
+ n.map
+SHA1-Digest: FjAjTajJMYiKAMBXInEDlrZlcLc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/chips/chips-default-theme.css
+SHA1-Digest: /NWGGuBx+QRmPeI2nn81uIW5msY=
+
+Name: assets/www/c1dc2268-b734-42e1-8e7d-48e524d61d38.min.js
+SHA1-Digest: K8F6j20a2vKu/S50Sf+O9Rc6jOE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/healthkit/healthkit.html
+SHA1-Digest: CGBBF/l0C8RJVV40XMQC59724yI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/urlMatcherFactory.js
+SHA1-Digest: CmiksBttasZ3SyHXog+ginCuivA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/chips/demoContactChips/style.scss
+SHA1-Digest: rLTSaFWcgtEQEIIulsgM2dpfcMI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider.css
+SHA1-Digest: I8s6pc6hjwOSYd8Ni/5J5iYOsXU=
+
+Name: assets/www/lib/ionic/css/ionic.min.css
+SHA1-Digest: i5ioSYlfxfanJgZd7x4kHrvLQHI=
+
+Name: assets/www/dd467f7e-1ff0-4bea-96db-152d0d8ad0e4.min.js
+SHA1-Digest: lKQZ+IWzBLFMkpI4csNNk8Qmca8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/statusbar.spec.js
+SHA1-Digest: dg7EcC8JE0KZyhna8+kt1vFQ+t4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button.css
+SHA1-Digest: lSwyL2k37J4qt+Q+ZuKT/QPtuQA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/attri
+ butes.js
+SHA1-Digest: MkIrYzUG8ddACrzZDCns/D68hBg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/intro
+ .js
+SHA1-Digest: 2rqPLemRq5IvWxFb/KgK64HzM1Y=
+
+Name: assets/www/d5ddsfdse3adf-1d7d-48b4-8ec5-7c0c04541afd.html
+SHA1-Digest: /F7loJJRXl2ucIhuC97xwiVg2PM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_select.scss
+SHA1-Digest: rnSefeiTHPQjpD9jLKIyDbS0500=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/toast.spec.js
+SHA1-Digest: tnCPEz7g+oc7+CpX21XViutYE8g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toast/toast-default-theme.css
+SHA1-Digest: Qkk/snzJ2K07xzP6//Lk5rVaaH8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/release/angular-ui-router.js
+SHA1-Digest: Ab7XiudpuUGl3yy6/BTuMwSpJlE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast.min.css
+SHA1-Digest: VOJpBDogJT6RDWhQaZ/McZxtZEo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear-default-theme.min.css
+SHA1-Digest: deKlbgPHty20FtzpOFHZegawnX4=
+
+Name: assets/www/img/shirt_06.png
+SHA1-Digest: jqBzTISM2ymmsmK3jfJJi44ZKhM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/card/card.js
+SHA1-Digest: WEeSBwcTWgn2YOzhl9lH94mHKaQ=
+
+Name: assets/www/lib/ionic/scss/_items.scss
+SHA1-Digest: C0SeJ0WJF/TxeAA7rHY+gg9amQM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Medium/RobotoDraft-Medium.woff
+SHA1-Digest: aiFDF8euagD8fYDgMQnQYt0CqfM=
+
+Name: res/layout-v17/color_picker_advanced_component.xml
+SHA1-Digest: U5q5TrBidl7vIGh6LTwb2jfdo4A=
+
+Name: assets/www/c147477c-613d-4d8d-9368-7dsfasd45bc0f-ghd29c0b.html
+SHA1-Digest: As008C0GlHJD6OU4O5XxZ1mkWYM=
+
+Name: res/layout/two_field_date_picker.xml
+SHA1-Digest: wRGXBdDR1r5yOSc9BJhnNCZPVd8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/input/demoIcons/icons/ic_phone_24px.svg
+SHA1-Digest: BvQ1o3KQtTP2xOQ2yKZoaIftFd0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch-default-theme.css
+SHA1-Digest: coMPMhD8DWGOjX93SQNDDTC4RTI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/state.js
+SHA1-Digest: DqqbBGxvwC55FI9cCpV6dCX7QMY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Light.scss
+SHA1-Digest: PVnfdIAq3WvTqSc+M7vs+0Ao0aU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /README.md
+SHA1-Digest: WMhbXtfLxxDRXefwHkyEidB2Cyo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear-default-theme.css
+SHA1-Digest: IDvsarKgAGjW2a08GZ41ggmbAxM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/ben
+ chmarker.js
+SHA1-Digest: 9zAvNupFZecKwI3P/TsrLOAsTHw=
+
+Name: res/drawable-xhdpi-v4/ic_warning.png
+SHA1-Digest: 6Em7ffY1vJlcebir69SMSoWJINM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/capture.js
+SHA1-Digest: Isw0DdYOweesmQTP97+f1ASPr6I=
+
+Name: assets/www/b9794f0c-f134-4a17-ba0c-d610b2rter-757109.html
+SHA1-Digest: JACPMnQ3xWrT2FI5vu9Co38WYaM=
+
+Name: lib/armeabi-v7a/libsqlc-native-driver.so
+SHA1-Digest: rXX5uUngq7oNa68uGtvH5+rLX7o=
+
+Name: assets/www/b7703730-41a9-43a6-83a8-5de07uyituy572ebf59.html
+SHA1-Digest: 7ehkW+YWBI/usnl8XYRpgXBluCg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/bower.json
+SHA1-Digest: nUqLNY+Cs5gKUyM+ImosFCz1NVE=
+
+Name: assets/www/lib/ionic/js/ionic.bundle.min.js
+SHA1-Digest: xJXbnkuqq7p3xniNQCGev8wSAng=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/localNotification.spec.js
+SHA1-Digest: V8rDsw2kN2sN/jmAh6t0+5OVmlQ=
+
+Name: res/drawable-hdpi-v4/ic_menu_share_holo_light.png
+SHA1-Digest: CyUrlv+22SdtGYsPDfLO0oZmJkU=
+
+Name: assets/www/62753b6f-a194-4644-92b1-34e85fbbda69.min.js
+SHA1-Digest: uvzdvPKgK1+PrQjwBn6qQc/X8VE=
+
+Name: res/drawable-xxhdpi-v4/ic_action_remove.png
+SHA1-Digest: 9Utk4+aXETSKYQP8/+rs1q75Fn8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toolbar/toolbar.js
+SHA1-Digest: /C2BniyLKHbPg8WWtZ6BZuJ+V5A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/ben
+ chmark.js
+SHA1-Digest: pNYyhru5E6nrlQWRBGMbuyN8Hbo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ angular-animate.min.js
+SHA1-Digest: LbR9aMK9Hto+mGW/25AB6JpYCFc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog-default-theme.css
+SHA1-Digest: PWltmBetCL6b+fM8KQm9fszArQc=
+
+Name: assets/www/16946a61-4d12-49b1-a877-7e231cab69da.min.js
+SHA1-Digest: vGiJDnFovz6aOw2XC5CNRXo20Cs=
+
+Name: assets/www/840d598b-31e2-4821-bd7d-eb56777f87e0.html
+SHA1-Digest: t3KXMfuIlqJPGdzeZ/+rmG22sGU=
+
+Name: assets/www/c5a8581f-f0dd-4eab-aa21-5ff1299-hgjd7f2b.html
+SHA1-Digest: e2bA0TjtGIAPmbGTeagyox4dfdM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tooltip/tooltip-default-theme.css
+SHA1-Digest: qGJ16y6y/jVNmZAhoT41pUnw9PU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs.min.js
+SHA1-Digest: dSAS/g5ApIpzmyp2KXzD667Na04=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionicons/_ionicons-font.scss
+SHA1-Digest: cjcFiHtW7PMnTgJ1uPzgR6nikmg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_list.scss
+SHA1-Digest: fEq7esFzS5HU4nvXO/7gmvB5WXM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ README.md
+SHA1-Digest: Xt2UGcwtBKxwyEoNd+rDq0eANjY=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: tIX6e6meYZ8S5tU4xGGIKIZ6BRs=
+
+Name: assets/www/9366b7ba-61ff-4250-8777-8fdf6ded5fe0.html
+SHA1-Digest: lWaqQS+B/Q6ZgXewwuZB5jevDgk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /support/testElementCrash.html
+SHA1-Digest: lPNh39Hw7PQdcWoCv30U5kj6jGg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Thin/RobotoDraft-Thin.ttf
+SHA1-Digest: ipFz8IIa4FH1WXac5xZDe6LeZms=
+
+Name: assets/www/ada73609-4db1-4c69-906d-affb1bc9170d.min.js
+SHA1-Digest: lQZDTAXIE3X6MZRkpSK0sqQMgsA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/bower.json
+SHA1-Digest: Nnv0XgWc9bUh5z98+aZ2dUpeJCI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/contacts/contacts.html
+SHA1-Digest: uSFJxoP3yR5LjG8cb3iSP9jzdtI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-72@2x.png
+SHA1-Digest: yrhEB0tdiRav0ZN/7RyVUCwE2Jw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabToolbar/fabToolbar.css
+SHA1-Digest: GdkUzABn09WkERXEl9b3BPsHv28=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Regular/RobotoDraft-Regular.woff2
+SHA1-Digest: tE2nXtsdSr5pTL0sxU68tjyuDpI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/copy.svg
+SHA1-Digest: I9lZdbk8gfxVM7QT2O/qkeADZZ0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/autocomplete/autocomplete-default-theme.css
+SHA1-Digest: BKZFDZSDywqR0a4Y8HWV/xh68UY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /angular-messages.min.js
+SHA1-Digest: p9Jb00KlQqsGS4J7691nZvMjvRU=
+
+Name: assets/www/lib/ionic/scss/_slide-box.scss
+SHA1-Digest: 4Dse3bp+iMHRpvnjR32UO9V2QJo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/pac
+ kage.json
+SHA1-Digest: 46v/tcz8jWOybF+Kxun0UIXvP0g=
+
+Name: res/drawable-xhdpi-v4/ic_action_done_dark.png
+SHA1-Digest: 2tMzJwrvHUlrP+iRhr0vFnGYg4g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/toast/toast.ctrl.js
+SHA1-Digest: U3ims9UKmqA5uwBvqtxM9bNHE3Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic-angular.min.js
+SHA1-Digest: cdHiTDlBOtE+2DTLjsXUrV2Nqtw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/fonts/ionicons.eot
+SHA1-Digest: IEdrMNZFJKzOETQ9ax8KwQcQeE4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/globalization/globalization.ctrl.js
+SHA1-Digest: 5lY8AApWVVMFSrI8EjvNI2c1xow=
+
+Name: assets/www/db37e449-53e8-4668-8097-05dc7c910c37/c820566a-4086-40
+ 15-8047-29c6cd68a30c.json
+SHA1-Digest: JyXT8QoMHUMFevvROSX+CaOHRQA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/clipboard/clipboard.ctrl.js
+SHA1-Digest: TVePld4FN4fj6dFL6ehrvN76htc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/socialSharing/socialSharing.html
+SHA1-Digest: EKjjLyDMGg1mLCq0Q2oq/7U5nZk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/upload.svg
+SHA1-Digest: FCCa/Nh+CcNNvxyS1vA4kUTDvGU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/variables.less
+SHA1-Digest: 6rU/jIRgHu3cb5YtMXnBaWwEchk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/select/select.css
+SHA1-Digest: lBfGx9pYMFGAaG6Or54v4H53b2w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/bower.json
+SHA1-Digest: 90Zwl6rmBIezy2L7iwptEuKOMEg=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: NMEAsWvlZMRpWVHGB9MvliVsf9E=
+
+Name: assets/www/fff24efa-2429-473d-a47e-076aca5c83f6.html
+SHA1-Digest: zw8+dhrMFyHr2JudEyEy/ZYqKrg=
+
+Name: res/layout/date_time_suggestion.xml
+SHA1-Digest: 0sD93/P6NOxUJbOYtd9+cf3zZg8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/README.md
+SHA1-Digest: r8QIbNosVb2V4dckBfj3eosud1M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox.min.css
+SHA1-Digest: G49qUnwJn0PPaOoqDR3IJ4z/8cU=
+
+Name: assets/www/img/cube_feed_02.png
+SHA1-Digest: t3COO8Sg+QPqqEQ0Mtxm4Wy96HE=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b0-s32ds5/9b884382-b
+ ff6-4fd9-9178-0b348d54d8da7.min.css
+SHA1-Digest: bTDFskA1WlztNULTJERFKbxWM24=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /callbacks.js
+SHA1-Digest: 5o9I1wUu+AkVrK6v7mkjEPE1WsU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/appAvailability/appAvailability.html
+SHA1-Digest: Zmh93GGHgLrOhwv/tvuZWp3+10U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete.css
+SHA1-Digest: fwKrF+AITRaCEAb0mMCopwoF6rs=
+
+Name: res/drawable-hdpi-v4/bubble.9.png
+SHA1-Digest: +qqPqtjDsXyXuudlNT8HNBvbLL0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Medium/RobotoDraft-Medium.ttf
+SHA1-Digest: x6viZW+0qVFb0ZoARlrULwMfejs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon.css
+SHA1-Digest: vRtG/h+q1JHoetJp/JTOzpm8PgQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/dele
+ gatetest.html
+SHA1-Digest: +rBYPGI71g1YHWU4Ir8Cy3rgw08=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular-default-theme.css
+SHA1-Digest: 4wI1nUouzd0xTpUn24f0jeQA45U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Black/RobotoDraft-Black.svg
+SHA1-Digest: sxm/6aPfhFCyQsOkCfLv+lKhNMg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bower.json
+SHA1-Digest: eUz94k/qkWLCaLSp4ftL4OLzLXM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon.png
+SHA1-Digest: iUHfQxD5DU9gbzo42WFC/9SJ1ao=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/chips/chips.js
+SHA1-Digest: HZnLz/LpMvtCFPELRDbCVN4j4/w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-Portrait@2x~ipad.png
+SHA1-Digest: +JjSm7ZR5Ti4dgAAraputMuU220=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/icon/icon.js
+SHA1-Digest: xPicxRqfioL8iBdIvWB0OEsvUrM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/bottomSheet/bottomSheet.js
+SHA1-Digest: ZeKd/B0kmikMmSyXaoWuZNeG7+0=
+
+Name: assets/www/96bf7f5b-45b9-4e41-bb56-e883db3cf2ce.html
+SHA1-Digest: kmlNKmGBxcDD4BZT1sIi+EE4Pso=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/scroll.html
+SHA1-Digest: BKycXolhwJuIEquX7TH5gRRFZig=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input.css
+SHA1-Digest: WsZKhHf74NpOuSlC+7m1u2EVI7s=
+
+Name: assets/www/bdcc74eb-fd02-4fa6-8f30-eeec83e13f20.html
+SHA1-Digest: P7Xy6NGrMCsiqjWbxdBG0amIV7s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabSpeedDial/fabSpeedDial.min.css
+SHA1-Digest: FJBbNAxK8rd7mt3gH3F8WyxTjmE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar-default-theme.min.css
+SHA1-Digest: /HPVvxQPtp8Uy36zbF79M3GySWg=
+
+Name: assets/www/5c687b8f-5903-4de0-b0e2-2227adbf8ccb.min.js
+SHA1-Digest: OjbU1ksh0NQ73Wl4bV2zRGDAOs4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav-default-theme.min.css
+SHA1-Digest: 9FbOy7YIzbSwVWp7G7JiMSEXJtQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/message.svg
+SHA1-Digest: HKKSjQiBrUmWh3k6vl/xby8tVx4=
+
+Name: assets/www/img/slide_06.png
+SHA1-Digest: mPgxThr9IhJFTI4q/HY1IuaHEPg=
+
+Name: assets/www/a7b8043a-0bc9-4b45-b9db-ba2b7046ffb5.min.js
+SHA1-Digest: th61ZpoBf4RXlPRMH9EOfIqiqcA=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: MKo4fOyNvF6Rr+w9QwpDKSidikY=
+
+Name: assets/www/lib/ionic/scss/_animations.scss
+SHA1-Digest: wmBwh9FUHZgZhVh5eZIa++SY8G4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/contacts/contacts.ctrl.js
+SHA1-Digest: u6E6dsVLVyNmLxxhQmEorV0YCIE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/dialog/dialog.js
+SHA1-Digest: xHDEc1woqY8RM2/iLXTg51djMoA=
+
+Name: assets/www/img/shirt_00.png
+SHA1-Digest: vSpQa6xVYc0wrtQfEWyrmAZJdpw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/divider/divider.js
+SHA1-Digest: aLgmBnqS/Gv59iRhJBtookXnoWc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/healthkit/healthkit.ctrl.js
+SHA1-Digest: qVtiZDc8ATXHlq8iuekJIeLUNvE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_Medium.scss
+SHA1-Digest: ddvMAvsCRCiSrzfv2qZ2cgCmY1o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-Landscape@2x~ipad.png
+SHA1-Digest: U5OQNmwBkUouhxL+EekxEW0RjbQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet.min.css
+SHA1-Digest: +y8kemj4pyLXrwM+its9sqyE8Gk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips-default-theme.min.css
+SHA1-Digest: 6FvYib9A/qnYKWDfsLKofF8m6wE=
+
+Name: assets/www/lib/ionic/scss/_backdrop.scss
+SHA1-Digest: m07hEvSWLEogySDspWPT4LAatOE=
+
+Name: assets/www/b9794f0c-f134-4a17-ba0c-d610b2757109.html
+SHA1-Digest: ZL6mEMueiu2JUY23sDwXnaQaO8s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoUsingTemplateCache/assets/core-icons.svg
+SHA1-Digest: DwPpV6k4kY4tddehbsZGM0afTc0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/adMob/adMob.html
+SHA1-Digest: AhtScHKGZ/lYM1A57G40yzL/Obc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/fixed-width.less
+SHA1-Digest: jCzR8jzqrqEn3dHwzFLRvaYMqEI=
+
+Name: assets/www/9366b7ba-61ff-4250-8777-8fdf6de-d5fe0.html
+SHA1-Digest: uDCiVOIfwHh/hUlFotUyc0APKtI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/img/spinglobe.gif
+SHA1-Digest: tmJiETu9AOt0J3e/LVNCNc4FT6g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoLoadSvgIconsFromUrl/img/icons/cake.svg
+SHA1-Digest: usOtBDJT3q19UG0F6DccGNQtyT8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/stateDirectives.js
+SHA1-Digest: yHVS3VdYxL0jMI9NAGUZRrjK4wk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /selector.js
+SHA1-Digest: JptqPZN5tKv4qjjZEi3I92Xbzs8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider-default-theme.min.css
+SHA1-Digest: fn0OxrdvvKgIdh5R/B97fEXGXX4=
+
+Name: res/layout/color_picker_dialog_title.xml
+SHA1-Digest: b2s9Zc1uUcT95OTeJqAsPLQ4uY4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/p
+ ackage.json
+SHA1-Digest: 3lwPEmKkTdSlrU6nAh74G+y+sTY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/swipe/bower.json
+SHA1-Digest: vsta/O4MuiF8nkDhxrEmw2ppzDE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs-default-theme.css
+SHA1-Digest: l8SjRikacmpUYQoyHKv2ein25sg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /package.json
+SHA1-Digest: Lgxprdvsh9u7PVZ2LDHYzIejCUI=
+
+Name: assets/www/b23b8707-f39d-4c5b-9596-db2296ae84e3.min.js
+SHA1-Digest: 5tEhRYTdJzyCDea8MHBcV7Su3yE=
+
+Name: res/drawable-mdpi-v4/ic_action_next_item.png
+SHA1-Digest: ZzISkM7wLyAw7HkVAX3PN79mc5w=
+
+Name: res/drawable-hdpi-v4/verify_checkmark.png
+SHA1-Digest: B/6V1eUBdw4xLjv3ajpKvfFrRns=
+
+Name: assets/www/img/food_03.png
+SHA1-Digest: p/VaNb2G84gtV6ao0qmq/bSshck=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/toolbar/demoBasicUsage/img/icons/favorite.svg
+SHA1-Digest: rcnpgkTrosQX2K4M7dHz6v8KrCM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/manip
+ ulation.js
+SHA1-Digest: Luv8ceoC7RnDVrMVPCsYJNrEeV4=
+
+Name: res/drawable-mdpi-v4/ic_action_discard_light.png
+SHA1-Digest: ol+15zp3hLy5JeMJQ53rAthTcfk=
+
+Name: assets/www/1b0ddc7f-3b3c-4581-89b5-165d77edf2d5.html
+SHA1-Digest: HuKlaRuEuXwFAHokzuXyYG8KaTI=
+
+Name: assets/www/lib/ionic/js/ionic-angular.min.js
+SHA1-Digest: d13JH14EN+gHWf9MscfOVgYsLu0=
+
+Name: res/drawable-hdpi-v4/ic_search.png
+SHA1-Digest: kyxe38B3+iFpZMapqSiQ6PapMLk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/README.md
+SHA1-Digest: 4RcFgk8N3Dg028FcQD878uymHtI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_reset.scss
+SHA1-Digest: NMarfCkdfccBaGWQ419EgwHsY9A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/whiteframe/whiteframe.css
+SHA1-Digest: xhIF3WIzIcqFU47GD339JXtCHCs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs.js
+SHA1-Digest: FG83dACXcKgtCF0cAI9BoiVw08o=
+
+Name: assets/www/1c93733c-a458-4c22-8901-41c23934e156.min.js
+SHA1-Digest: 1UQ/maJX2B61Txumii1Au4YtqNk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch.min.css
+SHA1-Digest: toLwUUlkd4uTcrEeT9zDlRlush4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /support.js
+SHA1-Digest: YVFaijEbjyOaE1VpmW79r9tDWYc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete.js
+SHA1-Digest: 9rK2crEXJ1WAx1iaCDSgy11uMAY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/inAppBrowser/inAppBrowser.html
+SHA1-Digest: Msrm5SZFB60zNjejpWz93tc2I8Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/googlePlayGame.js
+SHA1-Digest: gcudYccx2YklJ4bRZ2ZHCUQ86FM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /headers.php
+SHA1-Digest: nq8FFMhPX9ruZIVUqUjGxn+Xpl4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Thin/RobotoDraft-Thin.eot
+SHA1-Digest: oycIlCOOR3u8N0t9MexOVVZRy6k=
+
+Name: assets/www/lib/ionic/scss/_split-pane.scss
+SHA1-Digest: NDNNJwf74lZK58I3yVYtWP9615A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/switch/switch-default-theme.css
+SHA1-Digest: APk4oh+CVxo6Ozew92OM+7Ra4s4=
+
+Name: assets/www/0b54c069-48d6-4931-b076-d21d58d4e185.html
+SHA1-Digest: pG4uxH93f1GQOMx/hy8XNVJIhBk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet-default-theme.css
+SHA1-Digest: iyI+y9yKvTR+/5uZ/yQn68Zu9Oo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Regular/RobotoDraft-Regular.eot
+SHA1-Digest: TqUEDZBtr/cTbUXrlboMg30dnPg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-72.png
+SHA1-Digest: eDl/ZD+BiX8BNX9ra0mfMiwPofc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_variables.scss
+SHA1-Digest: wHdIVR57bre81J2MGyHx6nyF3t0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/list.less
+SHA1-Digest: F22ELzT+j74eaXfJH878bq3grQU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content.css
+SHA1-Digest: Ujqlu+KIsKlgbp+AAz4cDse+82Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/switch/switch.js
+SHA1-Digest: usH2r9opHwM5OpqjVZliKEwp+PI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/bower.json
+SHA1-Digest: gKYQektTTOaFF0XvIav5cZK6UAg=
+
+Name: assets/www/30694341-fe65-48a9-b51c-2a182ae2650a.html
+SHA1-Digest: 0YmiUk8fG9167doC4G2kpH7ho9E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/path.less
+SHA1-Digest: /Thmo9ZBhR/WmKizJL1m/DhxuW8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips.js
+SHA1-Digest: 9qDzMOFsS7EAzx+XPJUDRFq58FE=
+
+Name: assets/www/lib/ionic/scss/_menu.scss
+SHA1-Digest: C84WJ5RGJWiYl0ZC6EuLShEH3p8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/batteryStatus/batteryStatus.ctrl.js
+SHA1-Digest: 68NfIEthyph04kGaUS7+b8Jpm6I=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/vibration/vibration.ctrl.js
+SHA1-Digest: LXLbQtqitEDNphTu+t3T6hGpNSc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/css/font-awesome.min.css
+SHA1-Digest: 8kIVu86fssSq3r8YZsqBCytTTpw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/file/file.html
+SHA1-Digest: 57Df5v9q/Q5buEfXRoXSwvXNnh0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabSpeedDial/bower.json
+SHA1-Digest: YbhJQOgT/Kl9T3Vc9J/QRM1XJ6I=
+
+Name: assets/www/154ac94e-d4cc-4ccc-9565-d0c65d17er-f4d9.html
+SHA1-Digest: VwlImPPEtt+m2oWWnhhlEzHa44o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic.bundle.min.js
+SHA1-Digest: FPpf4nCI+5G3O6K9H/Fgovb34Ek=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/c
+ onfig.xml
+SHA1-Digest: TdEURUIcGpC9CwZ5St0O/lvZX1U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Light/RobotoDraft-Light.ttf
+SHA1-Digest: h9crMQtaKPk+jR3+r+fWJa17UVU=
+
+Name: res/drawable-hdpi-v4/color_picker_advanced_select_handle.png
+SHA1-Digest: EkpzvI/j2va3ysxw9FYm5rCK6JI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/REA
+ DME.md
+SHA1-Digest: hXAJ3zGmGj18O+GPjNVUOy1rrco=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop.css
+SHA1-Digest: WZIzUiRjXNKPEIS3Wgdzy+JLci0=
+
+Name: assets/www/7b07f5cd-ccdfsd0-4411-8503-237f08406520.html
+SHA1-Digest: DeQTIuLKg0SFmki5B0Rox8PxGSw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/print.svg
+SHA1-Digest: rT7oT/IoCcDL19UFstacOtTfjIw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/poll
+ uted.php
+SHA1-Digest: h8Fr8fqOevE2/kfLAMpQp4p6M5g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/csp.
+ php
+SHA1-Digest: NYuZ/UsclEN243jT5REJZUMTzHQ=
+
+Name: res/drawable-xhdpi-v4/ic_action_remove.png
+SHA1-Digest: EhvoyAdNZQu17Um9w6vEbO8Q4yc=
+
+Name: assets/www/0b54c069-48d6-4931-b076-d21d58d4e185sdfadf.html
+SHA1-Digest: C666HeJGDpiHPZKb4f+vtaCY5d8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-small@2x.png
+SHA1-Digest: xMbJasw/tEPkG6wss6NTjCfJXKc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/textField/textField-default-theme.css
+SHA1-Digest: DcIdP2iJxqMp2YnpKCNsMp3ED28=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/statusbar.js
+SHA1-Digest: zkVCwk1FAFEtr0AtOUaMo1XTAnc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/fonts/ionicons.woff
+SHA1-Digest: 4mFbXhWYXuGYCEmedbus1YL5efE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider.min.css
+SHA1-Digest: 0TEtLLe/UFOw5rpJLCA9SBOvFE8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/sli
+ ce.vs.concat.html
+SHA1-Digest: 6x0uevlPiCPPpw9Yt6Tie8iK0gA=
+
+Name: assets/www/plugins/org.apache.cordova.splashscreen/www/splashscr
+ een.js
+SHA1-Digest: poDAElj1Xvk/cYfQ4uDpwHLsoKY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete.min.css
+SHA1-Digest: tStrYX/PIxO395JZh8V4XrqCYp0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/switch/switch.css
+SHA1-Digest: VB7zP+W5T3CXgjXauBs1r1AGllU=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: XJauowqZ2GWfCNs9qCyNEUkiFu8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog-default-theme.min.css
+SHA1-Digest: vvLnxZEB4iHnM1FK7frlg+VTXkY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/absolute.html
+SHA1-Digest: qkbIJwNiqmH5SoGzqR+8IutO9o8=
+
+Name: assets/www/img/icons/more_vert.svg
+SHA1-Digest: 7NagmRHt+1i9pIvkgoqF7ZDXM6w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/core.less
+SHA1-Digest: 8A0QCou2Vn0nlhmQUduGsraV+jY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/angular-
+ csp.css
+SHA1-Digest: M1ZQDx14icYuIXsKQfOGFIvnfII=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/input/input.js
+SHA1-Digest: dePxjVtDedcOI5CcFrblvp2VzH4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/chips/demoBasicUsage/style.scss
+SHA1-Digest: WpZLl07Os9jWwj6f2do91W/6/9o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/deviceMotion.spec.js
+SHA1-Digest: 7sO5b/pFe+k0XCgc6Dqqwx9BDxk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/defer
+ red.js
+SHA1-Digest: VMsGJZ6kwpHQJN5FolAfvZVh11g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/angular-animate.js
+SHA1-Digest: Y2m/4t8Ntr7QkOSlpoeqDb+yr04=
+
+Name: assets/www/img/shirt_02.png
+SHA1-Digest: JqMvBy9z8tTpHMT9TSFQP3Fer3U=
+
+Name: assets/www/lib/ionic/scss/_refresher.scss
+SHA1-Digest: ztaUXLkpF2orpIz41T1X+uvCTjk=
+
+Name: assets/www/lib/ionic/scss/_list.scss
+SHA1-Digest: CPmwqd1ovffh5q2FiqQA5u8zdOk=
+
+Name: assets/www/plugins/cordova-plugin-vibration/www/vibration.js
+SHA1-Digest: LDER4hkmcRhsxwpbt4It3N6rqS8=
+
+Name: res/layout/autofill_suggestion_item.xml
+SHA1-Digest: aS+q6CrG9hQu+sf0YMVCf2cVMMA=
+
+Name: assets/www/910275a6-7206-4cca-9d19-9359fb39f515.min.js
+SHA1-Digest: 5bGzf4IOiN+S+ItJPJ5asLBQaZA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/ben
+ chmarker.css
+SHA1-Digest: Hk7ZcT8FmxkMPngtr1ABTtuS0WM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/whiteframe/whiteframe.js
+SHA1-Digest: vLsOAoUVs7yUiX8YAMWTzodS4yE=
+
+Name: assets/www/56a54b5e-6639-4857-964c-480edb934f48.html
+SHA1-Digest: 56Mi1BOpObXUees1XugAInEw4Sg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/CHANGE
+ LOG.md
+SHA1-Digest: ppDJMXqzRhKxFxpLP54koOZX9yA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/img/ionic.png
+SHA1-Digest: 5aYwoM2H24pT1kGMjVutmfSCcxs=
+
+Name: assets/www/lib/ionic/scss/_toggle.scss
+SHA1-Digest: AZNtTkFc8+RohOQasiMqCrZLCdw=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactOrganizati
+ on.js
+SHA1-Digest: XiSEF3OU67snwxAsZmcpEYgVUk0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-40.png
+SHA1-Digest: TttfQPt2nFpdNysNfrDJCtdp+CU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/angular-animate.min.js
+SHA1-Digest: SMlFY6a+WfNRwFNAtVSHICbazAQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /if_modified_since.php
+SHA1-Digest: JG/QL6fBmNaYKcItzN1Df0/KKM8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /bower.json
+SHA1-Digest: dFR7qO80yqyAVA9M0/ORzidExuo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast.js
+SHA1-Digest: NxojdrFE8ccIQsxOsChZdp6VVlk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /selector/sizzle_cache.html
+SHA1-Digest: 2nEruveci6jexC7hqeX71fUbW/k=
+
+Name: assets/www/img/food_05.png
+SHA1-Digest: 6RQwPfXpD103hbmntzNjForMLUc=
+
+Name: assets/www/86ad566f-e45a-4986-a66f-b55323c887a2.min.js
+SHA1-Digest: tB807ZKqzZYSPnVDA8bOdalKREg=
+
+Name: assets/www/caf8d5c5-2318-458d-b836-c38af3-gdh472f71.html
+SHA1-Digest: wOIyVkcQeF8QIyoHQUVx9CnxYXs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material-mocks.js
+SHA1-Digest: o/oSWxZq6qQYZSJmQENCPAXp8B8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/CODE_O
+ F_CONDUCT.md
+SHA1-Digest: AsCysm50L2LQnd1pRFJF9mRREXE=
+
+Name: assets/www/lib/ionic/scss/_button-bar.scss
+SHA1-Digest: iW4/k0YCf2TCPTR/UYZ56HIt3kc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/menu.html
+SHA1-Digest: U3AUJ0J2VirqE1klGaMzxo00MQo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/index.html
+SHA1-Digest: UE7A32PTZmSj2SsdqiyPfTNqY0U=
+
+Name: assets/www/0eeeecf5-24fa-44a1-b6c0-00f3c1f357ef.html
+SHA1-Digest: UkIGw70hAWYf4pTZCp6d3zb7CLo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/emailComposer/emailComposer.ctrl.js
+SHA1-Digest: WXuHtb0ahbiM5VwVleNTva6YT4M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/angular.min.js.map
+SHA1-Digest: n4xNMoRnjH+CkUj/ZVWre8pxSdA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_bordered-pulled.scss
+SHA1-Digest: Gh6iTbPGdgfNxKpmE0JWYi0mTlk=
+
+Name: assets/www/81044ede-0228-42a6-bc00-7223bbadb564.min.js
+SHA1-Digest: 7AoJBIz31sXnVtsjZQ+B01yCTi0=
+
+Name: res/drawable-xhdpi-v4/bubble.9.png
+SHA1-Digest: ISLOQviEr/32b3878GuiIOv2n3s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-60@3x.png
+SHA1-Digest: 4PNVbo0ItLiFO9FTlpwj7ZXzbjA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/ang
+ ular-aria.min.js
+SHA1-Digest: A1bBRUec33npt23J/qChh4ZXMkQ=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/Contact.js
+SHA1-Digest: fZQOMhE238NqGaT74afbO8mkVNY=
+
+Name: assets/www/img/food_cover_02.png
+SHA1-Digest: hYRGVLa0C7roeDRXMj3qymAF06s=
+
+Name: res/drawable-hdpi-v4/ic_action_remove.png
+SHA1-Digest: 4yiGHHAsMSLLJvngmTVlLn1qOUI=
+
+Name: assets/www/c250d51c-4ef4-4604-b7f3-1f6068edf85b.min.js
+SHA1-Digest: GtgZQWIpFzdM9AovWiFnMhCx6MA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/contacts.js
+SHA1-Digest: tmfs+QNOkTplfWTzONPCNk7NKHw=
+
+Name: assets/www/img/icons/share-arrow.svg
+SHA1-Digest: aOcVkSYhS6bnwVM0KWvx3stHo/I=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list-default-theme.css
+SHA1-Digest: uBtxlTVoeBmGfZmT9RcpNFwjQSg=
+
+Name: assets/www/c147477c-613d-4d8d-9368-745bc0f29c0b.html
+SHA1-Digest: PBBPRP3BO6EFfUxcDd+aZXzjZzQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/device.js
+SHA1-Digest: mbfSyg9BfXke9+oanJXriUz1ZMc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/dist/n
+ g-cordova.min.js
+SHA1-Digest: /1YZ6BLRVqI0i0QNPnoA6hC2OOc=
+
+Name: res/drawable/verify_checkmark.png
+SHA1-Digest: L0F/5naPF/EO0jtpBoYdZiM4nsM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/input/demoIcons/style.scss
+SHA1-Digest: jJZobc2kzIr8UwLvSb6OcVeTy2U=
+
+Name: assets/www/3695266d-dcbc-4e70-b1f0-72774cf61bbc.min.js
+SHA1-Digest: Fn3XFjGHQcjz347xEZSnX5PZ5Qw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/README.md
+SHA1-Digest: U4mF34QIMB+Tt+rGdngldqc5nZs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-small.png
+SHA1-Digest: 82PhhFUp3yOIiZodA4q7LnIncs4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select-default-theme.min.css
+SHA1-Digest: BPeGsRq4ir8g9eT/6Q4sWf/st58=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/css
+ .html
+SHA1-Digest: 695O7IqQ61A0l8mSX1kYUNK9WOg=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-core.js
+SHA1-Digest: LGCKzTva/0YGpN0XVfv1bkZtCNE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconSets/assets/core-icons.svg
+SHA1-Digest: 21XX0yqJm/vHuJjHjGTJgcD34dY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/vibration.js
+SHA1-Digest: +ipcqZg2I4EhCLlrWYmRkjx1cVk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Thin/RobotoDraft-Thin.woff
+SHA1-Digest: PIPFSlrWoLOKFBBTj+X2mJXnbsg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/rotated-flipped.less
+SHA1-Digest: G98Hi1H+5xRd47cbTj5U8snMCVk=
+
+Name: assets/www/5d41b7cc-8421-441b-9cb3-ea02de78b9a5.html
+SHA1-Digest: LV6WeXLjuygvUYN88XLGZEQWSBI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/fileTransfer/fileTransfer.html
+SHA1-Digest: 1SMOR3N8lnRu8/pHv14ppkiMzwI=
+
+Name: assets/www/lib/ionic/scss/_popover.scss
+SHA1-Digest: lpNiDEFOdz7NqvtnjOAyFtoYxjI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button-default-theme.min.css
+SHA1-Digest: LnVuuClQkuYWVVrs0Gwp83vKgiw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/xhtm
+ l.php
+SHA1-Digest: 8LT42BYfzUVzL62R3zDsk2gA9VU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/network.js
+SHA1-Digest: Uhkis2DBwgKTjxnP6lGHQQZG7Ts=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog.min.js
+SHA1-Digest: TpZUP6wJyUx5SKqxrrw1jVlJJgw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/view.js
+SHA1-Digest: EBMSydZDr9qTK81vWSqD9D87cNI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ dule-mocks.js
+SHA1-Digest: /5UdRDzihBCxZc4Iv9dpqerH+iY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sticky/sticky.css
+SHA1-Digest: igHXHUIr1E8TzemugvXJTBR8Mn4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/robo
+ todraft.css
+SHA1-Digest: LmlT5jXwd750ri4iqn8+VvMF+tU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/camera.spec.js
+SHA1-Digest: O9KsiPl0hO8W89TzasmSmioMVuU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/callb
+ acks.js
+SHA1-Digest: 4wTRhUML9vesz5xq15J+luWvRsI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/button/button-default-theme.css
+SHA1-Digest: XMFyjWfZxaeJv/z75m3QNQ8OCzo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/bower.json
+SHA1-Digest: zNYyZMLSYiXhUpyOgWmgglVnbF8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /angular-sanitize.js
+SHA1-Digest: cy6jW/OnyBWhMmQx5qljWu1UQoE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular.min.css
+SHA1-Digest: 9pNt8BZNTDmJLyYTtlh9jLMpzoU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/jquery.js
+SHA1-Digest: EozbeoCXblEK/xED5re6x79Ny7k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs.css
+SHA1-Digest: vUphjZk/GxeLzR4DZRfgFRT3ueU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list.min.js
+SHA1-Digest: sCWMKITcLRIvSZTIhhV9io52kl8=
+
+Name: assets/www/90a854f3-7ae2-4819-9108-32d77d3db130.html
+SHA1-Digest: TqCB59IYFydaD1hDMbwC2+WYObc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/oauth/oauth.html
+SHA1-Digest: l39oCZrBHCbJBk4YNjmgjdI2aGc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/angular.min.js
+SHA1-Digest: 7bC1QVuwCupPfo2+xiGxEP/NPpU=
+
+Name: res/layout/actionbar_custom_view_done_discard.xml
+SHA1-Digest: 16TRUmwSY1OtTm03gqBiybaF1qA=
+
+Name: res/drawable-mdpi-v4/ic_action_discard_dark.png
+SHA1-Digest: cfMglk4XatqULzpR3EkefJKKYFw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/css/style.css
+SHA1-Digest: 5drQEDENIhHM9tYlt2aUDbKLrvo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/bower.json
+SHA1-Digest: K9mCyOP8XbyT0nsKFWV9pY4Xh6E=
+
+Name: assets/www/55fd6fa0-7076-4359-9305-1bbd78bb294e.html
+SHA1-Digest: Ew1rR/9gZm8TlxMwc992bVpZ2Wc=
+
+Name: assets/www/img/contract_us_bg.jpg
+SHA1-Digest: pTHl3qavY1FPSA49VPS+jcBpR2Y=
+
+Name: res/drawable/color_picker_border.xml
+SHA1-Digest: VrilEKtK/eVMb3mOnfVw/77aGUI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/gridList/gridList.min.css
+SHA1-Digest: skIT8uvbQTr77vdbzxFATixQB5Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/media/media.ctrl.js
+SHA1-Digest: kFJhGrH6UZRwdpqX9EwfGM8fgKM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/dist/n
+ g-cordova-mocks.js
+SHA1-Digest: jn5Rtqnb6nnaDt8+PNNcKBgcUeE=
+
+Name: assets/www/48b282f6-94f5-480f-ae3b-1875-0044ad14.html
+SHA1-Digest: t5D/ihEM+v8M+hoWsLLi164Qpu8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/ajax/
+ xhr.js
+SHA1-Digest: 4Ijp9qXmmBV5CzSz7GkuF5yPN28=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_form.scss
+SHA1-Digest: FdE/7dXUHkxI8vqOxMJKhGdQh1g=
+
+Name: assets/www/4a77fgfds385f-528b-470b-b580-1805d2cccb52.html
+SHA1-Digest: 7yV7qDZstK9yTVClcxTpC3eTMWk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Yiwzuv96CJzbByHboyM8YAperAg=
+
+Name: assets/www/0dc1c2ae-0c53-4e79-a2cc-b310701e2c51.min.js
+SHA1-Digest: lo1EeHLDvTwSv+TWeGxzNNuBGjY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/release/angular-ui-router.min.js
+SHA1-Digest: +TAlVPWoU7ZywbOhH2bdO+XRCs0=
+
+Name: assets/www/lib/ionic/scss/_spinner.scss
+SHA1-Digest: w8svjUQTtmjC8U7C3d1e0lFD48M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /etag.php
+SHA1-Digest: 5as/U9Dc1/b1R8iXfXWfSqioLKI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/swipe/swipe.js
+SHA1-Digest: sX4ZPPF4AEypa2MlfoCL8IVL1Os=
+
+Name: assets/www/4a77385f-528b-470b-b580-1805d2cccb52.html
+SHA1-Digest: CJgQ2LXNiWIiEl6U8+XTqiJktNU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /event.js
+SHA1-Digest: izuhlEx5PSw5RB/Lmr7Ypk+b8b4=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactField.js
+SHA1-Digest: P8V11/smz4G7Ph2eARjB455z41Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/sidenav/sidenav.css
+SHA1-Digest: f58S2sYu1nG71BkEpKpYp5J6wAw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog.js
+SHA1-Digest: MCWH/GbEIlHqsAPrv7NEJQjTICk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/pushNotifications/pushNotifications.ctrl.js
+SHA1-Digest: oi4DuWVWzWrD/jC5oywZ1kcU19U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip.min.css
+SHA1-Digest: Qdw4Sul17MNyRYuF1R/AeocNgDc=
+
+Name: assets/www/3ed18a87-00de-47be-b3a5-eb52091f71f0.html
+SHA1-Digest: BIsg90Phb3OV2arANTgnoBmTLPw=
+
+Name: classes.dex
+SHA1-Digest: lB9QdzPIXqV6a6YnL0N81vImDgc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /LICENSE
+SHA1-Digest: lUw5vEaqXuh5QQJpZ3dMZS2kTZ8=
+
+Name: assets/www/lib/ionic/scss/_select.scss
+SHA1-Digest: 0gtFzPz+KNWVjq6fb+eAUe+k29M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_loading.scss
+SHA1-Digest: kxcS5mQFxM6JGsWKWGH0MH9whXU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop-default-theme.min.css
+SHA1-Digest: 7HRCsWPQsfukCLCivwMdRp/ISqA=
+
+Name: res/drawable-hdpi-v4/bubble_arrow_up.png
+SHA1-Digest: nyrSMUg6+6Lv81o9aYAltd03hYM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /selector/html5_selector.html
+SHA1-Digest: /yklq+cnsIDqfqurgDYUQO403zE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/whiteframe/whiteframe.css
+SHA1-Digest: 2IJx1lRrdtkapoS3wY+qLrQUTkE=
+
+Name: assets/www/9d1a7b32-5992-47d6-8e3f-c58b003c4540.html
+SHA1-Digest: /QmtnE/Mo1d23bY88uMTJO9TCu0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Medium/RobotoDraft-Medium.woff2
+SHA1-Digest: xN8xcUJUi3nmBEkK0B50j/Cns8E=
+
+Name: assets/www/lib/ionic/fonts/ionicons.ttf
+SHA1-Digest: 4N8ZcikRufBkLWw63l8S6gQH2SU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider.min.js
+SHA1-Digest: MBL/eJfy/Ef4FGr5Z7gVEGhexKk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/read
+ ywait.html
+SHA1-Digest: t3gifv05nha+pIhO1U9NiMT7B8M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu.min.js
+SHA1-Digest: i4lnnebJ46MCMBV/b+VdlCvZq9Y=
+
+Name: assets/www/lib/ionic/scss/_variables.scss
+SHA1-Digest: VOMmn8ZEiP3pwMeDN6lV8tOKRfs=
+
+Name: assets/www/lib/ionic/scss/ionicons/ionicons.scss
+SHA1-Digest: CczuSD9VLH3UG+mlrlyvwWYQmVY=
+
+Name: assets/www/466d8263-7d18-465a-8456-b98fba5a518f.min.js
+SHA1-Digest: tz56Dr49eVZjXH3+NuGnFW/cLZA=
+
+Name: assets/www/img/location_feed_04.png
+SHA1-Digest: mNRGm7r/ytM41J1gsYZv1bzqXyI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/input/input.css
+SHA1-Digest: LGn0xWbBnPNV4bPeBJ7R2snAWHc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/fin
+ d.html
+SHA1-Digest: y6gW2HSSUE6L5TeAyJR4ekaxS1g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/facebook/facebook.ctrl.js
+SHA1-Digest: Ola672RuOY0sQBpXPKkEg9yLUdI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/README.md
+SHA1-Digest: ZvIh/Pj0SuqUleqcJIuTOrG7lbk=
+
+Name: assets/www/img/slide_05.png
+SHA1-Digest: 8SeCiUIIUvyzjsfwHo5A6g4pocY=
+
+Name: assets/www/img/app_icon.png
+SHA1-Digest: hzJh//oB4xfRbXpxpSMufUdSEI4=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraPopoverOption
+ s.js
+SHA1-Digest: rjl0Zq3a5L+tW6hdCiHpXs1EcDM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/viewDirective.js
+SHA1-Digest: 9+k65U7LtlbR5i20O7zvhGDc3Iw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /angular-messages.min.js.map
+SHA1-Digest: 97SotCD05QiAbfpFqEd3n5NMSes=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/static.html
+SHA1-Digest: pofMCWyKZ4qgKUhccGy+80ho0XI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_path.scss
+SHA1-Digest: TyQa+N5IwC2LvgelGuwiU46cxZY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider-default-theme.css
+SHA1-Digest: NhrEIH7WpGKgYO7yz1xIPCqPvOk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear.js
+SHA1-Digest: 37y4ufQtQcobm+m3H4hD3KzTAX0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu.css
+SHA1-Digest: ywP9Wjpg6aEWelbHo5Ekg5PCgFM=
+
+Name: assets/www/402eb6fc-201c-47c9-993a-9bb9604779a4.min.js
+SHA1-Digest: PNWIVNgjsNTc72c0hliSJjI2rMg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /data.js
+SHA1-Digest: s1O3q3dLj/OXdgTA9L5+2HZwlng=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/gridList/gridList.min.js
+SHA1-Digest: x/v3PX33IOIEMwJjtOOtt2+Dye0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/deviceOrientation/deviceOrientation.html
+SHA1-Digest: yVDJQYZ/U2PNd4Hy/ueGWMO8K5w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/css.j
+ s
+SHA1-Digest: UUTSdQY34+cn1V8ZgiJhY90NjGY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/package.
+ json
+SHA1-Digest: wi39pY5JqWf/3OxGYEDU7Drz72A=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: JIRUfP79NI5t078vJIq/tww/QEA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/R
+ EADME.md
+SHA1-Digest: 3IKzvWoCX6W1FHEeRtkLLN+1tR0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip.js
+SHA1-Digest: pRMSUjGsQxg6Md3flDIAU1d0x3k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/fontawesome-webfont.eot
+SHA1-Digest: hAa949dr0P3U/dv1GgZtLQufwxM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/mail.svg
+SHA1-Digest: 1LWwMcJzOUX8r2YAYcKwFeD3tzE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/gridList/demoResponsiveUsage/style.scss
+SHA1-Digest: Y8vkWALIP2RPuaM+Iu8t7YjNsDE=
+
+Name: assets/www/lib/ionic/scss/_mixins.scss
+SHA1-Digest: PVAcgsnYPlfba2QWu4qOn+mt5BM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/divider/divider-default-theme.css
+SHA1-Digest: HPxFEufcRPH2gVv8MNXl8HqTf7k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/contacts.spec.js
+SHA1-Digest: mHyP6Y+jmyrrUyzTbN/8iTo38vM=
+
+Name: assets/www/4129c91c-9372-4db6-b944-e6f8154c6yujty-bf8.html
+SHA1-Digest: WdkFufKrXkQ1zlSc+sdkcSOy8Ag=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/splashscreen.js
+SHA1-Digest: wl8I5HxL441mPboAdR6w7CzyQ08=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/README.md
+SHA1-Digest: qg6CF51PxfJb6rOtN5Hw2Ed6p78=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/viewScroll.js
+SHA1-Digest: QgTd+qCoqnm1EXdQmqKP8NnjuzE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/api/angular-ui-router.d.ts
+SHA1-Digest: /ajTA2lFJqkKgW3wcj2iJjxK2X0=
+
+Name: res/raw/icudtl.dat
+SHA1-Digest: W31H0MLaJO1LDxWixIWR5eZHV24=
+
+Name: assets/www/3d127acd-aca9-4dewr925-ad42-6e0f95b8037c.html
+SHA1-Digest: rII7WKFtVpTnym/tSJdodmouu/4=
+
+Name: assets/www/f2912fd0-73bd-456f-9c34-82d34ada10c6.min.js
+SHA1-Digest: aS0ESZx6m1O7mf+6sr91Z/WzDsU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_mixins.scss
+SHA1-Digest: VFQ1jVj/11PJseZUI1yhXZwPckc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/bower.
+ json
+SHA1-Digest: QZe+Oa56R1GHI9Nd80NzB9xt8JU=
+
+Name: res/drawable-xxxhdpi-v4/ic_search.png
+SHA1-Digest: JAoFpQUofycYmkVn29l2tMBBiLU=
+
+Name: assets/www/d2dae1b3-9b9e-4b69-b93c-7071b71302f7.min.js
+SHA1-Digest: SsROcrZ69eT0E4wlMoYNWgGrAFc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /statusText.php
+SHA1-Digest: ebdl3tYEQFE/yngjxavSd4ueU00=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog.min.css
+SHA1-Digest: A92qt5Zut6WpG92Qf2rD3G18Okc=
+
+Name: assets/www/plugins/cordova-plugin-device/www/device.js
+SHA1-Digest: uqgYuin92KpSmHlPZ4yJ7gLNmL8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/urlRouter.js
+SHA1-Digest: +PwbZtQpuHa7AN6UiYGdqxI0ZTI=
+
+Name: assets/www/cf659442-dee4-48d6-b402-1a57a453b442.html
+SHA1-Digest: fMXc0GPwUJzi9qdb/VlACOea4Ag=
+
+Name: assets/www/9d1a7b32-59df92-47d6-8e3f-c58b003c4540.html
+SHA1-Digest: XQHXCCg6ZwcveQT3uxGzbysrxnc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/bower.json
+SHA1-Digest: ecNX2v4XdyylbTG8lwzCFMprF8A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/fabActions/fabActions.js
+SHA1-Digest: nzOdhSN+W65xb8vAByb/G8/zINQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/content/content.min.js
+SHA1-Digest: k4hsjYTKshL2LebSgs7TmYz61P0=
+
+Name: res/drawable-hdpi-v4/image_bg.9.png
+SHA1-Digest: bX1RB3OP/ZrKICJgixFoWjZSVSg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/animated.less
+SHA1-Digest: UHL/Bq5/64GUOvxesnJkwPnnhuk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/bower.json
+SHA1-Digest: QQtP41BDO3CvIXHEhgqKYYHR3FA=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification.js
+SHA1-Digest: hNfuQpByvbDqpPCFshRRkiko8kE=
+
+Name: assets/www/7503d608-bcd1-48f6-819e-bce1c768e-95b.html
+SHA1-Digest: 3VXL+xwoMjPCVHXFB64PadihV3k=
+
+Name: assets/www/lib/ionic/scss/_progress.scss
+SHA1-Digest: npZTveMYYKigfOOYhCDGPw/PEl8=
+
+Name: assets/www/img/food_06.png
+SHA1-Digest: oXhP8uWhnGxGf0J9dC/ZxzcZbMc=
+
+Name: assets/www/5556148d-fcbf-418f-acc2-5619178373c9.min.js
+SHA1-Digest: XVPNx+DhKKIENqbqtw3eySeDNRk=
+
+Name: assets/www/832dc46e-4233-483d-b01b-5e9f7c6f5577.html
+SHA1-Digest: X6NsOcSdWASNu2715ukVZbnQelU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon-default-theme.css
+SHA1-Digest: tUUThYhb6j8eFHQZIwWDVSk6JtY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/socialSharing/socialSharing.ctrl.js
+SHA1-Digest: ijW7I2gfdElshSBYzGQ9siKPyBA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic.bundle.js
+SHA1-Digest: fWTwRCy5Lxq6eUEnKQEv7Vy5jZc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav.js
+SHA1-Digest: gD0wuvGPanVFv8iVs5dROGaxMzk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /bower.json
+SHA1-Digest: dCSEx5RfCMo3s6QSdJHRtN94MgE=
+
+Name: assets/www/img/location_feed_02.png
+SHA1-Digest: YUugGNY0A5nfriBYpxzBOAOdLBM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select.js
+SHA1-Digest: ivakioHftGvwOEIzjGILwVkgBQM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/LICENS
+ E
+SHA1-Digest: MAxlgodEIK7X+GPE8NJ5J7y73iw=
+
+Name: assets/www/86d4ca0d-179c-448e-8459-470699bd0945.min.js
+SHA1-Digest: 7CR0o6pDQwzRrtN+G17/9+UF05A=
+
+Name: assets/www/plugins/cordova-plugin-x-socialsharing/www/SocialShar
+ ing.js
+SHA1-Digest: CrbQ1vxJKBOrFO2a1LFJqaFK2DU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon-default-theme.min.css
+SHA1-Digest: GHzHqs9v0n8zyxdIZS2KAoPBUXw=
+
+Name: assets/www/c596fdc8-ae7f-47a1-b081-7a756f9-hgjbac94.html
+SHA1-Digest: 3v/yej9IaSKvEZpwJ+1OBc66GIw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/dialogs.spec.js
+SHA1-Digest: DaXc0AXZyjZVTxzeFa0v38UlKa0=
+
+Name: res/drawable/dropdown_popup_background.xml
+SHA1-Digest: pV4Pz6o9XXnZd8UYu+fKLcSE+dE=
+
+Name: res/layout-v17/color_picker_dialog_title.xml
+SHA1-Digest: kuzQQ33Wd+fdlPHMkfT8TK59lxA=
+
+Name: assets/www/img/slide_02.png
+SHA1-Digest: 7CdAOjRAUENbF2O2HvOl8DQwunM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /json_obj.js
+SHA1-Digest: +KK+dT1eDHMTiKlC0zEsvnt4LT4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast.css
+SHA1-Digest: Lc8c/d2jrdfXG49L+h6DCg9TqKE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_button-bar.scss
+SHA1-Digest: Wff47C2AEXKuV/KHo8jBRE58X4s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/beacon/beacon.html
+SHA1-Digest: KN0UrrmOTCKXE8Z0LYKbPVTkbhk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular.min.js
+SHA1-Digest: tdr4YUcAMwMx+mnPmBVob5s+05E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader.css
+SHA1-Digest: 7ruEt/rowPt7VtkOPtLzh4hdheU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/bower.json
+SHA1-Digest: RKWp1crhKBC0nauT5ejX0Il+NzU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon.png
+SHA1-Digest: dNy9a1w2pwZ+AR80vSRNZlMxZxU=
+
+Name: assets/www/cdc87773-b609-4ccd-96a4-33c7515608fe.min.js
+SHA1-Digest: wy0+SML2W2kSG0+gdwXkvScju/4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar.min.css
+SHA1-Digest: wNQZrcmmEIJdaIDG+2Zf/RlyuqI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/googleAnalytics/googleAnalytics.html
+SHA1-Digest: /2FYwH20rGLHmo92ogD4caHNsXw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/fonts/fontawesome-webfont.ttf
+SHA1-Digest: KMYo4LJHJULHosV2ypT4HTuKj8A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/CHANGELOG.md
+SHA1-Digest: 6SQEfS/XW6i+KWl8+OQ/QuT5b0E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/barcodeScanner.js
+SHA1-Digest: XhGl7ZJE/tWQ+KY5lX2UcYGuSPw=
+
+Name: assets/www/lib/ionic/scss/_scaffolding.scss
+SHA1-Digest: ZaniK4d7wgImvEnXn87S5yJc5Uc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/b
+ ower.json
+SHA1-Digest: ByD7DqLLbUiZ83ExnYMf0G+NsWQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/device/device.html
+SHA1-Digest: XbUKK/teFbH67xY8tZhTvvO++ck=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /offset.js
+SHA1-Digest: +8cc7FmmCHqKcWsSv9Lkary65mg=
+
+Name: assets/www/lib/ionic/scss/_transitions.scss
+SHA1-Digest: TajbNBpZ4ZO+JY+1ja+6AgF1tC4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toolbar/toolbar.min.js
+SHA1-Digest: ExsT8am+YGqwqQ7XZfy2BCD3cO4=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/Camera.js
+SHA1-Digest: hG8l+8iho+/FcE4idGkdElhkbJs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/swipe/swipe.min.js
+SHA1-Digest: iJr9822e8OBIJxZDDPkvK8zkzDE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/dialogs.js
+SHA1-Digest: S1ETq4yQAA0VanjVNHdwpSume4M=
+
+Name: assets/www/4db62b5a-07a8-4dsafaba-9527-b9520f1fe721.html
+SHA1-Digest: ahBt3eQ2aRazFTV+n6ngVU1SQxo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/autocomplete/autocomplete.css
+SHA1-Digest: MVhBTkHDlyDbDGOECPPlSDiCdzQ=
+
+Name: assets/www/f5d6e253-a58b-41cf-9248-269a16ad979b.html
+SHA1-Digest: Gn3CeGZOQ7C9b4Ln6qAtHfDD9qw=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: R943u2vTIV4kMQZPHW8lVVR4x0g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/default-theme.js
+SHA1-Digest: I3n5oetLhv3ibfrNr1n1QpEFy6A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /test.js
+SHA1-Digest: cBczLHZZEsKGOuSeLydZCCJWkrQ=
+
+Name: assets/www/5ffaab31-35b1-4b0d-bc4d-1b342b8c2d24.html
+SHA1-Digest: Fe0Q864EslfiJSUYaFcmyEjzVxk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/checkbox/checkbox.css
+SHA1-Digest: KfAy8X3KJ8ue57L5pNGhx3+sXkc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /effects.js
+SHA1-Digest: Dn7kkcT29qT1rj+liCZGqTTHwao=
+
+Name: res/drawable-xhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: uG+ZFVmiP0FBZK49mU+oFNFtrpk=
+
+Name: res/layout/date_time_picker_dialog.xml
+SHA1-Digest: FnB7VsWrKvguetj4w0Esws6RGCY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /jquery-1.8.2.ajax_xhr.min.js
+SHA1-Digest: n/DBQvy2Z6WSvGuHga40UfirYnU=
+
+Name: assets/www/08d70875-03ae-428f-ae0c-4d4024cec704.min.js
+SHA1-Digest: noVXnhUNmXpfJ7kSzv8q0eZOznU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tabs/tabs.js
+SHA1-Digest: Az95/3F9L5QJYSevaKNM2Ugqa/I=
+
+Name: res/drawable-xhdpi-v4/ic_action_discard_dark.png
+SHA1-Digest: n0KXUU+8DWZeN328SFS8sWjb55Y=
+
+Name: res/drawable-xhdpi-v4/ic_search.png
+SHA1-Digest: dnQN9TZzaC+y8wKDz2iR8j5JTbI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/dist/ng-cordova.js
+SHA1-Digest: Df6TjF3RQP6s2+/eEnzHf2Y7Hl0=
+
+Name: assets/www/lib/ionic/scss/_loading.scss
+SHA1-Digest: sZNBUdIOn3aDAjpomQFOI2d3GwA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/cordova.js
+SHA1-Digest: xHSCFLtSCHll8/q5XaMunB9QY6A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/bower.json
+SHA1-Digest: wUhlGu49OHHSCAovErm+DTyxv2U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/angular-sanitize.min.js.map
+SHA1-Digest: SO/r06wWH7ZfTcLHjf2yTJGnqqs=
+
+Name: assets/www/d7c879f6-41d8-4a09-b85b-a14556f78021.min.js
+SHA1-Digest: bmPYJSUoX6PAa+L10TJXiBFaEJ4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input.js
+SHA1-Digest: o3G7DqqOjqgs/Khto+y8UwUPVh4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/camera.js
+SHA1-Digest: wN7vxFpLNypDE310fK4eK/XGBOY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/card/card.css
+SHA1-Digest: MmF4/9sKOTQDYEPJxtPj/N0yxvE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/release/angular-ui-router.min.js
+SHA1-Digest: WLoy9rBMxcQ6LESiyOb4zk7KdRk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /angular-sanitize.min.js.map
+SHA1-Digest: l3mYOfu1IxEESRMqv2jumltmZes=
+
+Name: assets/www/9e45e6ab-ad0e-415a-93bb-de0564521105d8.html
+SHA1-Digest: 0wBFrKHXCKqcLl3Fo5VMrIlnEm8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Medium/RobotoDraft-Medium.svg
+SHA1-Digest: raOcq2+tlORcqp4QRxb71D8m+LU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/whiteframe/whiteframe.js
+SHA1-Digest: jOUv6NO5OJfLuTCvRLNP/PUzQpA=
+
+Name: assets/www/cordova.js
+SHA1-Digest: swmHvHBtfbkh8Qr+LHv3yzd102o=
+
+Name: assets/www/f47bdsf0899-002d-4718-a803-43647a150663.html
+SHA1-Digest: lD1GM7Dlv40YfnFrK39m0QAEV6w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav-default-theme.css
+SHA1-Digest: nnodWvdfp8Cqsb3zpGpa9RoD264=
+
+Name: assets/www/plugins/cordova-plugin-camera/www/CameraConstants.js
+SHA1-Digest: L9eo5tdMp4mEhDboxdurKjkYbfs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toast/toast.js
+SHA1-Digest: iGL4s+PxjMX85G1/bmxUsuBuxLg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/bower.json
+SHA1-Digest: Ufj1TYI0rlKKjyjU28W05PDI/p0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/bower.json
+SHA1-Digest: wUks7ptzDTQDP4PGIYFSNscYnyk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /core.js
+SHA1-Digest: 9ersq5szrCSRr96xn2quy/V8JVQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-Landscape-736h.png
+SHA1-Digest: w12po4ys56lTlQtmyD3ZxYUz/ys=
+
+Name: assets/www/7b07f5cd-ccd0-4411-8503-237f08406520.html
+SHA1-Digest: g27pbLQLPJymYCbP6Y+elb0D8nM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips-default-theme.css
+SHA1-Digest: f7PN0+8EXgHmedjRxNxoj2DK6xQ=
+
+Name: assets/www/318115a7-5041-yh12a-85ef-bc7c69beae2w.css
+SHA1-Digest: suNoNiA0jKtVlbRxEh/bAQoTwlo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card.css
+SHA1-Digest: IUVGygwvoyyyjhEcE+PJcCf503Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/bower.json
+SHA1-Digest: hXfvANC1M7WLWLQpUXT3N6zb2b0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/bower.json
+SHA1-Digest: 8V0KdvHDc/MGJw4HpywdjjIIEqw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconsFromURL/img/icons/cake.svg
+SHA1-Digest: 0UricVdPCYxmuIJeihOR5znKabk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoSvgIconsFromURL/img/icons/addShoppingCart.svg
+SHA1-Digest: INDW+WcFvRl04H/I9sErHVwO/54=
+
+Name: assets/www/plugins/com.cordova.plugins.sms/www/sms.js
+SHA1-Digest: ve348GKJ+Mb3UaP5qwHTQFIDHWU=
+
+Name: assets/www/img/food_000.png
+SHA1-Digest: Byg4j5v6W0ftlHDiQhe/gzBdEkg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/radioButton/radioButton.js
+SHA1-Digest: 4yOftIeL7LZ69VQnt4JLgUxPnKo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/input/input.min.js
+SHA1-Digest: /tC5m7qK90bYQlFVSBD0wBJtS20=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /test2.html
+SHA1-Digest: 5ia4qjE7cyaCkVvVc9TCzCbp2Es=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/offse
+ t.js
+SHA1-Digest: WkrsTX1ymzAWWIMmcvZ/SmkaMzs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/slider/slider-default-theme.css
+SHA1-Digest: kWQucFKyh5PEzaPEEdaBOwo45Y8=
+
+Name: assets/www/lib/ionic/scss/_platform.scss
+SHA1-Digest: uqID4z7V9GC22A0RvtTgfChkWWE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/CONTRI
+ BUTING.md
+SHA1-Digest: ujnDsYtgLENmWc8RMHOOVwWKrME=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/angular-csp.css
+SHA1-Digest: yEMbfVIYQKfbABrZa+RkebnAyoo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular.css
+SHA1-Digest: QHGeFSwIw1GNCIJmCJMpCxQHuqc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/fileTransfer.js
+SHA1-Digest: tUR+Hr1YOWWLjeotH9UxZp8uu5Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button.min.css
+SHA1-Digest: X1d9TNnYN4DyYgncamfkY3U075A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-60@2x.png
+SHA1-Digest: Tkrsb5fDdoI7A9utdJJzVk7WG1A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/package.json
+SHA1-Digest: AANJzi7V/OUAba5x6m0MPvcBChs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /package.json
+SHA1-Digest: qh/5iMzrI3NsFKx/9rSq1xWrf2Y=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b0-s32ds5/9b884382-b
+ ff6-4fd9-9178-0b348d5k48da7.min.css
+SHA1-Digest: OWmA8T2bJRERyboCb6UcH2XNw1M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast-default-theme.css
+SHA1-Digest: 838YOP+93Vtr+l5+1qdZgUJdgIc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/css/ionic.min.css
+SHA1-Digest: pwaD865OKV4yjKVD3d5f/uZIU7Y=
+
+Name: res/drawable-xhdpi-v4/ic_action_discard_light.png
+SHA1-Digest: 6pLGmUc5SS8hvbEF2GcKk20WHq4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/list/list.css
+SHA1-Digest: hupS8CDRRpD2lfrggirRHUsIBaU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/robo
+ todraft.css.map
+SHA1-Digest: 6cKoI+2a6JyTeap9KmaWd70Z1N0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/subheader/subheader.css
+SHA1-Digest: HpRpXu+piKyQ2lTJaa2Ay4nAA5E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet.min.js
+SHA1-Digest: xc7/Km78hMMN4W+u4abdzhWngGY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/CONTRIBUTING.md
+SHA1-Digest: llyTbogn4NlKR23HWw+gwjxV6D8=
+
+Name: assets/www/img/icons/mail.svg
+SHA1-Digest: gtrZVKLoz/3CQdH4dgyP1Db9K6o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/LICENSE
+SHA1-Digest: AIapglWTV/nrDwGrSWitnpJtV0o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/printer/printer.ctrl.js
+SHA1-Digest: IhkVFKbSEJwHB+awovRCgEOhfNQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/pushNotifications/pushNotifications.html
+SHA1-Digest: Oqp4ysc78g7ME4RzH8uWbT/Z5PQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/geolocation.js
+SHA1-Digest: PyJjqHT/FfRfD6etNbN9KywvVHA=
+
+Name: assets/www/bdcc74eb-fd02-4fa6-8f30-eeec83eyyutru-13f20.html
+SHA1-Digest: ORPHrcHW0SIzHrdlVIhrrQPpVeQ=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactName.js
+SHA1-Digest: 14NnG5dvVG6S/1D3ZS1W+ScvNKM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tooltip/tooltip-default-theme.css
+SHA1-Digest: MlQEAESzK17VI3PIeNalAdWIcok=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/README.md
+SHA1-Digest: HwVaeQrQU0VJJktDf5pQlysvqPI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/gridList/gridList.css
+SHA1-Digest: /gOmHCtKWrnQXdxI8lKhLDLY5UU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Thin/RobotoDraft-Thin.svg
+SHA1-Digest: VVhjAWBo59un0vRDL5wyAO+3t7c=
+
+Name: assets/www/img/slide_04.png
+SHA1-Digest: 22obIa1fPctVSjrvMZkBPAWN/Zg=
+
+Name: assets/www/img/icons/favorite.svg
+SHA1-Digest: UBe6OcE9OFx+qpQ77M33qHo3bo4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /params_html.php
+SHA1-Digest: /5iHq1CtdIYxDMPpgppaw01n6mE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material.js
+SHA1-Digest: /4qkM8VoZCW1bh+bm06AMYmem90=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /queue.js
+SHA1-Digest: wfQAFDXjUNUH5rWa9Y0PcUWDBbI=
+
+Name: assets/www/e602efed185-b270-457b-b455-9288201dbc33.html
+SHA1-Digest: EllLbdbTD6F+lAtVCz24VOlrN8o=
+
+Name: res/drawable/dropdown_popup_background_up.9.png
+SHA1-Digest: TUrZV7KCnOV1omGMunufgRg5oEM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/package.json
+SHA1-Digest: hx3QRqXiv3BLS65bF81UBQ21qu8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/backdrop/backdrop-default-theme.css
+SHA1-Digest: y9y87DoBnbWch3uRBko7Rr/rCn4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/brightness.js
+SHA1-Digest: 5VPcvSOiOEgGLtQORLEP9DVgrdk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/menu/menu.css
+SHA1-Digest: tT1OoKurN3Lv3kxsXYsd5bk7Sps=
+
+Name: res/drawable-port-xxxhdpi-v4/screen.png
+SHA1-Digest: AhcAoA+/oplJHU/CTh5AKI9wH+Q=
+
+Name: assets/www/03261db1-177d-43cb-b635-6f81425bc6e4.min.js
+SHA1-Digest: 44yG87DWbL0kXzaEDJ9Pvqk8qqQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/bower.json
+SHA1-Digest: c9b3hmklSYH/wNRN4P7LZK5hdTo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/vibration/vibration.html
+SHA1-Digest: UeYQ7sCdDrxynW2hl1zbuwT2PS8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/touchid/touchid.ctrl.js
+SHA1-Digest: WsKBIP+kqjPy85TIQ2iWOxfaHE8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoLoadSvgIconsFromUrl/img/icons/android.svg
+SHA1-Digest: opHphJepLbaP+Huu1CGACCaA6G8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/bower.js
+ on
+SHA1-Digest: k9vedLoVyapA1wJ63ckw00WGW7k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card.js
+SHA1-Digest: 2TglKhYjGneI1Dz75N5Fex8bZ5w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/seria
+ lize.js
+SHA1-Digest: 85Dgj21KBcgF6O6nyOpEW9uxKaI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/deviceOrientation.js
+SHA1-Digest: 9Do+/gQGyYjhR70Mk3ZDx6HrNl8=
+
+Name: assets/www/img/shirt_01.png
+SHA1-Digest: 8SzPlkKGcSiLvIg+HRRd9S82DCw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic.js
+SHA1-Digest: t2HsAR+HyF8ZDxjo9f3mCsQaXHk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/radioButton.js
+SHA1-Digest: R1pk0Psoly0Mc22QuiWvYuZLpP8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ package.json
+SHA1-Digest: TQwpvKe2B4wGUkJt+TpKT6lUnoE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet-default-theme.min.css
+SHA1-Digest: HegOqR6TnMu20dNTdmsQOJKMBhw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/adMob/adMob.ctrl.js
+SHA1-Digest: CjK3HzlM2gTJ25+9qRLhUUygNK8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/appVersion.js
+SHA1-Digest: okRu1aNQiQpJODJ5C4zOm160AHY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips.min.css
+SHA1-Digest: VQ3gcVTEuHARFZUkcGwS7xPHn4o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Italic/RobotoDraft-Italic.woff2
+SHA1-Digest: j3HHht9FHNXJF0g6dWI+jFdRTJs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/bowe
+ r.json
+SHA1-Digest: /I5gS0oU4LM3auO4wldu6TlBU+E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressCircular/progressCircular.js
+SHA1-Digest: sJ4JmoXzzKnocbjlA+wQmGdUoXw=
+
+Name: assets/www/a4e1757c-2b0a-45ad-a3d8-2e98c06-b9588.html
+SHA1-Digest: IC3X9uFuj4Rx8IEpBa+L6rq8kUM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/card/card.min.js
+SHA1-Digest: 64s/JXo2G5t6mIQSCbuz9kx34VA=
+
+Name: assets/www/img/icons/twitter.svg
+SHA1-Digest: Awfdd9J/z3f60jZFSb/nEigyXzo=
+
+Name: assets/www/d30e3bdb-ed82-499f-8f8e-b3fc156ce6c6.min.js
+SHA1-Digest: yk/qGLuWfhLRi7YBIBPpAKFW/wk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/progressLinear.min.js
+SHA1-Digest: GUkMhZNpSkmljP9SM1KoLN3TCx0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/autocomplete/autocomplete-default-theme.min.css
+SHA1-Digest: qxahrolzCd96fHXYMQu4iLqTT2g=
+
+Name: assets/www/plugins/cordova-plugin-whitelist/whitelist.js
+SHA1-Digest: U1DY0ekXzhw6MT6YlRNBEXuOKoM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /event/longLoadScript.php
+SHA1-Digest: ugWiFLe5KDT2CWFoeC3saGjLnfA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular/bower.json
+SHA1-Digest: wFBixDsCunGU3QlnvSFlQ0ug60g=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/datePicker/datePicker.ctrl.js
+SHA1-Digest: zW2wwlNJD5LcqTNk3zCPwwt+zfQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/BoldItalic/RobotoDraft-BoldItalic.eot
+SHA1-Digest: vLCozax+vVVfsz8M/J/b2Qj5+O4=
+
+Name: res/drawable-xxxhdpi-v4/ic_warning.png
+SHA1-Digest: 2SMG548AYlhe5YHcPLWc9N0HU3s=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /dimensions/documentLarge.html
+SHA1-Digest: AITcwbVdc/9TXc2trFdg4kTgYf4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material.min.js
+SHA1-Digest: XMHFoldQrZn3paxMvB+XW4z0RxQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /iframe.html
+SHA1-Digest: pMLTThCCcMzRBulvkHrQmBxevp0=
+
+Name: assets/www/img/icons/facebook.svg
+SHA1-Digest: DjXu4PaoS0aYq/i1pL7jtnr3btM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/gridList/gridList.js
+SHA1-Digest: wISHlESDuE9KRysniQhHzkOqXSQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tooltip/tooltip.js
+SHA1-Digest: NLm+e5G1u6banN99OHDpDbfyfs8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/sass
+ /_BoldItalic.scss
+SHA1-Digest: obEr5p3BAZoRgFeMh8OMn3kc7WY=
+
+Name: res/drawable/ic_menu_share_holo_light.png
+SHA1-Digest: YuH7KHegNDrYcceCTlmdrMl3NYA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-sanitize
+ /README.md
+SHA1-Digest: 1Q3XfATWEYsWz1NuE+xIj56/MRI=
+
+Name: assets/www/057d190f-b959-4b5b-88cc-7705fac3ef4f.min.js
+SHA1-Digest: ez3AbQspgKVJXYZtWY0Bm+sCnaI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toolbar/toolbar.css
+SHA1-Digest: MLAU99Xq0uw3QYJ/+eXS0ZtRQnc=
+
+Name: res/drawable-xhdpi-v4/ic_action_next_item.png
+SHA1-Digest: vId0P8iSrMw9IbpTh7JhARxcbHc=
+
+Name: assets/www/05ddd0f1-f90c-4d60-893d-d11462443316.html
+SHA1-Digest: OXewh41bSHOkXdx1QuUaEWbYPD4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/statusbar/statusbar.ctrl.js
+SHA1-Digest: 2w4Z2qp/bS3jpeTgllRFxj797hY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_transitions.scss
+SHA1-Digest: fzxb1Q1aq3sPhFOiT083O1djtek=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/icons.less
+SHA1-Digest: YuS0+L0bSNYHpAlsHsWJCuMJbsE=
+
+Name: res/layout-v17/validation_message_bubble.xml
+SHA1-Digest: OM9RK2/3SrkzA+KQ41e9pLan4zo=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /1x1.jpg
+SHA1-Digest: yAyXvcXUjU/fXg7AZtiQOcOaO14=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/checkbox/checkbox-default-theme.min.css
+SHA1-Digest: 9papOhGmnafTjBpFnxYs3H0Cvck=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressCircular/progressCircular.css
+SHA1-Digest: WRdGdJyKrhblEKeTyIENEG2FsWE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_items.scss
+SHA1-Digest: mXkW/UncdgdkT52hNs8Bm7Q1TkA=
+
+Name: res/layout-v17/two_field_date_picker.xml
+SHA1-Digest: AQTWXFaIklceCXtuAkHVZ+gz1h8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabToolbar/fabToolbar.css
+SHA1-Digest: D94mhj5+kzTg2ww1LcTQqg9O2og=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: jhTd/JA3fGuFyrGiPD9GvA2uCrs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash.png
+SHA1-Digest: 3Jij2kTg2cmDb8mk2LnYM9VINus=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabToolbar/fabToolbar.min.css
+SHA1-Digest: OgKautuRmXigK9haCF991aqfU7Q=
+
+Name: assets/www/f47b0899-002d-4718-a803-43647a150663.html
+SHA1-Digest: jjTH6dNzE7DVrY6ae5n2ytDCkO4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Medium/RobotoDraft-Medium.eot
+SHA1-Digest: d4rCFyMrfv4+fbwP+QFLAA4dZjA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/urlMatcherFactory.js
+SHA1-Digest: XyPUrDv8taSZi2a8CReRb+NyfWs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Bold/RobotoDraft-Bold.svg
+SHA1-Digest: ESSR1l4X7QhrmQfrTycrC7Lyk3M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/bottomSheet/demoBasicUsage/img/icons/facebook.svg
+SHA1-Digest: cqEkVUNtjKxNK5878qKccApHowk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader.js
+SHA1-Digest: adwoElhC7Fwhyvj3shktVOW5A1Y=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-50.png
+SHA1-Digest: JeWzb0t2Xs9JI799a8qzMVQG9Os=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/package.json
+SHA1-Digest: MR5soEAWaIX7Tl7m9CdJ45cUvXY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/BoldItalic/RobotoDraft-BoldItalic.woff2
+SHA1-Digest: wRoxIOh84YlB6upvi5Eg2c/leLg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_progress.scss
+SHA1-Digest: jVgcfDCNk1zZn1taGEWEfXnz3ZM=
+
+Name: assets/www/db378149-1d2a-4102-80b5-aff753b64baa.min.js
+SHA1-Digest: qfE3rjtngG8oRfHosYXmMnfvHsc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Bold/RobotoDraft-Bold.woff2
+SHA1-Digest: aEPQm0gwqVrff0I6jY78zh5+rKk=
+
+Name: assets/www/lib/ionic/scss/_type.scss
+SHA1-Digest: Vmi1WTh33DsErDm7gqHGR7XrsWQ=
+
+Name: res/layout-land-v21/date_time_picker_dialog.xml
+SHA1-Digest: T0JsKBfi4q9m2V7hz3sDpcJwNjU=
+
+Name: res/drawable-mdpi-v4/ic_action_previous_item.png
+SHA1-Digest: V4xdGX7AIrCXT0Ii5jKxZlGz/aE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/urlRouter.js
+SHA1-Digest: BULNVlmMvOdEIJgSteSuTRNsjEI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/gridList/gridList.js
+SHA1-Digest: 3OgkyS2Rb1toDk6JQPRNVAV64bY=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/contacts.js
+SHA1-Digest: ozrQFF9e/b6yIduQiewdAWfmp+I=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/oauth/oauth.ctrl.js
+SHA1-Digest: 0WBdV1QRJ6PD30Oumy6/t/iRglU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/input/demoIcons/icons/ic_place_24px.svg
+SHA1-Digest: g2cn9cT2lvGA0MORFtTVy5ydyPk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/bower.json
+SHA1-Digest: lWvIy9m7hNWmqj1KdS9lNDKBQ0s=
+
+Name: assets/www/620927d3-7518-45a3-b56e-f39b484d2949.min.js
+SHA1-Digest: 574Vn/5cQgEldHYGQhAH+bxuCLk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionicons/ionicons.scss
+SHA1-Digest: usZGiXn2c4O88V06sLfN85/2d8Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/toast/toast.css
+SHA1-Digest: 4tQTzuzLPO7tHG3PaDwKCU7g5og=
+
+Name: assets/www/6c1cf2dc-7103-40fa-9bd5-f3dd3b9af6bf.min.js
+SHA1-Digest: kUJW5P+fijmFKeWc2ESpU45b6dI=
+
+Name: assets/www/b7703730-41a9-43a6-83a8-5de0772ebf59.html
+SHA1-Digest: /VNBxHHUL36H3C6GrdnAvZStSGs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/README.m
+ d
+SHA1-Digest: UPTrgG0TWRAhrnhGuCQ251qLV84=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/src/mo
+ cks/keyboard.js
+SHA1-Digest: eMVyZW7mE0PpI6zUuSAmXZ/v338=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /core/cc_on.html
+SHA1-Digest: lnsoFI+ukfGkcMnyU/Owcg4WsQo=
+
+Name: res/raw/device_capabilities_api.js
+SHA1-Digest: LCpNENLSAHAYXUQ/9Fx5w3MBoLU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch.min.js
+SHA1-Digest: Njmrf7AAtfvCXQmUVn9Q8qaloYw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/g
+ ulpfile.js
+SHA1-Digest: Ogi1CPFGXAdKQt2rrOefixL7uSk=
+
+Name: assets/www/9dd35e8a-d4bf-402e-892c-49769ab8a98a.html
+SHA1-Digest: 5SHNDkxmXe5BOSZ+hDfQlw1aGF4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ngCordova/dist/ng-cordova-mocks.min.js
+SHA1-Digest: 9pP7FuSOY4B62knbiUZZT0JTsDQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/textField/textField.js
+SHA1-Digest: MxFJRk21NjKVHadGZ2TRZqdiJwc=
+
+Name: assets/www/img/food_08.png
+SHA1-Digest: lacfpg8EY97r33JVINWQ7jBWE50=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader.min.css
+SHA1-Digest: lxihGg/sG6Z2dHxv5NQwNb0tKxs=
+
+Name: assets/www/lib/ionic/scss/ionic.scss
+SHA1-Digest: tez/LcvEzhRhY1bxLewmZXxmV5k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav.css
+SHA1-Digest: 0rEwUb5z2tRLTjN5h1uLV5mHTws=
+
+Name: res/layout/multi_field_time_picker_dialog.xml
+SHA1-Digest: XK5RS5ZYNSm21LwowM/9B7WGcR0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/list/list-default-theme.min.css
+SHA1-Digest: eRjfhf5WHDgdQcotI53JHzW9CHU=
+
+Name: assets/www/ee258a54-1d7b-403d-9a7e-97122c88bc08.min.js
+SHA1-Digest: 2feQVrvxoY+wIUE3Il1RmKIsXhg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/release/angular-ui-router.js
+SHA1-Digest: A9o3RL3vK4Q3t92nHGroJoCfyQE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/dimen
+ sions.js
+SHA1-Digest: C5PDtKmRzleyrRSSMTxu1n7Jwcs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/jqu
+ ery-basis.js
+SHA1-Digest: De2v16KUtIQglFNJAqNvkqeBwl0=
+
+Name: assets/www/840d598b-31e2-4821-bd7d-eb56777f6-87e0.html
+SHA1-Digest: ZPfNKl23k7z1zpA2UZ/GXipNvuE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-animate/angular-animate.min.js.map
+SHA1-Digest: nL9EToC6rTBvONUPzrA2ojDRebE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-animate/
+ bower.json
+SHA1-Digest: YMqgUCeijha+yjn5oi0qdeW0PEY=
+
+Name: res/drawable-mdpi-v4/ic_action_remove.png
+SHA1-Digest: Xm1eOMvIE8MEYmU9ms+pWE8RPv0=
+
+Name: assets/www/img/slide_03.png
+SHA1-Digest: huKWUFywlQ3hrhDgifBGCoXe0+o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/ind
+ ex.html
+SHA1-Digest: mtEmxBCYnmAq0b5i8HAFuf/T/T0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/templateFactory.js
+SHA1-Digest: M7TlpWXHdjkL0hA0AkBeNR+AoL4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/slider/slider.min.js
+SHA1-Digest: sAOKQ89TwVw6d4KPyqLFY7E5IgA=
+
+Name: assets/www/cf659442-dee4-48d6-b402-1a57-ua453b442.html
+SHA1-Digest: BAAoqHBu9ryczJPZBsKGe/Pp9o0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/font-awesome.scss
+SHA1-Digest: 0UfoI8eshiyclYQSRBMVzLxi49k=
+
+Name: assets/www/9c43edf1-21d3-4e70-bd06-41fcde711774.min.js
+SHA1-Digest: zHIfUDcOOy1h3oqVd2uDSAhj1j8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Italic/RobotoDraft-Italic.ttf
+SHA1-Digest: AnC/H4CMZIQMs3gVF9XzbRniwjk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider.min.css
+SHA1-Digest: tH4FaHJ+MsDrDX2o1pUtVQuyaK8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/content/content.js
+SHA1-Digest: M1/v/2yBgs1ni3n+TAxnbH3bT58=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionicons/_ionicons-variables.scss
+SHA1-Digest: 7kk8GgNOcrwqGHH/L04oXx+EJpM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/icon/icon.js
+SHA1-Digest: K4GAB5M0KlxvZrEI1KrEL4YrjUs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/resolve.js
+SHA1-Digest: Jy4HPXZirWOzfemHxX85v8CD3MI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_range.scss
+SHA1-Digest: +RZ+7Wq+8gu0cGAmFdyI7gwF5e8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/sidenav/sidenav.js
+SHA1-Digest: Itc4gMEG9cNmOp0owfFEQzTilGM=
+
+Name: assets/www/lib/ionic/scss/_bar.scss
+SHA1-Digest: /Z+hKntcLTLc/Dcf2yT+PMvMkbI=
+
+Name: assets/www/2c6f27df-c7asdf0f-432b-8a80-3c02169da9e2.html
+SHA1-Digest: GnKOjUCE4Qh41MjhYELLtCDD6hc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Italic/RobotoDraft-Italic.woff
+SHA1-Digest: p1dspQuMamDaEMJfFsDQGUsM8WE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/relative.html
+SHA1-Digest: c4Mw7cK20ucMuy8r3aMuctgFavc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/preferences/preferences.ctrl.js
+SHA1-Digest: YDGTplgPo+3FENZ/vF0AII6eyVI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressCircular/progressCircular-default-theme.css
+SHA1-Digest: QhWL3KNl3UGBR79qmkHqASheURw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField.js
+SHA1-Digest: Omphz+IXS6NkzlS0My/CGGJ2/iA=
+
+Name: assets/www/05ddd0f1-fdf90c-dsf-893d-d11462443316.html
+SHA1-Digest: zlN5C9MVrDkY+XmZeyuMohQ8eGM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/js/ionic.min.js
+SHA1-Digest: 0xuUi/iUIMaSBakqt+jNFeZxnHg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionic.scss
+SHA1-Digest: RAy62SFNeAzJY8gnuT7Y/WErkh0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /nocontent.php
+SHA1-Digest: lRgWFmlk6Z9bQ5Brd4YdGwVt1Go=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/package.j
+ son
+SHA1-Digest: BGM6A++qFeJ/RtepJdKyLsEQL2c=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabActions/fabActions.js
+SHA1-Digest: iZ5GTp3mG7V7XlxdRnfX4BIDAks=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFindOption
+ s.js
+SHA1-Digest: Ts2Y/OHAsYSA02+UwZOc0nVvf8o=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/backdrop/backdrop-default-theme.css
+SHA1-Digest: ld/cmwJjekzxBi6cX1EAvjnWzts=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: tN/tHa3hn07gXNDooiAmj82Evjw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/splash/Default-667h.png
+SHA1-Digest: mYBTs+vfi6zx4yzAAoUJQVyqCfQ=
+
+Name: assets/www/9850d4fd-5586-46ba-abe8-680f2tytry-3560ca0.html
+SHA1-Digest: eAG/VvdE5nPUg8VU1TPlPh5P+GA=
+
+Name: assets/www/3a9a8d08-d85a-46ee-82a6-2faefac75efb.min.js
+SHA1-Digest: LMiJBWE6U5Q5svxLZaIFzguVPLE=
+
+Name: assets/www/205bfa05-7a67-4b91-8c55-aae0ddd527f7.html
+SHA1-Digest: OabBgSqhEbEleBuik0ISmpm6D1A=
+
+Name: res/drawable-hdpi-v4/dropdown_popup_background_down.9.png
+SHA1-Digest: Vjd4bueMcPq5Kp+HvzzCuOMq5d8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /dimensions.js
+SHA1-Digest: FEM+QKzAbKlu2/BaKFuCfbjAj7U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/common.js
+SHA1-Digest: dIQgdhKAQHorhG0r2BU8NU6mg1k=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu-default-theme.min.css
+SHA1-Digest: Myl2gfUzdaO1rBGI5IUGlvyjBxY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/progressCircular/progressCircular.js
+SHA1-Digest: hmRkNzAdMCcFsjTa7OCDwuUXYw8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/test/m
+ ocks/vibration.spec.js
+SHA1-Digest: AGDAVaH5TJB9xd65RYvle/4kt8g=
+
+Name: assets/www/1400e35d-ceb9-4a4e-9533-6b88a5767b0-s32ds5/9b884382-b
+ ff6-4fd9-9178-0b348d548da7.min.css
+SHA1-Digest: b9YjKvbvhznvW/liT6TIugmwO2M=
+
+Name: res/drawable-xxhdpi-v4/ic_action_previous_item.png
+SHA1-Digest: MMQuqfVCNxhbSTH40JlRn05/z90=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/bower.json
+SHA1-Digest: SzfvngyrWNiRQtOF6SPkrP6rVaE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/chips/chips.min.js
+SHA1-Digest: RVfCay4zHby3ihrbcKiCv7h3gfw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/select/select-default-theme.css
+SHA1-Digest: PA7wEJrfN01YgJtbzveonmiYIN4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/jquery-mi
+ grate.js
+SHA1-Digest: Pf16+ZKBFoOgo8pw7SBjtwH8n/M=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/icon/demoUsingTemplateCache/assets/cake.svg
+SHA1-Digest: 4zJMCNq8t5o/o/FNszwwDSQhkZY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/Black/RobotoDraft-Black.eot
+SHA1-Digest: Ao1vIGwFJ4XPg1YMwaD5ZXha8fA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/content/content-default-theme.css
+SHA1-Digest: hqD8Q1VFuUhjA+5A/hY3i3sC5LM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /attributes.js
+SHA1-Digest: /y/0pkM0wLaWzfxrCLhSysqzDBI=
+
+Name: assets/www/9aa60d88-92efsd1-4b1e-8a42-0af242fddee9.html
+SHA1-Digest: FXunj4pnfG5pw15+z1gADrq5/o4=
+
+Name: resources.arsc
+SHA1-Digest: jzTcmOgOz9NuRicAqX5BCLrfStE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /serialize.js
+SHA1-Digest: X6b1jD8inn1QMnbE1GtLzoUK0cA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/angular.
+ js
+SHA1-Digest: J2/EBFrN5fs4MqZ9MIbXn5eDD7w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular/angular.
+ min.js.map
+SHA1-Digest: fCc+tY3GXNFLpqUlpQu2/BiG/jM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/gridList/bower.json
+SHA1-Digest: hUs0pX2zh0bJYjB7sd1QCLvamoY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /index.js
+SHA1-Digest: lJDtd1qhjDP9BS1RwbSxQaGvUO8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabTrigger/fabTrigger.min.js
+SHA1-Digest: 3zKA4XdHoE+KIMhw574BP0SYbns=
+
+Name: assets/www/9850d4fd-5586-46ba-abe8-680f23560ca0.html
+SHA1-Digest: JEyTlgyZjLm0tSVyhH4bmXUiOrQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/radioButton/bower.json
+SHA1-Digest: 03E8RRv3VkHA4ixY6e0b7MgUTCE=
+
+Name: lib/armeabi-v7a/libxwalkdummy.so
+SHA1-Digest: XnbaioC8BV4r0TsPybBBsDFqUhM=
+
+Name: assets/www/9dd35e8a-d4bf-402e-8ere92c-49769ab8a98a.html
+SHA1-Digest: 3IRk1Bpz6VT/KyKJHbFSeWgPp60=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/font
+ s/BoldItalic/RobotoDraft-BoldItalic.woff
+SHA1-Digest: M7Frm+hWy/LwQcyPYe2i+GjEXPQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /css.js
+SHA1-Digest: 4K33VL0DmZNPX6W02JZntmLA6O0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/effec
+ ts.js
+SHA1-Digest: OvZNhyj5idp3npr30y8pefA4CWA=
+
+Name: assets/www/img/food_cover_03.png
+SHA1-Digest: fa/Qeo/MvqE+trejPgryx4l7uU0=
+
+Name: assets/www/68880d7e-38ba-4c93-8b4f-956a540c4c8a.min.js
+SHA1-Digest: /70AuZukEF0+2RRjris4YFwwFcw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/content/content.css
+SHA1-Digest: tM9O1eKUYFddBytzmSNFPYLzTlY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material.min.css
+SHA1-Digest: TPmm+vHoInW5B0/mahbs2w75ZKU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_list.scss
+SHA1-Digest: qOCgjhlZQf3BxtJKwD3/HrY5jQk=
+
+Name: assets/www/img/food_00.png
+SHA1-Digest: O+Gqr31ennEMRJ+cy8s6cRdeo6Q=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/sizzl
+ e-jquery.js
+SHA1-Digest: kTIxLFxakNQQl58E98wlSbZV4Jc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/toast/toast.min.js
+SHA1-Digest: sJsxrtA7zY045K3XUwCBpfWd038=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/gridList/gridList.css
+SHA1-Digest: BZOnGtZETsQhCPF6O+bA1Qq3DM0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField.min.js
+SHA1-Digest: fADUsOyNMQlzo5uw76QWwMlCri0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/menu/menu.min.css
+SHA1-Digest: EwRhoyY5BTPAdSgdfK5zb/4cKU8=
+
+Name: assets/www/df8507f2-a4de-4b65-9688-777f71e6aac6.html
+SHA1-Digest: ClYETvRCIk8e8SLmNqKfiKWoHUE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/img/demo.png
+SHA1-Digest: G3nCZTGDALrtgqdruncGCmAMbjk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch.css
+SHA1-Digest: KBWF+SWhcE3pPhX1FmTSHp02BjY=
+
+Name: assets/www/0060525f-6eb1-41e2-9eba-805eb286495a.min.js
+SHA1-Digest: ecpEi5T6D2X0dUFploCna/H+CeQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/statusbar/statusbar.html
+SHA1-Digest: NN2SkXxZM42m2Q358AJJfpJeu1U=
+
+Name: assets/www/img/background_cover_pixels.png
+SHA1-Digest: xWYjGNM5g86AKrwwoh0cXHyullg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/less/font-awesome.less
+SHA1-Digest: HuOnvs09PEyXiEBZecWkEVJBXZk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/robotodraft/inde
+ x.html
+SHA1-Digest: H+EL6whiyJqa7bZGku6/BOFHivY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/hove
+ rtest.html
+SHA1-Digest: nOPB1U4w6/QrNiv1F5AjVLVN0FA=
+
+Name: assets/www/96bf7f5b-45b9-4e41-bb56-e883db89-3cf2ce.html
+SHA1-Digest: x1q+NyYN8AJBbQu9JL17bBaOg7E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/ionicons/_ionicons-icons.scss
+SHA1-Digest: cVUChgra3FWxjUFs6Tzn174Lr9w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-76@2x.png
+SHA1-Digest: DQl9qslLXVr7MBY3orAxLjGKCVw=
+
+Name: assets/www/ae2d592c-aa3d-4625-80f0-47f7f4efd2ae.min.js
+SHA1-Digest: iWl1YrqlACottAm1vs30WR9wwpM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/select/select-default-theme.css
+SHA1-Digest: JuxRcj2aQxYizrXbdlDLelCxZCM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/geolocation/geolocation.ctrl.js
+SHA1-Digest: 4f+QUruuoR5LTkHOKIJc29D2rzc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_toggle.scss
+SHA1-Digest: 83brI5P4gJkYYj8GNm7lHeeB2jA=
+
+Name: assets/www/a6e36b71-b621-4669-b4fe-fb666e7b2b03.min.js
+SHA1-Digest: 4Um9Twl1cuBBLPKWG82nvZjg2WQ=
+
+Name: assets/www/fb6455d6-637d-4a6d-ac77-75f587867207.html
+SHA1-Digest: GYMKdaCPNHmsJNFqA87A4aezs1o=
+
+Name: assets/www/b8863b44-6c45-4208-bcf7-b61981f8311c.min.js
+SHA1-Digest: 6JoFa/kso71OxnoO3o/lAP4eoZM=
+
+Name: res/layout/multiselectorgrid.xml
+SHA1-Digest: DwOpN+N/3QHC7QV5ArwOPjBqzps=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/bower.json
+SHA1-Digest: sKyMXwALHIYXZswpZOS5qRvu9l4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tabs/tabs-default-theme.css
+SHA1-Digest: L2UPaJQAbMfuFwutDZbai/kDnfc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/subheader/subheader-default-theme.css
+SHA1-Digest: AK8g4QKAtqiPptEBrDH7kpUogNk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/img/compass.png
+SHA1-Digest: jUa15s842XFAwk0bgrllzVkhjjY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/jquery-mi
+ grate.min.js
+SHA1-Digest: BF3KGkwN8OEmDsgLPNbDZaY2adk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/sticky/sticky.css
+SHA1-Digest: 7madkzG6muTp4P9KhkYsYJt30s4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/LICENSE
+SHA1-Digest: 3NAUiBclyRipSeIzrrLMBphQGro=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/textField/textField-default-theme.css
+SHA1-Digest: GOTn6yD8eaf8n9Ivc/+UlY2DhNM=
+
+Name: assets/www/2a69ea63-c2b2-4af6-bbbd-d7971d1a413d.min.js
+SHA1-Digest: +Kthfr+y7ja9PDfwqU+2WjvHOfw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/font-awesome-4.4
+ .0/scss/_variables.scss
+SHA1-Digest: erElpl8EoeLUAGj7Kbzkjie+PSA=
+
+Name: assets/www/c5a8581f-f0dd-4eab-aa21-5ff1299d7f2b.html
+SHA1-Digest: WfytgdoLuNwvWzxtZoQHThHL6PE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /angular-material.css
+SHA1-Digest: WkkyBiIPSxlR2CWcwJWi3YmqmeY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/checkbox/checkbox-default-theme.css
+SHA1-Digest: idVwZnlfeWiNbqPZCd2i/PQs7p8=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-messages
+ /README.md
+SHA1-Digest: McB1wXlVrv1JtVMHKfn5kLPPLFU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/switch/switch-default-theme.min.css
+SHA1-Digest: LYigvk/EbFHWqFvvDm2a5QKLcbs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /event/promiseReady.html
+SHA1-Digest: CL1Cr/CuLiBTTlzNIYPIJUPZ18U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /demos/gridList/demoDynamicTiles/style.scss
+SHA1-Digest: 6v8Yixfu5R7opxa20kI1uCrViYY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/r
+ esources/ios/icon/icon-50@2x.png
+SHA1-Digest: eXMuna7bw6pNksDjyMWxFPy6mu8=
+
+Name: res/drawable-hdpi-v4/dropdown_popup_background_up.9.png
+SHA1-Digest: G7wWotjO6B4DhZ2jSSIr12sJDVM=
+
+Name: res/drawable/bubble_arrow_up.png
+SHA1-Digest: zAWiVT3mGwcLhSLRsOhsPaCUNS4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/core/core.css
+SHA1-Digest: +lTDv+TgVj1VKN2PAaa5600Un5U=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/README.md
+SHA1-Digest: TbzXlO8H8j1w7PbC/KjRb6qZgK0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/beacon/beacon.ctrl.js
+SHA1-Digest: 0/7/mGtb1fCHYCGFj0/ZnybCy6M=
+
+Name: assets/www/img/shirt_05.png
+SHA1-Digest: X/T6znYCNrmL9JSBZqfdEfuLsBE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/fabToolbar/bower.json
+SHA1-Digest: Ip/mWv672rtIJhs+V82cM146z54=
+
+Name: assets/www/318115a7-5841-412a-85ef-bc7c69beae2g.css
+SHA1-Digest: vajE2hF11yNgV99nIkIsY6Ugzsw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-aria/ang
+ ular-aria.min.js.map
+SHA1-Digest: bwHlgrm0tK82CC+bXuSIppCDS/Y=
+
+Name: assets/www/0d711b17-4883-4da6-aaf5-f25c4a04ae8f.min.js
+SHA1-Digest: 5y6KtKk1STri9trCZ7nHY2B6fqM=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /script.php
+SHA1-Digest: GsIeC5J8TBHkdhk8sNUo/ROdpO4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /offset/body.html
+SHA1-Digest: xBxUGGpVwN49pY3zPpH/H/3Lakk=
+
+Name: assets/www/img/cube_feed_04.png
+SHA1-Digest: KNCYgo5yrSYx35pJVTiTUAsP2Yc=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/unit
+ /exports.js
+SHA1-Digest: 5cq1Uleu6UdJRuYElSGrOrKkSmE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/bottomSheet/bottomSheet.css
+SHA1-Digest: JHX9o9WKQXF84xFRsfthhjXr2IM=
+
+Name: assets/www/48b282f6-94f5-480f-ae3b-18750044ad14.html
+SHA1-Digest: nveFQfh5L1METekMI595aFqmwMg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/tabs/tabs-default-theme.min.css
+SHA1-Digest: r1bqKf5NUsl32aJ4j9w4SfxvulY=
+
+Name: res/layout/actionbar_done_button.xml
+SHA1-Digest: APRw2TjLisbNbtyBLAPCThjJytY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/speed/eve
+ nt.html
+SHA1-Digest: LT+rD4F1A4ry5Q+HBrwBtUhYWZ8=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactAddress.js
+SHA1-Digest: QZ3axhl757aHN8KKmPzA6hCXChk=
+
+Name: res/drawable-xxxhdpi-v4/verify_checkmark.png
+SHA1-Digest: fgVY3Qpzp5nDKw5nacHvCNS7X5A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/textField/textField.css
+SHA1-Digest: uqqaij4FKqjVzQ24M/lscTfHAeM=
+
+Name: assets/www/plugins/cordova-plugin-admob/www/AdMob.js
+SHA1-Digest: jjs+9NK36QOp7lwMxbjpNIvP4IQ=
+
+Name: res/drawable-xxhdpi-v4/ic_warning.png
+SHA1-Digest: nzZ/HwTtKmtLqK5xDLM3ncDNgfk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/media/sample.mp3
+SHA1-Digest: /q6bAvd837RIVOSBEmCBxOJjJoc=
+
+Name: assets/www/fbdfdf455d6-637d-4a6d-ac77-75f587867207.html
+SHA1-Digest: g+pUoEi68ZD30a3hCMQ72cxU84A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_badge.scss
+SHA1-Digest: V1atHfBjvYV95Wi5toDjbgBvjoE=
+
+Name: assets/www/d4bdcc3f-4609-49e3-ae12-55f2542c3bff.html
+SHA1-Digest: ITJB/q/F0u9pIA6HYdcas1kPUbA=
+
+Name: assets/www/5ffaab31-35bdfds1-4b0d-bc4d-1b342b8c2d24.html
+SHA1-Digest: 0P6nUOTGhx7LTGbmneedTiL9GvU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /test.html
+SHA1-Digest: Oq8LoCKmhvIfuVo25V3GcmA1+Lk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/tabs/tabs.css
+SHA1-Digest: oHP8wvnnt0OmZ/Qj07biqX2YOsw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/bower.json
+SHA1-Digest: TDvACAN+EcL9D58oVH7W9Yu4MWI=
+
+Name: assets/www/lib/ionic/scss/ionicons/_ionicons-icons.scss
+SHA1-Digest: /8Vnzz3lLn9G6J2oEzbr5fHffgg=
+
+Name: assets/www/4622f974-c760-4d48-9454-8c9b2a402ada.min.js
+SHA1-Digest: HNY9/TNMUcsJuZ3zRY9AW/KxSXI=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/fonts/ionicons.svg
+SHA1-Digest: rUqW/6DUzuhimSwNlnbS17ZfcnU=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/inde
+ x.html
+SHA1-Digest: +TgWj+pyFG7xMZm5isli7LqFRO0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/button/button.min.js
+SHA1-Digest: FK2ePft7Qr+923H3dPmnf9d4sJ4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-sanitize/angular-sanitize.min.js
+SHA1-Digest: +oWegU+eySqD3SyU1QN7Em4Cq0E=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/stateFilters.js
+SHA1-Digest: 6mrGT9DZiPKiibS84C7MWpccomQ=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-ui-route
+ r/src/state.js
+SHA1-Digest: WgYkvXkchNvKLOPaEdl3WIwjl0A=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/dist/n
+ g-cordova.js
+SHA1-Digest: xLD3OfBtj44FW5D7H7WU6PVprR4=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/src/suppo
+ rt.js
+SHA1-Digest: 6VrcdeaDXX73Ql2urJiDorwqUTE=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/progressLinear/bower.json
+SHA1-Digest: V8d7RTmMBCXIyNGvIULa1vYSiPA=
+
+Name: assets/www/plugins/cordova-plugin-image-picker/www/imagepicker.j
+ s
+SHA1-Digest: bw+OMxDEDFpiLgcCp/dfyFAY+QE=
+
+Name: assets/www/plugins/de.appplant.cordova.plugin.local-notification
+ /www/local-notification-util.js
+SHA1-Digest: L41f3DyxtbDbIN4dDMxrQ/wh6sY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/closure/icon/icon-default-theme.css
+SHA1-Digest: WZw6j5Vkl5VwePYDvONyvcgVMCg=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/dialogs/dialogs.ctrl.js
+SHA1-Digest: 1wzCe3KGYpFgjDh2xPigT+F2E6E=
+
+Name: assets/www/55fd6fa0-7076-4359-9305-1bbd788-bb294e.html
+SHA1-Digest: hOs+mdVXdMYahcBTdJMRIvUBSLg=
+
+Name: assets/www/plugins/cordova-plugin-contacts/www/ContactFieldType.
+ js
+SHA1-Digest: bZo47m4Rf0e7D1XbgnqvhXLGUFs=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/jQuery/test/data
+ /testrunner.js
+SHA1-Digest: 8jjd6AQmoG1lEX4P5/bYhAvwRdk=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/sidenav/sidenav.min.js
+SHA1-Digest: JA4nQnPV4k4rj8A7AwZ8eyn9Wes=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_util.scss
+SHA1-Digest: hxhqUkywjKXi3j1k+2Nh3zR4ePA=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/barcodeScanner/barcodeScanner.html
+SHA1-Digest: y+f8kpgpQ8+Zmx3DnsTjZpWRYXY=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/angular-ui-router/src/templateFactory.js
+SHA1-Digest: njhCsevoUpS8CcDSwaBxamzdD8w=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/app/deviceMotion/deviceMotion.ctrl.js
+SHA1-Digest: El17JsRic6X5BBo1QkY2+5jWLts=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/dialog/dialog.css
+SHA1-Digest: PBGO5B48jh2qaQrc22FNpXoLW9I=
+
+Name: assets/www/img/profileAvatar.jpg
+SHA1-Digest: CXouz4RnXcg/N/qhvqyRgmY7tfw=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/angular-material
+ /modules/js/divider/divider.css
+SHA1-Digest: CBRDbn41S3PuzOYPoqb1QN1f0to=
+
+Name: assets/www/plugins/org.devgeeks.Canvas2ImagePlugin/www/Canvas2Im
+ agePlugin.js
+SHA1-Digest: Cflu9EB8fE15xp8UcYgE2UvfxB0=
+
+Name: assets/www/d77587b9-72a3-4528-bc7b-0c5be76e3e72/ngCordova/demo/w
+ ww/lib/ionic/scss/_type.scss
+SHA1-Digest: hXqc/DNW5ONiS/sX/du8BW3HD+E=
+

@@ -1,0 +1,84 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+		<div class="tabs" >
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('logsReport')">
+			Logs
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('todayReport')">
+			Today
+		  </a>
+		  <a class="tab-item active" style="color:white !important;" ng-click="changeMemu('weeklyReport')">
+			Weekly
+		  </a>
+		  <a class="tab-item " style="color:white !important;" ng-click="changeMemu('attendanceMonthly')">
+			Monthly
+		  </a>
+		</div>
+	</div>
+	<ion-header-bar align-title="center" class="bar-positive">
+    <button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>
+	<h1 class="title">Report</h1>
+ </ion-header-bar>
+	
+    <ion-content style="text-align:center;" scroll="true" class="padding">
+		<br><br>
+		<div class='row' style='color:black;background-color:#ddd;font-size:12px;font-weight:bold;!important;width:102%!important;'>
+		<div class='col'>Weekly Logs</div>
+		</div>
+		<div id="weeklyCalendar"></div>
+		<br>
+		<div class='row' style='color:black;background-color:#ddd;font-size: 12px;font-weight: bold; !important;width: 102% !important'>
+		<div class='col'>Task</div>
+		</div>
+		
+		<div class="list" style="color:black !important" ng-repeat="task in mytask">
+		  
+		  <div class="item">
+			{{task.subject}}
+			<span class="item-note">
+				<span ng-if="task.status=='false' && task.totalTime!='0'" style="font-size: 10px;"> Assigned {{task.dateCreated}} Closed {{task.startDate}} To {{task.endDate}} Time : {{task.totalTime}}</span>
+				<span ng-if="task.status=='true'" style="font-size: 10px;">  Pending {{task.dateCreated}}</span>
+				<span ng-if="task.status=='working'" style="font-size: 10px;"> Assigned {{task.dateCreated}} Working Started {{task.startDate}}</span>
+				
+			</span>
+			
+		  </div>
+
+		  
+			
+			
+<!--
+		  <div class="row" >
+			<div class="col col-50 clear-padding-margin margin-right-10">
+			  <ion-item class="item-avatar clear-border">
+				<img ng-src="{{task.profilePic}}">
+				<h2 class="font-bold font-size-100">{{task.to}}</h2>
+				<p class="font-bold font-size-85"><a class="assertive" >Pending </a>{{task.dateCreated}}</p>
+			  </ion-item>
+			</div>
+			<div class="col col-50 clear-padding-margin">
+			  <div class="button-bar margin-top10">
+				<button class="button button-clear button-assertive" ng-click="openModal('{{task.taskKey}}')"><i class="icon ion-information-circled"></i></button>
+				<div class="button-bar margin-top10" ng-if="task.status=='true'" ><a class="assertive" >Pending  </a></div>
+				
+				<div class="button-bar margin-top10" ng-if="task.status=='false' && task.totalTime!='0'"><a class="dark" >  Closed </a></div>
+				<span class="button-bar margin-top10" ng-if="task.status=='working'" countdown='' date="{{task.startDate}} {{task.startTime}}" ng-model="mytime"><a class="balanced" >Started </a>&nbsp;{{mytime}}</span>
+			  </div>
+			</div>
+		  </div>
+		  -->
+		  
+		</div>
+		
+	</ion-content>
+	<div ng-include src="'views/tabs/tabsReport.html'"></div>
+	<!--&nbsp; Total Logs({{group.items.length}}) Location : {{group.logLocation}}-->
+	
+</ion-view>
+
+
+
+		
+		
+		
+         

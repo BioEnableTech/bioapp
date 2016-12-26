@@ -3,7 +3,7 @@
 // The user is asked for their email address, because in some cases Social Login is not able to retrieve an email address or is not required by the service (such as Twitter).
 // If the email is provided by the provider it is automatically filled in for them when the form loads.
 'Use Strict';
-angular.module('App').controller('completeAccountController', function($scope, $state, $localStorage, Utils, Popup, $window) {
+angular.module('App').controller('completeAccountController', function($scope, $state, Service, $localStorage, Utils, Popup, $window) {
   $scope.$on('$ionicView.enter', function() {
     //Checks if the Social Login has a photo, and show it on the Registration Form.
     var profilePic;
@@ -36,6 +36,9 @@ angular.module('App').controller('completeAccountController', function($scope, $
     };
   });
 
+  
+  $scope.employeesList=Service.getAccountList();
+  
   $scope.completeAccount = function(user) {
     //Check if form is filled up.
     if (angular.isDefined(user)) {
@@ -58,12 +61,15 @@ angular.module('App').controller('completeAccountController', function($scope, $
 				employeeId=null;  
 			  }
 		  
+		  var userKey;
+		  
 		  firebase.database().ref().child('accounts').push({
             name: user.name,
             username: user.username,
             profilePic: user.profilePic,
             email: user.email,
 			empId : employeeId,
+			supervisor : user.supervisor,
             userId: firebase.auth().currentUser.uid,
             dateCreated: Date(),
             provider: $localStorage.provider
@@ -71,13 +77,26 @@ angular.module('App').controller('completeAccountController', function($scope, $
             //Shows success message and proceeds to home after a short delay.
             Utils.message(Popup.successIcon, Popup.accountCreateSuccess)
               .then(function() {
-                getAccountAndLogin(response.key);
-              })
+                userKey=response.key;
+				var jsonstring={"userKey":userKey,"empId":employeeId};
+				getAccountAndLogin(response.key);
+				
+				firebase.database().ref('accounts/'+user.supervisor).once('value', function(account1) {
+					  var taskArr = account1.val().userList;
+					  if (!taskArr) {	taskArr = [];	}
+					  taskArr.push(jsonstring);
+					  firebase.database().ref('accounts/'+user.supervisor).update({
+						userList: taskArr
+					  });
+					});
+			  })
               .catch(function() {
                 //User closed the prompt, proceed immediately to home.
                 getAccountAndLogin(response.key);
+				userKey=response.key;
               });
           });
+		  
         }
       });
     }

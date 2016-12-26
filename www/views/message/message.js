@@ -1,7 +1,7 @@
 // message.js
 // This is the controller that handles the messages for a conversation.
 'Use Strict';
-angular.module('App').controller('messageController', function($scope, $state, $localStorage, Popup, Utils, $filter, $ionicScrollDelegate, $ionicHistory, Service, $timeout, $cordovaCamera) {
+angular.module('App').controller('messageController', function($scope, $ionicActionSheet, $state, $localStorage, Popup, Utils, $filter, $ionicScrollDelegate, $ionicHistory, Service, $timeout, $cordovaCamera) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
   $scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
     if (!$scope.canChangeView) {
@@ -9,6 +9,36 @@ angular.module('App').controller('messageController', function($scope, $state, $
     }
   });
 
+  
+	$scope.sendSmiley = function() {
+
+	   // Show the action sheet
+	   var hideSheet = $ionicActionSheet.show({
+		 buttons: [
+		   { text: '<b>Share</b> This' },
+		   { text: 'Move' }
+		 ],
+		 destructiveText: 'Delete',
+		 titleText: 'Modify your album',
+		 cancelText: 'Cancel',
+		 cancel: function() {
+			  // add cancel code..
+			  
+			},
+		 buttonClicked: function(index) {
+		   return true;
+		 }
+	   });
+
+	   $timeout(function() {
+		 hideSheet();
+	   }, 5000);
+
+	};
+  
+  
+  
+  
   //Allow going back when back is selected.
   $scope.back = function() {
     $scope.canChangeView = true;
@@ -48,20 +78,17 @@ angular.module('App').controller('messageController', function($scope, $state, $
 		{
           
 		  $scope.messages[i].profilePic = Service.getProfilePic($scope.messages[i].sender);
-		  
-		  if(temp==0)
-		  {
-			temp=$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd");
-			$scope.messages[i].myDate=$scope.messages[i].rawDate;  
-		  } 
-			
+			if(temp==0)
+			{
+				temp=$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd");
+				$scope.messages[i].myDate=$scope.messages[i].rawDate;  
+			} 
 			if(temp==$filter('date')($scope.messages[i].rawDate, "yyyy-MM-dd"))
 			{
 				if(temp==0)
 				{
 					$scope.messages[i].myDate="A";
 				}
-				
 			}
 			else
 			{
@@ -90,6 +117,7 @@ angular.module('App').controller('messageController', function($scope, $state, $
     $scope.updateMessagesRead();
     $timeout(function () {
       Service.setLastActiveDate($localStorage.conversationId, new Date());
+	  
     });
   });
 
@@ -106,7 +134,21 @@ angular.module('App').controller('messageController', function($scope, $state, $
   //Broadcast from our Utils.getPicture function that tells us that the image selected has been uploaded.
   $scope.$on('imageUploaded', function(event, args) {
     //Proceed with sending of image message.
-    $scope.sendMessage('image', args.imageUrl);
+	var isWebView = ionic.Platform.isWebView();
+		if(isWebView)
+		{
+			var networkState = navigator.connection.type;
+
+			if (networkState !== Connection.NONE) {
+				$scope.sendMessage('image', args.imageUrl);
+			}else{
+				Utils.message(Popup.errorIcon, "Network not available");
+			}
+		}
+		else{
+			$scope.sendMessage('image', args.imageUrl);	
+		}
+    
   });
 
   //Send picture message, ask if the image source is gallery or camera.
@@ -139,8 +181,26 @@ angular.module('App').controller('messageController', function($scope, $state, $
   //Send text message.
   $scope.sendTextMessage = function() {
     if ($scope.message != '') {
-      $scope.sendMessage('text', $scope.message);
-    }
+		var isWebView = ionic.Platform.isWebView();
+		if(isWebView)
+		{
+			var my_media = new Media('/android_asset/www/audio/send_message.m4a');
+			my_media.play();
+			
+			var networkState = navigator.connection.type;
+
+			if (networkState !== Connection.NONE) {
+				$scope.sendMessage('text', $scope.message);
+			}else{
+				Utils.message(Popup.errorIcon, "Network not available");
+			}
+			
+		}
+		else{
+			$scope.sendMessage('text', $scope.message);
+		}
+		
+	}
   };
 
   //Scroll to bottom so new messages will be seen.
@@ -155,6 +215,7 @@ angular.module('App').controller('messageController', function($scope, $state, $
 
   //Send message, create Firebase data.
   $scope.sendMessage = function(type, message) {
+	  
     firebase.database().ref('accounts/' + $localStorage.accountId).once('value', function(account) {
       var hasConversation = false;
       var conversations = account.val().conversations;
@@ -281,12 +342,26 @@ angular.module('App').controller('messageController', function($scope, $state, $
         angular.forEach(conversations, function(conversation) {
           if (conversation.conversation == $scope.conversationId) {
             conversation.messagesRead = $scope.messages.length;
-          }
+		 }
         });
         firebase.database().ref('accounts/' + $localStorage.accountId).update({
           conversations: conversations
         });
+		
+		var isWebView = ionic.Platform.isWebView();
+		if(isWebView)
+		{
+			//var my_media = new Media('/android_asset/www/audio/send_message.m4a', function() { alert("Audio Success"); }, function(err) { alert("Audio Error: "+ err.code); });
+			var my_media = new Media('/android_asset/www/audio/send_message.m4a');
+			my_media.play();
+			my_media.release();	
+		}
+		
       }
     });
+	
+	
+	
+	
   };
 });

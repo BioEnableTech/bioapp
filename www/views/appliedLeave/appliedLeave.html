@@ -1,0 +1,24 @@
+<ion-view hide-back-button="true" hide-nav-bar="true" can-swipe-back="false" >
+	<ion-header-bar align-title="center" class="bar-positive">
+    <!--<button class="button button-clear button-icon ion-navicon" menu-toggle="left"></button>-->
+	<button class="button button-clear button-icon ion-arrow-left-c" ng-click="changeMemu('supervisor')"></button>
+	<h1 class="title">Applied Leave</h1>
+	
+  </ion-header-bar>
+  
+    <ion-content style="padding-top:50px;" scroll="true" class="padding">
+		
+		
+			<div class="item item-button-right" ng-repeat="applied in leaves">
+			{{applied.userName}}
+			
+			<button class="button button-clear button-balanced" ng-click="showPopup({{applied}})">
+			  <i class="icon ion-checkmark-circled" ></i>
+			</button>
+			
+		  </div>
+	
+	</ion-content>
+	
+</ion-view>
+

@@ -1,0 +1,18 @@
+<ion-view title="Google AdMob">
+    <ion-content scroll="false">
+        <div class="row">
+            <div id="google-admob-icon" class="col">
+                <i ng-class="{'google-admob-color' : isTurnOn}" class="ion-cash center-screen icon-google-admob"></i>
+            </div>
+        </div> 
+        <div class="row">
+            <div id="google-admob-control" class="col">
+                <p>Google AdMob</p>
+                <a ng-class="{'md-warn' : isTurnOn}" class="md-raised md-primary md-button md-default-theme"
+                   ng-click="adMob()">
+                    Turn {{isTurnOn == true ? 'OFF' : 'On'}}
+                </a>
+            </div> 
+        </div>
+    </ion-content>
+</ion-view>

@@ -4,16 +4,35 @@
 // This view allows user to send and accept friend requests.
 // Selecting a friend from the friendlist automatically opens a chat with them, if no conversation are made prior it will start a new chat.
 'Use Strict';
-angular.module('App').controller('friendsController', function($scope, $state, $localStorage, Popup, $timeout, Utils, Watchers, Service, $ionicTabsDelegate, $ionicHistory) {
+angular.module('App').controller('friendsController', function($scope, $rootScope, $state, $localStorage, $ionicSideMenuDelegate, Popup, $timeout, Utils, Watchers, Service, $ionicTabsDelegate, $ionicHistory) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
+  
+  /*$scope.$on('$stateChangeStart', function(event, toState, toParams, fromState, fromParams) {
+    if (!$scope.canChangeView) {
+      event.preventDefault();
+    }
+	
+  });
+  
+  /*
   $scope.$on('$stateChangeStart', function(event) {
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
   });
+*/
 
+
+
+  $rootScope.changeMemu = function(stateTo) {
+    //alert(stateTo);
+	$scope.changeTab(stateTo)
+ };
+  
+  
+  
   //Allow changing to other views when tabs is selected.
-  $scope.changeTab = function(stateTo) {
+  $rootScope.changeTab = function(stateTo) {
     $ionicHistory.nextViewOptions({
       disableAnimate: true
     });
@@ -153,6 +172,9 @@ angular.module('App').controller('friendsController', function($scope, $state, $
     });
   };
 
+  
+  
+  
   //Cancel Friend Request, delete Firebase Database data.
   $scope.cancelRequest = function(user) {
     firebase.database().ref('accounts/' + user.id).once('value', function(account) {

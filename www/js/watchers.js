@@ -79,6 +79,24 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
         eventType: 'value'
       });
     },
+	
+	
+	
+	addManualLogsWatcher: function() {
+		
+		$rootScope.ManualLogsData=Service.getManualLogsData();
+		//$rootScope.$broadcast('logsDisplay');
+	},
+	
+	addAttendanceLogsWatcher: function() {
+		
+		$rootScope.LogsData1=Service.getLogsData();
+		$rootScope.$broadcast('timeCard');
+	},
+	
+	
+	
+	
     //Watcher responsible for adding and updating conversations with the user to the service.
     addNewConversationWatcher: function(accountId) {
       var ref = firebase.database().ref('accounts/' + accountId).child('conversations');
@@ -175,13 +193,10 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
                 class: messageClass
               };
               $timeout(function() {
-
-                Service.addMessageToConversation(conversationId, message);
+				Service.addMessageToConversation(conversationId, message);
                 $rootScope.$broadcast('messageAdded');
-				
 				//Service.sendLocalNotification(message.message);
-				
-              });
+			  });
             });
 
             //Add watcher to the watchers list to be cleared later when user logged out.
@@ -308,7 +323,7 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
       });
     },
     //Watcher responsible for friend requests sent.
-    addRequestsSentWatcher: function(accountId) {
+    addRequestsSentWatcher : function(accountId) {
       var ref = firebase.database().ref('accounts/' + accountId).child('requestsSent');
       var callback = ref.on('child_added', function(friendId) {
 
@@ -344,7 +359,7 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
         $timeout(function() {
           Service.removeRequestSent(friendId);
           Service.removeFromExcludedIds(friendId);
-
+		  
         });
       });
       //Add watcher to the watchers list to be cleared later when user logged out.
@@ -581,12 +596,7 @@ angular.module('App').factory('Watchers', function($localStorage, $filter, $time
         eventType: 'child_removed'
       });*/
     
-	}
-	
-	
-	
-	
-	
+	},
 	
   };
 });

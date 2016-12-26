@@ -13,16 +13,12 @@
   <!--
   <script src="lib/ionic-material/dist/ionic.material.min.js"></script>
   <script src="lib/ionicuirouter/ionicUIRouter.js"></script>
- 
-  -->
-	
-  
-   <link href="lib/ionic-material/dist/ionic.material.min.css" rel="stylesheet">
-  
-  
+ -->
+  <link href="./calendarCss/bootstrap-reset.css" rel="stylesheet">
+  <link href="./calendarCss/style(1).css" rel="stylesheet">
+  <link href="lib/ionic-material/dist/ionic.material.min.css" rel="stylesheet">
   <script src="lib/ion-datetime-picker/release/ion-datetime-picker.min.js"></script>
   <link href="lib/ion-datetime-picker/release/ion-datetime-picker.min.css" rel="stylesheet">
-  
   <script src="js/ng-cordova.min.js"></script>
   <script src="cordova.js"></script>
   <script src="js/app.js"></script>
@@ -35,13 +31,12 @@
   <script>
     // Initialize Firebase
 	 var config = {
-    apiKey: "AIzaSyC9GHHeiPoCYbUU9mxIrqjkbWVcN-xgikI",
-    authDomain: "bioapp-16a67.firebaseapp.com",
-    databaseURL: "https://bioapp-16a67.firebaseio.com/",
-	storageBucket: "bioapp-16a67.appspot.com",
+    apiKey: "AIzaSyC9HeiPoCYUU9mxrqjkbWVcN-xgikI",
+    authDomain: "bioapp-1d4547.firebaseapp.com",
+    databaseURL: "https://bioapp-1d4547.firebaseio.com/",
+	storageBucket: "bioapp-1d4547.appspot.com",
   };
   firebase.initializeApp(config);
- 
   </script>
   <!-- Login -->
   <script src="views/login/login.js"></script>
@@ -67,29 +62,108 @@
   <script src="views/profile/profile.js"></script>
   <!-- ngStorage -->
   <script src="views/addPage/addPage.js"></script>
-  
   <script src="views/home/home.js"></script>
-  
   <script src="views/attendance/attendance.js"></script>
+  <script src="views/attendanceLogs/attendanceLogs.js"></script>
+  <script src="views/attendanceMonthly/attendanceMonthly.js"></script>
+  <script src="views/supervisor/supervisor.js"></script>
+  <script src="views/manualLogs/manualLogs.js"></script>
+  <script src="views/leaveApplication/leaveApplication.js"></script>
+  <script src="views/appliedLeave/appliedLeave.js"></script>
+  <script src="views/logsReport/logsReport.js"></script>
+  <script src="views/weeklyReport/weeklyReport.js"></script>
+  <script src="views/todayReport/todayReport.js"></script>
   
   <script src="views/task/task.js"></script>
-  
   <script src="js/ngStorage.min.js"></script>
   <!-- ngCordovaOAuth -->
   <script src="js/ng-cordova-oauth.min.js"></script>
   <script src="js/sha1.js"></script>
   <script src="lib/FCMPlugin.js"></script>
+  <script src="lib/Media.js"></script>
+  <!--<script src="lib/MediaError.js"></script>-->
   <script src="js/ng-cordova.min.js"></script>
+  <script src="lib/geolocation.js"></script>
+  <script src="lib/network.js"></script>
+  <script src="lib/diagnostic.js"></script>
   
   
 </head>
 
 <body ng-app="App">
-  <ion-nav-bar class="bar-stable">
+  <!--<ion-nav-bar class="bar-stable">
     <ion-nav-back-button>
-    </ion-nav-back-button>
-  </ion-nav-bar>
-  <ion-nav-view></ion-nav-view>
+	</ion-nav-back-button>
+	
+  </ion-nav-bar>-->
+  
+  
+  <ion-side-menus enable-menu-with-back-views="false">
+	  <ion-side-menu-content>
+		<ion-nav-bar class="bar-positive">
+		  <ion-nav-back-button>
+		  </ion-nav-back-button>
+
+		  <ion-nav-buttons side="left">
+			<button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+			</button>
+		  </ion-nav-buttons>
+		</ion-nav-bar>
+		<ion-nav-view >
+		
+		</ion-nav-view>
+	  </ion-side-menu-content>
+
+	  <ion-side-menu side="left">
+		<ion-header-bar class="bar-positive" height="160px">
+		  
+		  
+		  <h1 class="title">BioApp</span></h1>
+		  
+		  
+		</ion-header-bar>
+		
+		<ion-content>
+		
+		    <ion-list>
+			<ion-item menu-close ng-click="changeMemu('messages')" >
+			  Messages
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('groups')" >
+			  Groups
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('friends')" >
+			  Friends
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('profile')" >
+			  Profile
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('attendanceLogs')" >
+			  Attendance
+			</ion-item>
+			<!--<ion-item menu-close ng-click="changeMemu('attendanceMonthly')" >
+			  Attendance Monthly Summary
+			</ion-item>
+			-->
+			<ion-item menu-close ng-click="changeMemu('task')" >
+			  Task
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('leaveApplication')" >
+			  Leave Application
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('supervisor')" >
+			  Supervisor View
+			</ion-item>
+			<ion-item menu-close ng-click="changeMemu('logsReport')" >
+			  Report
+			</ion-item>
+			
+			
+		  </ion-list>
+		</ion-content>
+	  </ion-side-menu>
+	</ion-side-menus>
+  
 </body>
 
 </html>

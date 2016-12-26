@@ -1,7 +1,7 @@
 //service.js
 //This is the class where most of the data shown on the views are stored.
 //Changes done on the Firebase Database through the Watchers (watcher.js) should be reflected on this service.
-angular.module('App').service('Service', function($localStorage, $http, $filter,$cordovaLocalNotification, $ionicPlatform) {
+angular.module('App').service('Service', function($localStorage, $rootScope, HoursCalc, $http, $filter,$cordovaLocalNotification, Utils, Popup, $ionicPlatform) {
   var data = {
     usersList: [],
     excludedIds: [],
@@ -14,10 +14,16 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
     unreadGroupMessages: 0,
     friendRequestList: [],
     requestSentList: [],
+	manualLogList:[],
     friendRequests: 0,
 	taskAssignedList:[],
-	myTaskAssignedList:[]
+	myTaskAssignedList:[],
+	accountList : [],
+	Supervisor : [],
+	leaveApplication:[],
+	LogsData:[]
   };
+  		
   
   // Local Notification 
   this.sendLocalNotification = function(msg) {
@@ -83,8 +89,11 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
     data.unreadGroupMessages = 0;
     data.friendRequestList = [];
     data.requestSentList = [];
-    data.friendRequests = 0;
+	data.manualLogList = [];
+	data.friendRequests = 0;
 	data.taskAssignedList=[];
+	data.leaveApplication=[];
+	
   };
   //Add user to the usersList, only adds if user doesn't exist yet.
   this.addUser = function(profile) {
@@ -107,12 +116,16 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
   this.addExcludedIds = function(id) {
     data.excludedIds.push(id);
   };
+  
+  
+  
   //Remove from excludedIds.
   this.removeFromExcludedIds = function(id) {
     if (data.excludedIds.length > 0) {
       data.excludedIds.splice(data.excludedIds.indexOf(id), 1);
     }
   };
+  
   //Get excludedIds.
   this.getExcludedIds = function() {
     return data.excludedIds;
@@ -446,6 +459,16 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
   this.getFriendRequestsCount = function() {
     return data.friendRequests;
   };
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   //Add requestSent.
   this.addRequestSent = function(friendRequest) {
     data.requestSentList.push(friendRequest);
@@ -466,6 +489,33 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
   this.getRequestSentList = function() {
     return data.requestSentList;
   };
+  
+  
+  
+  
+  
+  //Remove requestSent.
+  //removeManualLogs name 
+  
+  this.removeManualLogs = function(friendId) {
+    var index = -1;
+    for (var i = 0; i < data.manualLogList.length; i++) {
+      if (data.manualLogList[i].id == friendId) {
+        index = i;
+      }
+    }
+    if (index > -1) {
+      data.manualLogList.splice(index, 1);
+    }
+  };
+  
+  /*//Get requestSent List.
+  this.getRequestSentList = function() {
+    return data.manualLogList;
+  };*/
+  
+  
+  
   
  
  //Get requestSent List.
@@ -542,5 +592,378 @@ angular.module('App').service('Service', function($localStorage, $http, $filter,
 		});
 	return data.myTaskAssignedList;
   };
+  
+   this.getDate = function(date) {
+   
+		var hours = new Date(date).getHours();
+		var minutes = new Date(date).getMinutes();
+		var ampm = hours >= 12 ? 'PM' : 'AM';
+		var second = new Date(date).getSeconds();
+		hours = hours % 12;
+		hours = hours ? hours : 12; 
+		minutes = minutes < 10 ? '0' + minutes : minutes;
+		var strTime = hours + ' : ' + minutes + ' : ' + second + ' ' + ampm;
+		return strTime;
+	
+   }
+   
+   
+   this.getLogsData = function()
+   {
+	   
+	    var timeStart = new Date("Mon Jan 01 2007 11:00:00 GMT+0530").getTime();
+		var timeEnd = new Date("Mon Jan 01 2007 11:30:00 GMT+0530").getTime();
+		//HoursCalc.getTotalTime(timeStart,timeEnd);
+	   
+	    var empId;
+		firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
+			empId=snapshot.val();
+		});
+		var LogsData=[];
+		var tempDate='a';
+		var myItem=[];
+		var myItemDate=[];
+		
+		firebase.database().ref('logs/' + empId).orderByValue().once('value', function(accountName) {
+			logTime=accountName.val();
+			
+			var i;
+			for(i=0;i<logTime.logTime.length;i++)
+			{
+				var dateTime=logTime.logTime[i].time;
+				var dateId=$filter('date')(new Date(dateTime), 'dd');
+				var logMonth=$filter('date')(new Date(dateTime), 'MM');
+				var date=new Date();
+				var currentMonth=1+date.getMonth();
+				
+				
+				var nextDate;
+				if(i<logTime.logTime.length-1)
+				{
+					nextDate=$filter('date')(new Date(logTime.logTime[i+1].time), 'dd');
+				}	
+				
+				
+				
+				if(logMonth==currentMonth)
+				{
+					var tmp=$filter('date')(new Date(dateTime), 'h:mm a');
+					myItemDate.push(dateTime);
+					myItem.push({"logTime":tmp,"logStatus":logTime.logTime[i].logStatus,"logType":logTime.logTime[i].logType});
+					
+					if(nextDate.toString()!=dateId.toString())
+					{
+
+						var totalHours=HoursCalc.getTotalTime(myItemDate[0],myItemDate[myItemDate.length-1]);
+						data.manualLogList.push({
+							date:$filter('date')(new Date(dateTime), 'yyyy-MM-dd'),
+							inTime:$filter('date')(new Date(dateTime), 'h:mm a'),
+							items : myItem,
+							logLocation : logTime.logTime[i].location,
+							logStatus : logTime.logTime[i].logStatus,
+							totalHours : totalHours
+						})
+						myItem=[];
+						myItemDate=[];
+					}
+					else if(i==logTime.logTime.length-1)
+					{
+						var totalHours=HoursCalc.getTotalTime( myItemDate[0], myItemDate[myItemDate.length-1]);
+						data.manualLogList.push({
+							date:$filter('date')(new Date(dateTime), 'yyyy-MM-dd'),
+							inTime:$filter('date')(new Date(dateTime), 'h:mm a'),
+							items : myItem,
+							logLocation : logTime.logTime[i].location,
+							logStatus : logTime.logTime[i].logStatus,
+							totalHours : totalHours
+						})
+						myItem=[];
+						myItemDate=[];
+					}
+				}
+				
+				
+			}
+					
+		})
+	   
+	   return data.manualLogList;
+	   
+   }
+   
+    this.getLogsDataLength = function()
+    {
+		var empId;
+		var logLength;
+		// var cnt=0;
+		cnt=0;
+		firebase.database().ref('accounts/' + $localStorage.accountId+"/empId").on("value", function(snapshot){
+			empId=snapshot.val();
+		});
+		
+		firebase.database().ref('logs/' + empId).on('value', function(accountName) {
+			logLength=parseInt(accountName.val().logTime.length);
+			var mydata=accountName.val().logTime;
+			currentDate=new Date();
+			d = currentDate.getDate();
+			for(var i=0;i<logLength;i++)
+			{
+				var date1=$filter('date')(new Date(accountName.val().logTime[i].time), 'dd');
+				if(d==date1)
+				{
+					cnt++;
+				}
+			}
+		});
+	
+		return cnt
+		//for total days // return logLength;
+	}
+		
+   
+	this.getAccountList = function() {
+		data.accountList=[];
+		firebase.database().ref('accounts/').once('value', function(account) {
+			account.forEach(function(childSnapshot) {
+			var childData = childSnapshot.val();
+				var id=childSnapshot.key;
+				if(childData.name!=undefined)
+				{
+					data.accountList.push({
+					userName : childData.name,
+					id:id
+					});
+				}
+			});
+		});
+	return data.accountList;
+  };
+  
+    this.getSupervisorTree = function() {
+		var supervisorName;
+		var key;
+		firebase.database().ref('accounts/' + $localStorage.accountId+"/supervisor").on("value", function(snapshot){
+			key=snapshot.val();
+		});
+		firebase.database().ref('accounts/'+key).once('value', function(account) {
+			supervisorName = account.val().name;
+		});
+	return supervisorName;
+   };
+  
+  
+   this.getManualLogsData = function()
+   {
+	   
+	    var empIdVal;
+		data.LogsData=[];
+		var tempDate='a';
+		var myItem=[];
+		var j=0;
+		var empID;
+		
+		firebase.database().ref('accounts/' + $localStorage.accountId+"/userList/").on("value", function(snapshot){
+			empIdVal=snapshot.val();
+				
+			for(j=0;j<empIdVal.length;j++)
+			{
+				var userName="";
+				var userEmp;
+				empIDTest=empIdVal[j].empId;
+				
+				firebase.database().ref('accounts/'+ empIdVal[j].userKey).once('value', function(accountName) {
+					userName=accountName.val().name;
+					userEmp=accountName.val().empId;
+				});
+				
+							
+				firebase.database().ref('logs/' + empIDTest).once('value', function(accountName) {
+					logTime=accountName.val();
+					
+					var i;
+					for(i=0;i<logTime.logTime.length;i++)
+					{
+						var dateTime=logTime.logTime[i].time;
+						var dateId=$filter('date')(new Date(dateTime), 'dd');
+						var nextDate;
+						if(i<logTime.logTime.length-1)
+						{
+							nextDate=$filter('date')(new Date(logTime.logTime[i+1].time), 'dd');
+						}
+						var tmp=$filter('date')(new Date(dateTime), 'h:mm a');
+						myItem.push({"logTime":tmp,"logStatus":logTime.logTime[i].logStatus,"logType":logTime.logTime[i].logType});
+						if(nextDate.toString()!=dateId.toString())
+						{
+							if(logTime.logTime[i].logStatus=='invalid')
+							{	
+						
+								data.LogsData.push({
+									date:$filter('date')(new Date(dateTime), 'yyyy-MM-dd'),
+									inTime:$filter('date')(new Date(dateTime), 'h:mm a'),
+									items : myItem,
+									logLocation : logTime.logTime[i].location,
+									logStatus : logTime.logTime[i].logStatus,
+									userName : userName,
+									empId1 : userEmp
+								})
+								myItem=[];
+							}
+						}
+						else if(i==logTime.logTime.length-1)
+						{
+							if(logTime.logTime[i].logStatus=='invalid')
+							{	
+								data.LogsData.push({
+									date:$filter('date')(new Date(dateTime), 'yyyy-MM-dd'),
+									inTime:$filter('date')(new Date(dateTime), 'h:mm a'),
+									items : myItem,
+									logLocation : logTime.logTime[i].location,
+									logStatus : logTime.logTime[i].logStatus,
+									userName : userName,
+									empId1 : userEmp
+								})
+								myItem=[];
+							}
+						}
+					}
+				})
+			}
+		});
+		
+		return data.LogsData;
+		
+		
+	   
+   }
+   
+   this.getManualLogsUpdate=function(date,time,emp)
+   {
+	   
+	   firebase.database().ref('logs/' + emp).once('value', function(accountName) {
+			logTime=accountName.val();
+			var i;
+			for(i=0;i<logTime.logTime.length;i++)
+			{
+				var dateTime=logTime.logTime[i].time;
+				var dateId=$filter('date')(new Date(dateTime), 'dd');
+				var dateCurrent=$filter('date')(new Date(date), 'dd');
+				var tmp=$filter('date')(new Date(dateTime), 'h:mm a');
+				
+				if(tmp.toString()==time.toString() && dateCurrent.toString()==dateId.toString())
+				{
+					firebase.database().ref('logs/' + emp +"/logTime/"+i+"/").update({
+						logStatus: "approved"
+					}, function(error) {
+						  if (error) {
+							Utils.hide();
+							Utils.message(Popup.successIcon, "Log approving failed.");
+						  } else {
+							Utils.hide();
+							Utils.message(Popup.successIcon, "Log is approved.");
+							$rootScope.$broadcast('logsDisplay');
+							/*$scope.canChangeView = true;
+							$scope.changeTab('supervisor');*/
+						  }
+						});
+				}
+			}
+		})
+		
+		
+   }
+  
+  
+	this.upDateLeaveApplication=function(userKey,sDate,eDate)
+	{
+	  firebase.database().ref('leave/' + userKey +"/applied").once('value', function(accountName) {
+		applied=accountName.val().applied;
+		var i=0;
+		accountName.forEach(function(childSnapshot) {
+		var childData = childSnapshot.val();
+			
+			if(childData.startDate==sDate && childData.endDate==eDate)
+			{
+				firebase.database().ref('leave/' + userKey +"/applied/"+i).update({
+					status: "approved"
+				}, function(error) {
+					  if (error) {
+						Utils.hide();
+						Utils.message(Popup.successIcon, "Log approving failed.");
+					  } else {
+						Utils.hide();
+						Utils.message(Popup.successIcon, "Leave is approved.");
+					  }
+					});
+			}
+			i++;
+		})
+	  });
+	}
+  
+  
+  
+  
+   this.getLeaveApplicationData = function()
+   {
+	   
+	   var leaveApplication=[];
+  
+	  firebase.database().ref('accounts/' + $localStorage.accountId+"/userList/").on("value", function(snapshot){
+				
+				empIdVal=snapshot.val();
+				var userName="";			
+					
+					
+				for(j=0;j<empIdVal.length;j++)
+				{
+					
+					var userEmp;
+					empIDTest=empIdVal[j].empId;
+					
+					
+					firebase.database().ref('accounts/' + empIdVal[j].userKey).on("value", function(snapshot){
+						userName=snapshot.val().name;
+					})
+					
+					
+					
+					firebase.database().ref('leave/' + empIdVal[j].userKey+"/applied").once('value', function(accountName) {
+						applied=accountName.val().applied;
+						
+						accountName.forEach(function(childSnapshot) {
+						var childData = childSnapshot.val();
+							
+							if(childData.status=='false')
+							{
+								var id=empIdVal[j].userKey;
+									leaveApplication.push({
+									dateCreated:childData.dateCreated,
+									description:childData.description,
+									endDate:childData.endDate,
+									startDate:childData.startDate,
+									status:childData.status,
+									subject:childData.subject,
+									userKey:id,
+									userName:userName
+									});
+							}
+						});
+
+					
+					});
+					
+					break;
+	  
+				}
+				console.log(data.leaveApplication);
+				
+				return leaveApplication;
+				
+	  });
+	   
+	   
+   }
+  
+  
   
 });

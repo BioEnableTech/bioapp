@@ -4,7 +4,7 @@
 // This view allows user to send and accept friend requests.
 // Selecting a friend from the friendlist automatically opens a chat with them, if no conversation are made prior it will start a new chat.
 'Use Strict';
-angular.module('App').controller('taskController', function($scope, $timeout, Util,$state, $localStorage, Popup, $filter, $ionicPopover, $ionicModal, $timeout, Utils, Watchers, Service, $ionicTabsDelegate, $ionicHistory) {
+angular.module('App').controller('taskController', function($scope, $timeout, Util,$state, $rootScope, $localStorage, Popup, $filter, $ionicPopover, $ionicModal, $timeout, Utils, Watchers, Service, $ionicTabsDelegate, $ionicHistory) {
   //Prevent automatically restating to messages route when Firebase Watcher calls are triggered.
   
   $scope.shouldShowDelete = true;
@@ -17,13 +17,19 @@ angular.module('App').controller('taskController', function($scope, $timeout, Ut
   var future;
   var diff;
   
-  $scope.items = ['bob', 'sean', 'rocky', 'john'];
-  
-  $scope.$on('$stateChangeStart', function(event) {
+  /*$scope.$on('$stateChangeStart', function(event) {
     if (!$scope.canChangeView) {
       event.preventDefault();
     }
   });
+  */
+  
+ $rootScope.changeMemu = function(stateTo) {
+    //alert(stateTo);
+	$scope.changeTab(stateTo)
+ };
+  
+  
   
   $scope.exit=function()
   {
@@ -46,7 +52,7 @@ angular.module('App').controller('taskController', function($scope, $timeout, Ut
  $scope.listCanSwipe = true
   
   //Allow changing to other views when tabs is selected.
-  $scope.changeTab = function(stateTo) {
+  $rootScope.changeTab = function(stateTo) {
     $ionicHistory.nextViewOptions({
       disableAnimate: true
     });

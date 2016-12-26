@@ -3,7 +3,7 @@
 // The account currently logged in can be accessed through localStorage.account.
 // The authenticated user can be accessed through firebase.auth().currentUser.
 'Use Strict';
-angular.module('App').controller('addController', function($scope, $state, $localStorage, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers,$cordovaCamera,$cordovaLocalNotification, $ionicPlatform) {
+angular.module('App').controller('addController', function($scope, $state, $localStorage, $ionicSideMenuDelegate, Utils, Popup, $timeout, Service, $ionicTabsDelegate, $ionicHistory, Watchers,$cordovaCamera,$cordovaLocalNotification, $ionicPlatform) {
 														   
 	
 	$scope.product = {
